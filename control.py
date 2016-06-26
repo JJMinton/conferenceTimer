@@ -29,63 +29,76 @@ def loop_in_thread(loop, tasks):
     loop.run_until_complete(asyncio.wait(tasks));
 
 @asyncio.coroutine
-def speaking(name=None):
+def starting(name=None, endTime=None):
+    print('Speaker: {:}'.format(name));
+    if endTime is not None:
+	print('Starting in: {:}'.format(endTime));
+    while True:
+        print('-or');
+        yield from asyncio.sleep(2.0);
+@asyncio.coroutine
+def speaking(name=None, endTime=None):
     if name is not None:
-        print('speaking {:}'.format(name));
+        print('Speaker: {:}'.format(name));
+    if endTime is not None:
+	print('Time remaining: {:}'.format(endTime));
     while True:
         print('g--');
         yield from asyncio.sleep(2.0);
 @asyncio.coroutine
-def speakingwarning(name=None):
+def speakingwarning(name=None, endTime=None):
     if name is not None:
-        print('speaking {:}'.format(name));
+        print('Speaker: {:}'.format(name));
+    if endTime is not None:
+	print('Time remaining: {:}'.format(endTime));
     while True:
         print('go-');
         yield from asyncio.sleep(2.0);
 @asyncio.coroutine
-def questions(name=None):
+def questions(name=None, endTime=None):
     if name is not None:
-        print('speaking {:}'.format(name));
+        print('Questions for {:}'.format(name));
+    if endTime is not None:
+	print('Time remaining: {:}'.format(endTime));
     while True:
         print('-o-');
         yield from asyncio.sleep(2.0);
 @asyncio.coroutine
-def questionwarning(name=None):
+def questionswarning(name=None, endTime=None):
     if name is not None:
-        print('speaking {:}'.format(name));
+        print('Questions for {:}'.format(name));
+    if endTime is not None:
+	print('Time remaining: {:}'.format(endTime));
     while True:
         print('---');
         yield from asyncio.sleep(1.0);
         print('-o-');
         yield from asyncio.sleep(1.0);
 @asyncio.coroutine
-def change(name=None):
+def change(name=None, endTime=None):
     if name is not None:
-        print('next speaker: {:}'.format(name));
+        print('Next speaker: {:}'.format(name));
+    if endTime is not None:
+	print('Starting at: {:}'.format(endTime));
     while True:
         print('--r');
         yield from asyncio.sleep(2.0);
-@asyncio.coroutine
-def starting(name=None):
-    print('speaker starting in: {:}'.format(name));
-    while True:
-        print('-or');
-        yield from asyncio.sleep(2.0);
 
+
+lightControl = LightControl(asyncio.get_event_loop());
 
         
 
 if __name__ == '__main__':
-    lc = LightControl(asyncio.get_event_loop());
 
-    lc.start(starting);
+    lightControl.start(starting);
     time.sleep(2.1);
-    #lc.stop()
-    #print(lc.loop.is_running())
-    lc.start(speaking);
+    #lightControl.stop()
+    #print(lightControl.loop.is_running())
+    lightControl.start(speaking);
     time.sleep(3);
-    #lc.stop();
-    lc.start(questionwarning);
+    #lightControl.stop();
+    lightControl.start(questionwarning);
     time.sleep(6);
-    lc.stop(lambda: print('---'));
+    lightControl.stop(lambda: print('---'));
 
