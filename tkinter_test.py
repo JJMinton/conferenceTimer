@@ -27,5 +27,5 @@ if __name__ == "__main__":
                         {'text': 'Starting in:', 'font': helv24},
                         {'text': '3:21', 'font': helv72},));
 
-
+    root.update()
 
