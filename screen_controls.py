@@ -48,8 +48,6 @@ class Screen():
 
     def clear(self):
         self.update()
-        return
-
 
     async def starting(self, name=None, title=None, endTime=None):
         while True:

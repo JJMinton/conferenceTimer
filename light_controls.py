@@ -29,10 +29,13 @@ async def change():
     while True:
         print('--r');
         await asyncio.sleep(2.0);
+def clear():
+    print('---');
+
 
 if __name__ == '__main__':
 
-    light_control = Controller(universal_callbacks=lambda: print('---'))
+    light_control = Controller(universal_callbacks=clear)
     light_control.start(starting())
     light_control.sleep(2.1)
     light_control.stop_all()
