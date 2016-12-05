@@ -7,7 +7,7 @@ x write lights control (program that issues running lights commands at given sys
 x write screen control (program that displays count down timer to a screen)
 _ integrate watch, and control scripts
 _ run rsync to update files from server
-_ raspberry pi light control
+X raspberry pi light control
 _ raspberry pi screen control
 _ run on startup
 _ add auto time update
