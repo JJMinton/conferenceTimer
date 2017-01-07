@@ -6,13 +6,13 @@ from watchdog.observers import Observer;
 from watchdog.events import PatternMatchingEventHandler
 
 from controller import Controller
-import light_controls
+import light_controls_print as light_controls
 import screen_controls
 
 ROOM_CODE = 'MVL'
-STARTING_WARNING = timedelta(minutes=0)
-TALK_WARNING = timedelta(minutes=3)
-QUESTION_WARNING = timedelta(minutes=1)
+STARTING_WARNING = timedelta(minutes=0.5)
+TALK_WARNING = timedelta(minutes=0.5)
+QUESTION_WARNING = timedelta(minutes=0.5)
 
 class FileChangeHandler(PatternMatchingEventHandler):
     def __init__(self, controller_function, watch_file):
@@ -68,10 +68,10 @@ def main_loop(df, controller):
         controller.start([light_controls.speakingwarning(), screen.speakingwarning(row[1]['name'], row[1]['title'], questions_time)])
         controller.sleep_until(questions_time)
         controller.stop_all()
-        controller.start([ligt_control.questions(), screen.questions(row[1]['name'], row[1]['title'], end_time)])
+        controller.start([ligt_controls.questions(), screen.questions(row[1]['name'], row[1]['title'], end_time)])
         controller.sleep_until(q_warning_time)
         controller.stop_all()
-        controller.start([light_control.questionswarning(), screen.questionswarning(row[1]['name'], row[1]['title'], end_time)])
+        controller.start([light_controls.questionswarning(), screen.questionswarning(row[1]['name'], row[1]['title'], end_time)])
         controller.sleep_until(end_time)
         controller.stop_all()
 
@@ -79,7 +79,7 @@ if __name__=="__main__":
     logging.basicConfig(filename='conference_timer.log',
                         level=logging.INFO,
                         format='%(asctime)s - %(message)s',
-                        datefmt='%Y-%m-%d %H:%M:%S'))
+                        datefmt='%Y-%m-%d %H:%M:%S')
     screen = screen_controls.Screen()
     controller = Controller(universal_callbacks=[light_controls.clear, screen.clear])
     initial_file = './schedule.csv'
