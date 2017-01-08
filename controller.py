@@ -1,7 +1,7 @@
 from datetime import datetime
 
 import asyncio
-from concurrent.futures import CancelledError;
+from concurrent.futures import CancelledError
 from inspect import isawaitable
 
 import itertools
@@ -30,10 +30,10 @@ class Controller():
         return self.tasks[key]
 
     def start(self, coroutine_list):
-        if asyncio.iscoroutine(coroutine_list):
+        if callable(coroutine_list):
             coroutine_list = [coroutine_list,]
         if not isinstance(coroutine_list, Iterable):
-            raise TypeError('the input must be a coroutine or a list of coroutines')
+            raise TypeError('the input must be a async function or a list of async functions')
         for coro in coroutine_list:
             self.tasks.append(self.run_in_background(coro))
         return self
@@ -60,21 +60,27 @@ class Controller():
         return self
 
     def run_in_background(self, func):
-        if asyncio.iscoroutine(func):
-            return asyncio.ensure_future(func, loop=self.loop)
-        raise TypeError("func must be a coroutine.")
+        if callable(func):
+            tmp = func(self.loop)
+            if asyncio.iscoroutine(tmp):
+                return asyncio.ensure_future(tmp, loop=self.loop)
+        raise TypeError("func must be async function that returns a coroutine.")
 
     def run_in_foreground(self, func):
-        return self.loop.run_until_complete(asyncio.ensure_future(func, loop=self.loop))
+        if callable(func):
+            tmp = func(self.loop)
+            if asyncio.iscoroutine(tmp):
+                return self.loop.run_until_complete(asyncio.ensure_future(tmp, loop=self.loop))
+        raise TypeError("func must be async function that returns a coroutine.")
 
     def sleep(self, sleep_time):
-        self.run_in_foreground(asyncio.sleep(sleep_time))
+        self.loop.run_until_complete(asyncio.ensure_future(asyncio.sleep(sleep_time, loop=self.loop), loop=self.loop))
         return self
 
     def sleep_until(self, target_date_time):
         #raise NotImplementedError()
         sleep_seconds = (target_date_time - datetime.now()).total_seconds()
-        self.run_in_foreground(asyncio.sleep(sleep_seconds))
+        self.sleep(sleep_seconds)
         return self
 
     @property
@@ -98,18 +104,20 @@ class Controller():
 
 if __name__ == '__main__':
     
-    async def print_wait_print(func_name, sleep_time=2):
-        print('starting ' + func_name)
-        await asyncio.sleep(sleep_time)
-        print('ending ' + func_name)
+    def print_wait_print(func_name, sleep_time=2):
+        async def print_wait_print(loop):
+            print('starting ' + func_name)
+            await asyncio.sleep(sleep_time, loop=loop)
+            print('ending ' + func_name)
+        return print_wait_print
 
-    async def ticker():
+    async def ticker(loop):
         for i in itertools.count():
             print(i)
-            await asyncio.sleep(1)
+            await asyncio.sleep(1, loop=loop)
 
     control = Controller()
-    control.start(ticker())
+    control.start(ticker)
     control.start(print_wait_print('function 1'))
     control.sleep(4)
     control.start(print_wait_print('function 2'))

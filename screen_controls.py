@@ -49,32 +49,40 @@ class Screen():
     def clear(self):
         self.update()
 
-    async def starting(self, name=None, title=None, endTime=None):
-        while True:
-            time_to_go = (endTime - datetime.now()).total_seconds()
-            self.update(name, title, 'Starting in: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'red')
-            await asyncio.sleep(1.0)
+    def starting(self, name=None, title=None, endTime=None):
+        async def starting(loop):
+            while True:
+                time_to_go = (endTime - datetime.now()).total_seconds()
+                self.update(name, title, 'Starting in: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'red')
+                await asyncio.sleep(1., loop=loop)
+        return starting
 
-    async def speaking(self, name=None, title=None, endTime=None):
-        while True:
-            time_to_go = (endTime - datetime.now()).total_seconds()
-            self.update(name, title, 'Speaking for: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'green')
-            await asyncio.sleep(1.0);
+    def speaking(self, name=None, title=None, endTime=None):
+        async def speaking(loop):
+            while True:
+                time_to_go = (endTime - datetime.now()).total_seconds()
+                self.update(name, title, 'Speaking for: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'green')
+                await asyncio.sleep(1.0, loop=loop)
+        return speaking
 
-    async def speakingwarning(self, name=None, title=None, endTime=None):
-        while True:
-            time_to_go = (endTime - datetime.now()).total_seconds()
-            self.update(name, title, 'Speaking for: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'green')
-            await asyncio.sleep(1.0);
-            time_to_go = (endTime - datetime.now()).total_seconds()
-            self.update(name, title, 'Speaking for: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'orange')
-            await asyncio.sleep(1.0);
+    def speakingwarning(self, name=None, title=None, endTime=None):
+        async def speakingwarning(loop):
+            while True:
+                time_to_go = (endTime - datetime.now()).total_seconds()
+                self.update(name, title, 'Speaking for: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'green')
+                await asyncio.sleep(1.0, loop=loop)
+                time_to_go = (endTime - datetime.now()).total_seconds()
+                self.update(name, title, 'Speaking for: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'orange')
+                await asyncio.sleep(1.0, loop=loop)
+        return speakingwarning
 
-    async def questions(self, name=None, title=None, endTime=None):
-        while True:
-            time_to_go = (endTime - datetime.now()).total_seconds()
-            self.update(name, title, 'Questions for: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'orange')
-            await asyncio.sleep(1.0);
+    def questions(self, name=None, title=None, endTime=None):
+        async def questions(loop):
+            while True:
+                time_to_go = (endTime - datetime.now()).total_seconds()
+                self.update(name, title, 'Questions for: {:}:{:}'.format(int(time_to_go/60),math.ceil(time_to_go%60)), 'orange')
+                await asyncio.sleep(1.0, loop=loop)
+        return questions
 
 if __name__ == '__main__':
     screen = Screen()
