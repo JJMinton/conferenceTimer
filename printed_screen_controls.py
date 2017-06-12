@@ -1,23 +1,17 @@
 import asyncio
-import time
-import sys
 import math
 from datetime import datetime, timedelta
 
 import tkinter as tk
 from tkinter import font as tkFont
 
-from controller import Controller
-
-
-
 class Screen():
     def __init__(self):
         self.root = tk.Tk()
-        w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
-        self.root.geometry("{:}x{:}".format(w,h));
-        self.root.attributes("-fullscreen", True);
-        self.root.focus_set() # <-- move focus to this widget #root.bind("<Escape>", lambda e: e.widget.quit());
+        #w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
+        #self.root.geometry("{:}x{:}".format(w,h));
+        #self.root.attributes("-fullscreen", True);
+        #self.root.focus_set() # <-- move focus to this widget #root.bind("<Escape>", lambda e: e.widget.quit());
         
         self.helv = {24: tkFont.Font(family='Helvetica', size=36, weight='bold'),
                      36: tkFont.Font(family='Helvetica', size=24, weight='bold'),
@@ -52,47 +46,55 @@ class Screen():
     def starting(self, name=None, title=None, endTime=None):
         async def starting(loop):
             while True:
-                self.update(name, title, 'Starting in: {:}:{:}'.format(formatted_count_down(endTime)), 'red')
+                print(name, title, 'Starting in: {:}'.format(formatted_count_down(endTime)))
+                self.update(name, title, 'Starting in: {:}'.format(formatted_count_down(endTime)), 'red')
                 await asyncio.sleep(1., loop=loop)
         return starting
 
     def speaking(self, name=None, title=None, endTime=None):
         async def speaking(loop):
             while True:
-                self.update(name, title, 'Speaking for: {:}:{:}'.format(formatted_count_down(endTime)), 'green')
+                print(name, title, 'Speaking for: {:}'.format(formatted_count_down(endTime)))
+                self.update(name, title, 'Speaking for: {:}'.format(formatted_count_down(endTime)), 'green')
                 await asyncio.sleep(1.0, loop=loop)
         return speaking
 
     def speakingwarning(self, name=None, title=None, endTime=None):
         async def speakingwarning(loop):
             while True:
-                self.update(name, title, 'Speaking for: {:}:{:}'.format(formatted_count_down(endTime)), 'green')
+                print(name, title, 'Speaking for: {:}'.format(formatted_count_down(endTime)))
+                self.update(name, title, 'Speaking for: {:}'.format(formatted_count_down(endTime)), 'green')
                 await asyncio.sleep(1.0, loop=loop)
-                self.update(name, title, 'Speaking for: {:}:{:}'.format(formatted_count_down(endTime)), 'orange')
+                print(name, title, 'Speaking for: {:}'.format(formatted_count_down(endTime)))
+                self.update(name, title, 'Speaking for: {:}'.format(formatted_count_down(endTime)), 'orange')
                 await asyncio.sleep(1.0, loop=loop)
         return speakingwarning
 
     def questions(self, name=None, title=None, endTime=None):
         async def questions(loop):
             while True:
-                self.update(name, title, 'Questions for: {:}:{:}'.format(formatted_count_down(endTime)), 'orange')
+                print(name, title, 'Questions for: {:}'.format(formatted_count_down(endTime)))
+                self.update(name, title, 'Questions for: {:}'.format(formatted_count_down(endTime)), 'orange')
                 await asyncio.sleep(1.0, loop=loop)
         return questions
-
+        
     def questionswarning(self, name=None, title=None, endTime=None):
         async def questions(loop):
             while True:
-                self.update(name, title, 'Questions for: {:}:{:}'.format(formatted_count_down(endTime)), 'orange')
+                print(name, title, 'Questions for: {:}'.format(formatted_count_down(endTime)))
+                self.update(name, title, 'Questions for: {:}'.format(formatted_count_down(endTime)), 'orange')
                 await asyncio.sleep(1.0, loop=loop)
-                self.update(name, title, 'Questions for: {:}:{:}'.format(formatted_count_down(endTime)), 'red')
+                print(name, title, 'Questions for: {:}'.format(formatted_count_down(endTime)))
+                self.update(name, title, 'Questions for: {:}'.format(formatted_count_down(endTime)), 'red')
                 await asyncio.sleep(1.0, loop=loop)
         return questions
 
 def formatted_count_down(end_time):
     time_to_go = (end_time - datetime.now()).total_seconds()
     return '{:}:{:2.0f}'.format(int(time_to_go/60),math.ceil(time_to_go%60))
-
+        
 if __name__ == '__main__':
+    from controller import Controller
     screen = Screen()
     screen_control = Controller(universal_callbacks=screen.clear)
     start_time = datetime.now() + timedelta(seconds=3)

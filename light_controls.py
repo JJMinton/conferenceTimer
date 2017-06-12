@@ -1,5 +1,4 @@
-import asyncio;
-import time;
+import asyncio
 
 import RPi.GPIO as gpio
 
@@ -29,8 +28,6 @@ def switch_light(cmd_str):
         raise ValueError('incorrect input for red light')
 
 
-from controller import Controller
-
 async def starting(loop):
     while True:
         switch_light('-or');
@@ -53,7 +50,7 @@ async def questionswarning(loop):
         await asyncio.sleep(1.0, loop=loop);
         switch_light('-o-');
         await asyncio.sleep(1.0, loop=loop);
-async def change(loop):
+async def stop(loop):
     while True:
         switch_light('--r');
         await asyncio.sleep(2.0, loop=loop);
@@ -62,6 +59,7 @@ def clear():
 
 
 if __name__ == '__main__':
+    from controller import Controller
 
     light_control = Controller(universal_callbacks=clear)
     light_control.start(starting)

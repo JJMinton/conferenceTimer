@@ -35,15 +35,17 @@ class Controller():
         if not isinstance(coroutine_list, Iterable):
             raise TypeError('the input must be a async function or a list of async functions')
         for coro in coroutine_list:
+            print(coro)
             self.tasks.append(self.run_in_background(coro))
         return self
 
     def stop(self, key):
         self.tasks[key].cancel()
-        try:
-            self.loop.run_until_complete(self.tasks[key])
-        except CancelledError:
-            pass
+        asyncio.wait_for(self.tasks[key], 100, loop=self.loop)
+        #try:
+        #    self.loop.run_until_complete(self.tasks[key])
+        #except CancelledError:
+        #    pass
         del self.tasks[key]
         return self
     

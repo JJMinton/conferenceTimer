@@ -25,7 +25,7 @@ async def questionswarning(loop):
         await asyncio.sleep(1.0, loop=loop)
         print('-o-');
         await asyncio.sleep(1.0, loop=loop)
-async def change(loop):
+async def stop(loop):
     while True:
         print('--r');
         await asyncio.sleep(2.0, loop=loop)
