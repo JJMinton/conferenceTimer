@@ -11,7 +11,7 @@ import pandas as pd
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
-ROOM_CODE = 'MVL'
+import config
 
 class FileChangeHandler(PatternMatchingEventHandler):
     def __init__(self, watch_file, controller_function, args=[], loop=None):
@@ -58,7 +58,7 @@ def read_schedule(fileName):
     with open(fileName) as file:
         df = pd.read_csv(file, parse_dates=['start_time'], date_parser=dateparser, converters={'talk_length': lambda s: timedelta(minutes=int(s)), 'question_length': lambda s: timedelta(minutes=int(s))});
     #select speakers for this raspberry pi that haven't already spoken
-    df = df.loc[df['room_code'] == ROOM_CODE];
+    df = df.loc[df['room_code'] == config.ROOM_CODE];
     df = df.loc[df['start_time'] + df['talk_length'] + df['question_length'] > pd.datetime.today()];
     #sort selected speakers in starting order
     df = df.sort_values('start_time')
@@ -71,11 +71,10 @@ def read_schedule(fileName):
 if __name__=="__main__":
     from schedule_handler import Schedule_Runner
 
-    schedule_file = './schedule.csv'
     schedule_runner = Schedule_Runner()
     loop = schedule_runner.controller.loop 
 
-    file_change_handler = FileChangeHandler(schedule_file, schedule_runner.run_schedule, loop=loop)
+    file_change_handler = FileChangeHandler(config.SHEDULE_FILE, schedule_runner.run_schedule, loop=loop)
 
     obs = Observer(); 
     obs.schedule(file_change_handler, '.') #Define what file to watch and how

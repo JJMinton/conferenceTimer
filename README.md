@@ -11,8 +11,8 @@ x raspberry pi light control
 x raspberry pi screen control
 _ run on startup
 _ add auto time update
-_ externalise config file and include in update
+x externalise config
 
-_ format and timing check script
+x format and timing check script
 _ screen display format
 

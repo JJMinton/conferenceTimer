@@ -8,8 +8,8 @@ import asyncio
 from datetime import datetime, timedelta
 
 from controller import Controller
-import printed_light_controls as light_controls
-import printed_screen_controls as screen_controls
+import light_controls as light_controls
+import screen_controls as screen_controls
 
 ROOM_CODE = 'MVL'
 STARTING_WARNING = timedelta(minutes=0.5)
