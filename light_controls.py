@@ -2,28 +2,30 @@ import asyncio
 
 import RPi.GPIO as gpio
 
-gpio.setmode(gpio.BCM)
-gpio.setup(23, gpio.OUT)
-gpio.setup(24, gpio.OUT)
-gpio.setup(25, gpio.OUT)
+import config
+
+gpio.setmode(config.PIN_MODE)
+gpio.setup(config.GREEN_LIGHT, gpio.OUT)
+gpio.setup(config.ORANGE_LIGHT, gpio.OUT)
+gpio.setup(config.RED_LIGHT, gpio.OUT)
 
 def switch_light(cmd_str):
     if cmd_str[0] == 'g':
-        gpio.output(23, 0)
+        gpio.output(config.GREEN_LIGHT, 0)
     elif cmd_str[0] == '-':
-        gpio.output(23, 1)
+        gpio.output(config.GREEN_LIGHT, 1)
     else:
         raise ValueError('incorrect input for green light')
     if cmd_str[1] == 'o':
-        gpio.output(24, 0)
+        gpio.output(config.ORANGE_LIGHT, 0)
     elif cmd_str[1] == '-':
-        gpio.output(24, 1)
+        gpio.output(config.ORANGE_LIGHT, 1)
     else:
         raise ValueError('incorrect input for orange light')
     if cmd_str[2] == 'r':
-        gpio.output(25, 0)
+        gpio.output(config.RED_LIGHT, 0)
     elif cmd_str[2] == '-':
-        gpio.output(25, 1)
+        gpio.output(config.RED_LIGHT, 1)
     else:
         raise ValueError('incorrect input for red light')
 
