@@ -2,17 +2,17 @@ control software for raspberry pi to provide a timing funcitonality for parralle
 controllers provided for mointor display and traffic light system
 
 ## Requirements
->Python3.5 with pandas
-internet connection (for correct time and file syncing)
-XDG-compliant desktop environment (for program auto-start)
+* \>Python3.5 with pandas
+* internet connection (for correct time and file syncing)
+* XDG-compliant desktop environment (for program auto-start)
 
 ## Todo
-_ document and implement time update
-_ trigger watchdog from rsync
-_ run rsync on startup
-_ document rsync on startup
-_ screen display format
-_ logging
+* document and implement time update
+* trigger watchdog from rsync
+* run rsync on startup
+* document rsync on startup
+* screen display format
+* logging
 
 
 # Auto-start
@@ -27,16 +27,20 @@ Exec=/path/to/python3.5 /path/to/repo/file_change_handler.py
 ```
 
 # Schedule sync and program restart
-Auto-start is all necessary for code and schedule syncronisation.
+
+Auto-start is also necessary for code and schedule syncronisation.
 I will come back to this.
 
 
 # Time synchronisation
+
 todo
 
 
 # Pin layout
+
 Marked pins are the default configuratin; however, config.py should be checked for specific implementation.
+```
  -----------
  | sd card |
  -----------
@@ -65,3 +69,4 @@ Ground           39 : o R : 40   BCM 21 (SCLK)
           --------------
           |  usb ports |
           --------------
+```
