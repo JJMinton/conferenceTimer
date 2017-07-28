@@ -1,15 +1,13 @@
 import logging
-logging.basicConfig(#filename='conference_timer.log',
-                    level=logging.DEBUG,
-                    format='%(asctime)s - %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S')
-
 import asyncio
 from datetime import datetime, timedelta
 
 from controller import Controller
-import light_controls as light_controls
-import screen_controls as screen_controls
+import printed_light_controls as light_controls
+import printed_screen_controls as screen_controls
+
+import config
+logging.basicConfig(**config.logger_config)
 
 class Schedule_Runner:
     def __init__(self, loop=None):
@@ -18,9 +16,10 @@ class Schedule_Runner:
         self.controller = Controller(universal_callbacks=[light_controls.clear, self.screen.clear], loop=loop)
         
     async def run_schedule(self, df, loop):
-        logging.debug('Run Schedule: controller.stop_all()')
+        logging.debug('run_schedule: calling controller.stop_all()')
         self.controller.stop_all() #This is currently unnecessary with the processes cancelling in the processes method. Which is better?
         for i, row in df.iterrows():
+            logging.info('running {} at {}'.format(row['name'], row['start_time']))
             starting_time =  row['start_time']-config.STARTING_WARNING
             start_time =     row['start_time']
             warning_time =   row['start_time'] + row['talk_length'] - config.TALK_WARNING

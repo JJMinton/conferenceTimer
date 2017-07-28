@@ -1,5 +1,4 @@
 import asyncio
-
 import RPi.GPIO as gpio
 
 import config

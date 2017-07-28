@@ -1,12 +1,15 @@
-control software for raspberry pi to provide a timing funcitonality for parrallel conference sessions.
-controllers provided for mointor display and traffic light system
+# conferenceTimer
+Control software for raspberry pi to provide a timing functionality for parallel conference sessions.
+Controllers are provided for monitor display and traffic light system
 
-## Requirements
+Server synchronisation is also included, where the program will update to changes in the schedule file and the new program will be loaded after restart.
+
+### Requirements
 * \>Python3.5 with pandas
 * internet connection (for correct time and file syncing)
 * XDG-compliant desktop environment (for program auto-start)
 
-## Todo
+### To do
 * document and implement time update
 * trigger watchdog from rsync
 * run rsync on startup
@@ -15,30 +18,34 @@ controllers provided for mointor display and traffic light system
 * logging
 
 
-# Auto-start
-The auto-start must occur after the user has logged in and the window manager is loaded because it starts a gui.
-XDG-compliant desktop environment, such as GNOME or KDE, will autostart all *.desktop files in locations including ~/.config/autostart
+## Auto-start
+The auto-start must occur after the user has logged in and the window manager is loaded because it starts a GUI.
+XDG-compliant desktop environment, such as GNOME or KDE, will auto-start all *.desktop files in locations including ~/.config/autostart.
 
-Using this approach, a file containing
+The .deskto file should look like
 ```
 [Desktop Entry]
 Type=Application
 Exec=/path/to/python3.5 /path/to/repo/file_change_handler.py
 ```
+An example is given in the ./scripts folder and can be copied or symlinked to ~/.config/autostart after modification.
 
-# Schedule sync and program restart
+## Schedule sync and program restart
+A restart of the control loops occur when a new schedule is detected, using watchdog.
+Syncronisation to a server can be achieved with an rsync script and called by cron or systemd.
+If rsync is used, the --inplace flag is required to triger watchdog events.
 
-Auto-start is also necessary for code and schedule syncronisation.
-I will come back to this.
+Example rsync script (sync.sh.default) and systemd timer files (sync-schedule.timer.default) are included in ./scripts. The latter can be copied or symlinked to /??? after modification.
+
+NOTE: an ssh-key will have to be set up between the local host and the server using ssh-keygen
+On the local host run `ssh-keygen' to generate key.
+Then copy the new key to remote using `ssh-copy-id -i ~/.ssh/id_rsa.pub <remote-address>`.
+
+## Time synchronisation
+Time synchronisation is achieved with ntp run from systemd.
 
 
-# Time synchronisation
-
-todo
-
-
-# Pin layout
-
+## Pin layout
 Marked pins are the default configuratin; however, config.py should be checked for specific implementation.
 ```
  -----------

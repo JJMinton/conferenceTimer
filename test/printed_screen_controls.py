@@ -92,7 +92,7 @@ class Screen():
 def formatted_count_down(end_time):
     time_to_go = (end_time - datetime.now()).total_seconds()
     return '{:}:{:2.0f}'.format(int(time_to_go/60),math.ceil(time_to_go%60))
-        
+
 if __name__ == '__main__':
     from controller import Controller
     screen = Screen()
