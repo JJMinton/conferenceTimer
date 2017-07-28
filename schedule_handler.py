@@ -11,11 +11,6 @@ from controller import Controller
 import light_controls as light_controls
 import screen_controls as screen_controls
 
-ROOM_CODE = 'MVL'
-STARTING_WARNING = timedelta(minutes=0.5)
-TALK_WARNING = timedelta(minutes=0.5)
-QUESTION_WARNING = timedelta(minutes=0.5)
-
 class Schedule_Runner:
     def __init__(self, loop=None):
         self.screen = screen_controls.Screen()
@@ -26,11 +21,11 @@ class Schedule_Runner:
         logging.debug('Run Schedule: controller.stop_all()')
         self.controller.stop_all() #This is currently unnecessary with the processes cancelling in the processes method. Which is better?
         for i, row in df.iterrows():
-            starting_time =  row['start_time']-STARTING_WARNING
+            starting_time =  row['start_time']-config.STARTING_WARNING
             start_time =     row['start_time']
-            warning_time =   row['start_time'] + row['talk_length'] - TALK_WARNING
+            warning_time =   row['start_time'] + row['talk_length'] - config.TALK_WARNING
             questions_time = row['start_time'] + row['talk_length']
-            q_warning_time = row['start_time'] + row['talk_length'] + row['question_length'] - QUESTION_WARNING
+            q_warning_time = row['start_time'] + row['talk_length'] + row['question_length'] - config.QUESTION_WARNING
             end_time =       row['start_time'] + row['talk_length'] + row['question_length']
             
             if seconds_until(start_time) > 0:
