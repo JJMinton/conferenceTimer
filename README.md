@@ -35,15 +35,19 @@ A restart of the control loops occur when a new schedule is detected, using watc
 Syncronisation to a server can be achieved with an rsync script and called by cron or systemd.
 If rsync is used, the --inplace flag is required to triger watchdog events.
 
-Example rsync script (sync.sh.default) and systemd timer files (sync-schedule.timer.default) are included in ./scripts. The latter can be copied or symlinked to /??? after modification.
+Example rsync script (`sync.sh.default`) and systemd timer files (`sync-schedule.timer.default` and `sync-schedule.service.default`) are included in `./scripts`.
+The latter can be copied or symlinked to `/etc/systemd/system` after modification.
 
-NOTE: an ssh-key will have to be set up between the local host and the server using ssh-keygen
+NOTE: an ssh key will have to be set up between the local host and the server using ssh-keygen
 On the local host run `ssh-keygen' to generate key.
 Then copy the new key to remote using `ssh-copy-id -i ~/.ssh/id_rsa.pub <remote-address>`.
 
 ## Time synchronisation
 Time synchronisation is achieved with ntp run from systemd.
 
+## SSH configuration (recommended)
+It is recommended to set up and ssh server so that the raspberry pis can be accessed easily for fixes.
+This can be achieved by...
 
 ## Pin layout
 Marked pins are the default configuratin; however, config.py should be checked for specific implementation.

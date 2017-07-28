@@ -1,0 +1,9 @@
+[Unit]
+Description=synchronise conferenceTimer every minute
+
+[Service]
+WorkingDirectory=/path/to/conferenceTimer
+ExecStart=./scripts/sync.sh
+
+[Install]
+WantedBy=multi-user.target
