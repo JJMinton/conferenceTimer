@@ -1,23 +1,38 @@
-# conferenceTimer
 control software for raspberry pi to provide a timing funcitonality for parrallel conference sessions.
+controllers provided for mointor display and traffic light system
 
-TODO:
-x write watch script (script that checks locally for schedule file changes)
-x write lights control (program that issues running lights commands at given system times)
-x write screen control (program that displays count down timer to a screen)
-x integrate watch, and control scripts
-_ run rsync to update files from server
-x raspberry pi light control
-x raspberry pi screen control
-_ run on startup
-_ add auto time update
-x externalise config
+## Requirements
+>Python3.5 with pandas
+internet connection (for correct time and file syncing)
+XDG-compliant desktop environment (for program auto-start)
 
-x format and timing check script
+## Todo
+_ document and implement time update
+_ trigger watchdog from rsync
+_ run rsync on startup
+_ document rsync on startup
 _ screen display format
+_ logging
 
-#Auto-start
 
+# Auto-start
+The auto-start must occur after the user has logged in and the window manager is loaded because it starts a gui.
+XDG-compliant desktop environment, such as GNOME or KDE, will autostart all *.desktop files in locations including ~/.config/autostart
+
+Using this approach, a file containing
+```
+[Desktop Entry]
+Type=Application
+Exec=/path/to/python3.5 /path/to/repo/file_change_handler.py
+```
+
+# Schedule sync and program restart
+Auto-start is all necessary for code and schedule syncronisation.
+I will come back to this.
+
+
+# Time synchronisation
+todo
 
 
 # Pin layout
