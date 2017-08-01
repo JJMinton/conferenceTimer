@@ -49,7 +49,7 @@ class Screen():
         async def starting(loop):
             while True:
 
-                self.update(name, title, 'Starting in: {:}:{:}'.format(formatted_count_down(endTime)), 'red')
+                self.update(name, title, 'Starting in: {}'.format(formatted_count_down(endTime)), 'red')
                 await asyncio.sleep(1., loop=loop)
         return starting
 
@@ -57,7 +57,7 @@ class Screen():
         async def speaking(loop):
             while True:
 
-                self.update(name, title, 'Speaking for: {:}:{:}'.format(formatted_count_down(endTime)), 'green')
+                self.update(name, title, 'Speaking for: {}'.format(formatted_count_down(endTime)), 'green')
                 await asyncio.sleep(1.0, loop=loop)
         return speaking
 
@@ -65,10 +65,10 @@ class Screen():
         async def speakingwarning(loop):
             while True:
 
-                self.update(name, title, 'Speaking for: {:}:{:}'.format(formatted_count_down(endTime)), 'green')
+                self.update(name, title, 'Speaking for: {}'.format(formatted_count_down(endTime)), 'green')
                 await asyncio.sleep(1.0, loop=loop)
                 
-                self.update(name, title, 'Speaking for: {:}:{:}'.format(formatted_count_down(endTime)), 'orange')
+                self.update(name, title, 'Speaking for: {}'.format(formatted_count_down(endTime)), 'orange')
                 await asyncio.sleep(1.0, loop=loop)
         return speakingwarning
 
@@ -76,7 +76,7 @@ class Screen():
         async def questions(loop):
             while True:
 
-                self.update(name, title, 'Questions for: {:}:{:}'.format(formatted_count_down(endTime)), 'orange')
+                self.update(name, title, 'Questions for: {}'.format(formatted_count_down(endTime)), 'orange')
                 await asyncio.sleep(1.0, loop=loop)
         return questions
 
@@ -84,10 +84,10 @@ class Screen():
         async def questions(loop):
             while True:
 
-                self.update(name, title, 'Questions for: {:}:{:}'.format(formatted_count_down(endTime)), 'orange')
+                self.update(name, title, 'Questions for: {}'.format(formatted_count_down(endTime)), 'orange')
                 await asyncio.sleep(1.0, loop=loop)
 
-                self.update(name, title, 'Questions for: {:}:{:}'.format(formatted_count_down(endTime)), 'red')
+                self.update(name, title, 'Questions for: {}'.format(formatted_count_down(endTime)), 'red')
                 await asyncio.sleep(1.0, loop=loop)
         return questions
 

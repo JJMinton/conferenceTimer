@@ -20,15 +20,16 @@ Server synchronisation is also included, where the program will update to change
 
 ## Auto-start
 The auto-start must occur after the user has logged in and the window manager is loaded because it starts a GUI.
-XDG-compliant desktop environment, such as GNOME or KDE, will auto-start all *.desktop files in locations including ~/.config/autostart.
+XDG-compliant desktop environment, such as GNOME or KDE, will auto-start all *.desktop files in locations including ~/.config/autostart. This method requires all addresses to absolute. A more robust approach may be to run as a systemd application.
 
-The .deskto file should look like
+The .desktop file should look like
 ```
 [Desktop Entry]
 Type=Application
 Exec=/path/to/python3.5 /path/to/repo/file_change_handler.py
 ```
 An example is given in the ./scripts folder and can be copied or symlinked to ~/.config/autostart after modification.
+
 
 ## Schedule sync and program restart
 A restart of the control loops occur when a new schedule is detected, using watchdog.
