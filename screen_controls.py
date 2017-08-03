@@ -7,10 +7,12 @@ from datetime import datetime, timedelta
 import tkinter as tk
 from tkinter import font as tkFont
 
+import config
+
 class Screen():
     def __init__(self):
         self.root = tk.Tk()
-        if config.DEBUG:
+        if config.DEBUG_FLAG:
             w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
             self.root.geometry("{:}x{:}".format(w,h));
             self.root.attributes("-fullscreen", True);
