@@ -1,6 +1,7 @@
 ### Debug and Logging controls
-import logging
 DEBUG_FLAG = True
+HARDWARE_FLAG = True
+import logging
 logger_config = {#'filename': 'conference_timer.log',
                  'format': '%(asctime)s - %(message)s',
                  'datefmt': '%Y-%m-%d %H:%M:%S'}
@@ -14,7 +15,7 @@ else:
 
 ### Schedule management
 ROOM_CODE = 'MVL'
-SCHEDULE_FILE = '/home/jjm61/conferenceTimer/schedule.csv'
+SCHEDULE_FILE = '/home/pi/conferenceTimer/schedule.csv'
 
 
 ### Light timing
@@ -25,7 +26,7 @@ QUESTION_WARNING = timedelta(minutes=0.5)
 
 
 ### Hardware configuration
-if not DEBUG_FLAG:
+if HARDWARE_FLAG:
     import RPi.GPIO as gpio
     PIN_MODE = gpio.BOARD
     GREEN_LIGHT = 36
