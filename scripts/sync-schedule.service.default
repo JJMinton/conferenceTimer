@@ -2,8 +2,5 @@
 Description=synchronise conferenceTimer every minute
 
 [Service]
-WorkingDirectory=/path/to/conferenceTimer
-ExecStart=./scripts/sync.sh
-
-[Install]
-WantedBy=multi-user.target
+User=pi
+ExecStart=/path/to/conferenceTimer/scripts/sync.sh
