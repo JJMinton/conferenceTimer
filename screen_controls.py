@@ -10,10 +10,11 @@ from tkinter import font as tkFont
 class Screen():
     def __init__(self):
         self.root = tk.Tk()
-        w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
-        self.root.geometry("{:}x{:}".format(w,h));
-        self.root.attributes("-fullscreen", True);
-        self.root.focus_set() # <-- move focus to this widget #root.bind("<Escape>", lambda e: e.widget.quit());
+        if config.DEBUG:
+            w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
+            self.root.geometry("{:}x{:}".format(w,h));
+            self.root.attributes("-fullscreen", True);
+            self.root.focus_set() # <-- move focus to this widget #root.bind("<Escape>", lambda e: e.widget.quit());
         
         self.helv = {24: tkFont.Font(family='Helvetica', size=36, weight='bold'),
                      36: tkFont.Font(family='Helvetica', size=24, weight='bold'),
