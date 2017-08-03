@@ -1,0 +1,5 @@
+config.py
+sync.sh
+conference-timer.desktop
+sync-schedule.service
+sync-schedule.timer

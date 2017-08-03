@@ -1,1 +1,6 @@
 __pycache__/
+*.pyc
+sync.sh
+sync-schedule.timer
+sync-schedule.service
+conference-timer.desktop
