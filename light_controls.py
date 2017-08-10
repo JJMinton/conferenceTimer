@@ -1,32 +1,32 @@
 import asyncio
-import RPi.GPIO as gpio
 
 import config
+if config.HARDWARE_FLAG:
+    import RPi.GPIO as gpio
 
-gpio.setmode(config.PIN_MODE)
-gpio.setup(config.GREEN_LIGHT, gpio.OUT)
-gpio.setup(config.ORANGE_LIGHT, gpio.OUT)
-gpio.setup(config.RED_LIGHT, gpio.OUT)
 
 def switch_light(cmd_str):
-    if cmd_str[0] == 'g':
-        gpio.output(config.GREEN_LIGHT, 0)
-    elif cmd_str[0] == '-':
-        gpio.output(config.GREEN_LIGHT, 1)
-    else:
-        raise ValueError('incorrect input for green light')
-    if cmd_str[1] == 'o':
-        gpio.output(config.ORANGE_LIGHT, 0)
-    elif cmd_str[1] == '-':
-        gpio.output(config.ORANGE_LIGHT, 1)
-    else:
-        raise ValueError('incorrect input for orange light')
-    if cmd_str[2] == 'r':
-        gpio.output(config.RED_LIGHT, 0)
-    elif cmd_str[2] == '-':
-        gpio.output(config.RED_LIGHT, 1)
-    else:
-        raise ValueError('incorrect input for red light')
+    if config.DEBUG_FLAG:
+        print(cmd_str)
+    if config.HARDWARE_FLAG:
+        if cmd_str[0] == 'g':
+            gpio.output(config.GREEN_LIGHT, 0)
+        elif cmd_str[0] == '-':
+            gpio.output(config.GREEN_LIGHT, 1)
+        else:
+            raise ValueError('incorrect input for green light')
+        if cmd_str[1] == 'o':
+            gpio.output(config.ORANGE_LIGHT, 0)
+        elif cmd_str[1] == '-':
+            gpio.output(config.ORANGE_LIGHT, 1)
+        else:
+            raise ValueError('incorrect input for orange light')
+        if cmd_str[2] == 'r':
+            gpio.output(config.RED_LIGHT, 0)
+        elif cmd_str[2] == '-':
+            gpio.output(config.RED_LIGHT, 1)
+        else:
+            raise ValueError('incorrect input for red light')
 
 
 async def starting(loop):
