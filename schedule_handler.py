@@ -15,10 +15,10 @@ class Schedule_Runner:
         loop = asyncio.SelectorEventLoop() if loop is None else loop
         self.controller = Controller(universal_callbacks=[light_controls.clear, self.screen.clear], loop=loop)
         
-    async def run_schedule(self, df, loop):
+    async def run_schedule(self, schedule, loop):
         logging.debug('run_schedule: calling controller.stop_all()')
         self.controller.stop_all() #This is currently unnecessary with the processes cancelling in the processes method. Which is better?
-        for i, row in df.iterrows():
+        for i, row in enumerate(schedule):
             logging.info('running {} at {}'.format(row['name'], row['start_time']))
             starting_time =  row['start_time']-config.STARTING_WARNING
             start_time =     row['start_time']

@@ -23,7 +23,7 @@ class FileChangeHandler(PatternMatchingEventHandler):
         if schedule_file_name is None:
             schedule_file_name = self.watch_file
         logging.debug('FileChangeHnadler.process: Processing {}'.format(schedule_file_name))
-        df = read_schedule(schedule_file_name)
+        schedule = read_schedule(schedule_file_name)
         #Stop current run_schedule
         if self.async_task is not None:
             logging.debug('Stopping previous async_task')
@@ -33,7 +33,7 @@ class FileChangeHandler(PatternMatchingEventHandler):
             self.async_task = None
         #Start new run_schedule
         logging.debug('FileChangeHandler.process: Starting new async_task')
-        self.async_task = asyncio.ensure_future(self.controller_function(df, self.loop, *self.args), loop=self.loop)
+        self.async_task = asyncio.ensure_future(self.controller_function(schedule, self.loop, *self.args), loop=self.loop)
         logging.debug('FileChangeHandler.process: Return from processing')
         return
         #ensure immediate return
