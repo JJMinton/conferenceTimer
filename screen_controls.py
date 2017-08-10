@@ -12,7 +12,7 @@ import config
 class Screen():
     def __init__(self):
         self.root = tk.Tk()
-        if config.DEBUG_FLAG:
+        if not config.DEBUG_FLAG:
             w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
             self.root.geometry("{:}x{:}".format(w,h));
             self.root.attributes("-fullscreen", True);
