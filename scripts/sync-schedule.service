@@ -3,4 +3,4 @@ Description=synchronise conferenceTimer every minute
 
 [Service]
 User=pi
-ExecStart=/path/to/conferenceTimer/scripts/sync.sh
+ExecStart=$HOME/conferenceTimer/scripts/sync.sh

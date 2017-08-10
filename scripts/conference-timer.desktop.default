@@ -1,3 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=/path/to/python3.5 /path/to/repo/file_change_handler.py

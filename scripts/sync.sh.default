@@ -1,2 +1,0 @@
-#!/bin/sh
-rsync jjm61@jjm.nz:~/conferenceTimer/* /path/to/conferenceTimer -r --inplace --exclude-from=/path/to/conferenceTimer/scripts/sync_exclude.txt

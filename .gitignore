@@ -1,7 +1,2 @@
 __pycache__/
 *.pyc
-config.py
-sync.sh
-sync-schedule.timer
-sync-schedule.service
-conference-timer.desktop

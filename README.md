@@ -10,12 +10,10 @@ Server synchronisation is also included, where the program will update to change
 * XDG-compliant desktop environment (for program auto-start)
 
 ### To do
-* document and implement time update
-* trigger watchdog from rsync
-* run rsync on startup
-* document rsync on startup
 * screen display format
 * logging
+* computername configuration
+* ntp configuration
 
 
 ## Auto-start
@@ -28,7 +26,8 @@ The .desktop file should look like
 Type=Application
 Exec=/path/to/python3.5 /path/to/repo/file_change_handler.py
 ```
-An example is given in the ./scripts folder and can be copied or symlinked to ~/.config/autostart after modification.
+A version is provided in the ./scripts folder and can be copied or symlinked to ~/.config/autostart after modification.
+This implementation assumes that the repo is located at `$HOME/conferenceTimer` and python3.5 is on the path.
 
 
 ## Schedule sync and program restart
@@ -36,8 +35,9 @@ A restart of the control loops occur when a new schedule is detected, using watc
 Syncronisation to a server can be achieved with an rsync script and called by cron or systemd.
 If rsync is used, the --inplace flag is required to triger watchdog events.
 
-Example rsync script (`sync.sh.default`) and systemd timer files (`sync-schedule.timer.default` and `sync-schedule.service.default`) are included in `./scripts`.
+Rsync script (`sync.sh`) and systemd timer files (`sync-schedule.timer` and `sync-schedule.service`) are included in `./scripts`.
 The latter can be copied or symlinked to `/etc/systemd/system` after modification.
+These scripts assume that the conferenceTimer repo is located at `$HOME/conferenceTimer` and the username is `pi`.
 
 NOTE: an ssh key will have to be set up between the local host and the server using ssh-keygen
 On the local host run `ssh-keygen' to generate key.
