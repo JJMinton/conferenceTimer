@@ -1,2 +1,2 @@
-computerName.txt
+scripts/computername.txt
 *.swp
