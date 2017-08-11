@@ -16,7 +16,7 @@ del logging
 
 ### Schedule management
 import path, pathlib
-with open('scripts/computername.txt', 'r') as fin:
+with open(path.Path.joinpath(str(pathlib.Path.home()), 'conferenceTimer/scripts/computername.txt'), 'r') as fin:
     ROOM_CODE = fin.read().splitlines()[0]
 SCHEDULE_FILE = path.Path.joinpath(str(pathlib.Path.home()), 'conferenceTimer/schedule.csv')
 del path, pathlib
