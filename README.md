@@ -11,9 +11,9 @@ Server synchronisation is also included, where the program will update to change
 
 ### To do
 * screen display format
-* logging
-* computername configuration
-* ntp configuration
+* correct light codes and behaviour
+* empty schedule behaviour
+* prevent light flashes with schedule update
 
 
 ## Auto-start
