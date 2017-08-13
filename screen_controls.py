@@ -31,16 +31,21 @@ class Screen():
         self.speaker = tk.StringVar()
         self.title = tk.StringVar()
         self.message = tk.StringVar()
-        tk.Label(self.text_frame, text='Speaker:', font=self.helv[24]).pack();#place(_in=container);
-        tk.Label(self.text_frame, textvariable=self.speaker, font=self.helv[36]).pack();#place(_in=container);
-        tk.Label(self.text_frame, text='Title:', font=self.helv[24]).pack();#place(_in=container);
-        tk.Label(self.text_frame, textvariable=self.title, font=self.helv[24]).pack();#place(_in=container);
-        tk.Label(self.text_frame, textvariable=self.message, font=self.helv[72]).pack();#place(_in=container);
+        self.labels = []
+        self.labels.append(tk.Label(self.text_frame, text='Speaker:', font=self.helv[24]))
+        self.labels.append(tk.Label(self.text_frame, textvariable=self.speaker, font=self.helv[36]))#place(_in=container);
+        self.labels.append(tk.Label(self.text_frame, text='Title:', font=self.helv[24]))#place(_in=container);
+        self.labels.append(tk.Label(self.text_frame, textvariable=self.title, font=self.helv[24]))#place(_in=container);
+        self.labels.append(tk.Label(self.text_frame, textvariable=self.message, font=self.helv[72]))#place(_in=container);
+        for l in self.labels:
+            l.pack()
         self.root.update()
 
     def update(self, name=None, title=None, message=None, color=None):
         if color is not None:
             self.text_frame.configure(background=color)
+            for l in self.labels:
+                l.config(bg=color)
         self.speaker.set('' if name is None else name)
         self.title.set('' if title is None else title)
         self.message.set('' if message is None else message)
@@ -107,8 +112,17 @@ class Screen():
         return questions
 
 def formatted_count_down(end_time):
-    time_to_go = (end_time - datetime.now()).total_seconds()
-    return '{:}:{:2.0f}'.format(int(time_to_go/60),math.ceil(time_to_go%60))
+    dt = (end_time - datetime.now()).total_seconds()
+    hours = math.floor(dt/(60*60))
+    print(hours)
+    minutes = math.floor((dt%(60*60))/60)
+    print(minutes)
+    seconds = math.floor(dt%(60))
+    print(seconds)
+    if hours > 0:
+        return '{:}:{:0>2}:{:0>2}'.format(hours, minutes, seconds)
+    else:
+        return '{:}:{:0>2}'.format(minutes, seconds)
 
 if __name__ == '__main__':
     from controller import Controller
