@@ -2,6 +2,7 @@ import asyncio
 import time
 import sys
 import math
+import random
 from datetime import datetime, timedelta
 
 import tkinter as tk
@@ -48,11 +49,20 @@ class Screen():
     def clear(self):
         self.update()
 
-    def starting(self, name=None, title=None, endTime=None):
+    def stop(self, name=None, title=None, endTime=None):
         async def starting(loop):
             while True:
 
+                self.update('', '', 'Next talk starting in: {}'.format(formatted_count_down(endTime)), 'red')
+                await asyncio.sleep(1., loop=loop)
+        return starting
+
+    def starting(self, name=None, title=None, endTime=None):
+        async def starting(loop):
+            while True:
                 self.update(name, title, 'Starting in: {}'.format(formatted_count_down(endTime)), 'red')
+                await asyncio.sleep(1., loop=loop)
+                self.update(name, title, 'Starting in: {}'.format(formatted_count_down(endTime)), 'grey')
                 await asyncio.sleep(1., loop=loop)
         return starting
 
@@ -91,6 +101,12 @@ class Screen():
                 await asyncio.sleep(1.0, loop=loop)
 
                 self.update(name, title, 'Questions for: {}'.format(formatted_count_down(endTime)), 'red')
+                await asyncio.sleep(1.0, loop=loop)
+        return questions
+    def empty_schedule(self):
+        async def questions(loop):
+            while True:
+                self.update('', '', "That's it, there's no more!", random.choice(['red','orange','green']))
                 await asyncio.sleep(1.0, loop=loop)
         return questions
 

@@ -24,9 +24,9 @@ del path, pathlib
 
 ### Light timing
 from datetime import timedelta
-STARTING_WARNING = timedelta(minutes=0.5)
-TALK_WARNING = timedelta(minutes=0.5)
-QUESTION_WARNING = timedelta(minutes=0.5)
+STARTING_WARNING = timedelta(minutes=1)
+TALK_WARNING = timedelta(minutes=3)
+QUESTION_WARNING = timedelta(minutes=1)
 del timedelta
 
 

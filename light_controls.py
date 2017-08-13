@@ -1,4 +1,5 @@
 import asyncio
+import random
 
 import config
 if config.HARDWARE_FLAG:
@@ -31,13 +32,15 @@ def switch_light(cmd_str):
 
 async def starting(loop):
     while True:
-        switch_light('ro-');
-        await asyncio.sleep(2.0, loop=loop);
+        switch_light('---');
+        await asyncio.sleep(1.0, loop=loop);
+        switch_light('-o-');
+        await asyncio.sleep(1.0, loop=loop);
 async def speaking(loop):
     while True:
         switch_light('--g');
         await asyncio.sleep(2.0, loop=loop);
-async def speakingwarning(loop):
+async def speaking_warning(loop):
     while True:
         switch_light('-og');
         await asyncio.sleep(2.0, loop=loop);
@@ -45,16 +48,18 @@ async def questions(loop):
     while True:
         switch_light('-o-');
         await asyncio.sleep(2.0, loop=loop);
-async def questionswarning(loop):
+async def questions_warning(loop):
     while True:
-        switch_light('---');
-        await asyncio.sleep(1.0, loop=loop);
-        switch_light('-o-');
-        await asyncio.sleep(1.0, loop=loop);
+        switch_light('ro-');
+        await asyncio.sleep(2.0, loop=loop);
 async def stop(loop):
     while True:
         switch_light('r--');
         await asyncio.sleep(2.0, loop=loop);
+async def empty_schedule(loop):
+    while True:
+        switch_light(random.choice(['-','r']) + random.choice(['-', 'o']) + random.choice(['-','g']))
+        await asyncio.sleep(1.0, loop=loop);
 def clear():
     switch_light('---');
 
