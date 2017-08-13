@@ -1,4 +1,3 @@
-import logging
 import asyncio
 from datetime import datetime, timedelta
 
@@ -7,7 +6,7 @@ import light_controls as light_controls
 import screen_controls as screen_controls
 
 import config
-logging.basicConfig(**config.logger_config)
+from config import logging
 
 class Schedule_Runner:
     def __init__(self, loop=None):
@@ -28,11 +27,13 @@ class Schedule_Runner:
             end_time =       row['start_time'] + row['talk_length'] + row['question_length']
             
             if seconds_until(starting_time) > 0:
-                logging.debug('start until {}'.format(start_time))
+                logging.debug('nothing until {}'.format(start_time))
+                self.controller.stop_all()
                 self.controller.start([light_controls.stop, self.screen.stop(row['name'], row['title'], start_time)])
-                await asyncio.sleep(seconds_until(start_time), loop=loop)
+                await asyncio.sleep(seconds_until(starting_time), loop=loop)
             if seconds_until(start_time) > 0: #before talk start
                 logging.debug('start until {}'.format(start_time))
+                self.controller.stop_all()
                 self.controller.start([light_controls.starting, self.screen.starting(row['name'], row['title'], start_time)])
                 await asyncio.sleep(seconds_until(start_time), loop=loop)
             if seconds_until(warning_time) > 0: #before talk warning
@@ -55,8 +56,10 @@ class Schedule_Runner:
                 self.controller.stop_all()
                 self.controller.start([light_controls.questions_warning, self.screen.questions_warning(row['name'], row['title'], end_time)])
                 await asyncio.sleep(seconds_until(end_time), loop=loop)
+            logging.debug('end of talk. stopping all coroutines')
+            self.controller.stop_all()
 
-            logging.debug('end')
+        logging.debug('empty schedule. Disco!')
         self.controller.stop_all()
         self.controller.start([light_controls.empty_schedule, self.screen.empty_schedule()])
         await asyncio.sleep(60*60*6, loop=loop)

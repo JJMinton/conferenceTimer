@@ -5,13 +5,14 @@ import logging
 logger_config = {#'filename': 'conference_timer.log',
                  'format': '%(asctime)s - %(message)s',
                  'datefmt': '%Y-%m-%d %H:%M:%S'}
-
+logging.basicConfig(**logger_config)
 if DEBUG_FLAG:
-    logger_config['level'] = logging.INFO
-    #logger_config['level'] = logging.DEBUG
+    #logger_config['level'] = logging.INFO
+    logger_config['level'] = logging.DEBUG
 else:
     logger_config['level'] = logging.WARNING
-del logging
+logging = logging.getLogger('conference_timer_logger')
+logging.setLevel(logger_config['level'])
 
 
 ### Schedule management

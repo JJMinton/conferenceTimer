@@ -50,17 +50,16 @@ class Screen():
         self.update()
 
     def stop(self, name=None, title=None, endTime=None):
-        async def starting(loop):
+        async def stop(loop):
             while True:
-
                 self.update('', '', 'Next talk starting in: {}'.format(formatted_count_down(endTime)), 'red')
                 await asyncio.sleep(1., loop=loop)
-        return starting
+        return stop
 
     def starting(self, name=None, title=None, endTime=None):
         async def starting(loop):
             while True:
-                self.update(name, title, 'Starting in: {}'.format(formatted_count_down(endTime)), 'red')
+                self.update(name, title, 'Starting in: {}'.format(formatted_count_down(endTime)), 'orange')
                 await asyncio.sleep(1., loop=loop)
                 self.update(name, title, 'Starting in: {}'.format(formatted_count_down(endTime)), 'grey')
                 await asyncio.sleep(1., loop=loop)
@@ -69,15 +68,13 @@ class Screen():
     def speaking(self, name=None, title=None, endTime=None):
         async def speaking(loop):
             while True:
-
                 self.update(name, title, 'Speaking for: {}'.format(formatted_count_down(endTime)), 'green')
                 await asyncio.sleep(1.0, loop=loop)
         return speaking
 
-    def speakingwarning(self, name=None, title=None, endTime=None):
+    def speaking_warning(self, name=None, title=None, endTime=None):
         async def speakingwarning(loop):
             while True:
-
                 self.update(name, title, 'Speaking for: {}'.format(formatted_count_down(endTime)), 'green')
                 await asyncio.sleep(1.0, loop=loop)
                 
@@ -88,12 +85,11 @@ class Screen():
     def questions(self, name=None, title=None, endTime=None):
         async def questions(loop):
             while True:
-
                 self.update(name, title, 'Questions for: {}'.format(formatted_count_down(endTime)), 'orange')
                 await asyncio.sleep(1.0, loop=loop)
         return questions
 
-    def questionswarning(self, name=None, title=None, endTime=None):
+    def questions_warning(self, name=None, title=None, endTime=None):
         async def questions(loop):
             while True:
 

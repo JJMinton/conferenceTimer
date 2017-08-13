@@ -1,13 +1,25 @@
-name,title,room_code,start_time,talk_length,question_length
-Green Lantern,Well that was a rubbish Movie,ictp-rpi-1,12/08/2017:1200,3,1
-Deadpool,R18 super hero,ictp-rpi-1,12/08/2017:1205,3,1
-Rogers,Marvel super Heroes,ictp-rpi-1,12/08/2017:1210,3,1
-Bucky Ball winner,Marvel Bad Guys,ictp-rpi-1,12/08/2017:1215,3,1
-the Joker,DC Bad Guys,ictp-rpi-1,12/08/2017:1220,3,1
-batman,DC Good Guys,ictp-rpi-1,12/08/2017:1225,3,1
-spiderman,DC can't actually fly,ictp-rpi-1,12/08/2017:1230,3,1
-superman,DC can fly,ictp-rpi-1,12/08/2017:1235,3,1
-hulk,Marvel jump good,ictp-rpi-1,12/08/2017:1240,3,1
-ironman,Marvel Can actually Fly,ictp-rpi-1,12/08/2017:1245,3,1
-black widow,Marvel lady Avenger,ictp-rpi-1,12/08/2017:1250,3,1
-the Flash,Super fast hero,ictp-rpi-1,12/08/2017:1255,3,1
+id,room_code,start_time,talk_length,question_length,chair,name,title
+0,ictp-rpi-1,13/08/2017:0934,4,2,Paul Blart,Green Lantern,Well that was a rubbish Movie
+1,ictp-rpi-1,13/08/2017:0942,4,2,Paul Blart,Deadpool,R18 super hero
+2,ictp-rpi-1,13/08/2017:0950,4,2,Paul Blart,Rogers,Marvel super Heroes
+3,ictp-rpi-1,13/08/2017:0958,4,2,Paul Blart,Bucky,Marvel Bad Guys
+4,ictp-rpi-1,13/08/2017:1006,4,2,Paul Blart,The Joker,DC Bad Guys
+5,ictp-rpi-1,13/08/2017:1014,4,2,Paul Blart,Batman,DC Good Guys
+6,ictp-rpi-1,13/08/2017:1022,4,2,Paul Blart,Spiderman,DC can't actually fly
+7,ictp-rpi-1,13/08/2017:1030,4,2,Paul Blart,Superman,DC can fly
+8,ictp-rpi-1,13/08/2017:1038,4,2,Paul Blart,Hulk,Marvel jump good
+9,ictp-rpi-1,13/08/2017:1046,4,2,Paul Blart,Ironman,Marvel Can actually Fly
+10,ictp-rpi-1,13/08/2017:1054,4,2,Paul Blart,Black widow,Marvel lady Avenger
+11,ictp-rpi-1,13/08/2017:1102,4,2,Paul Blart,The Flash,Super fast hero
+12,ictp-rpi-2,13/08/2017:0934,4,2,Paul Blart,Green Lantern,Well that was a rubbish Movie
+13,ictp-rpi-2,13/08/2017:0942,4,2,Paul Blart,Deadpool,R18 super hero
+14,ictp-rpi-2,13/08/2017:0950,4,2,Paul Blart,Rogers,Marvel super Heroes
+15,ictp-rpi-2,13/08/2017:0958,4,2,Paul Blart,Bucky,Marvel Bad Guys
+16,ictp-rpi-2,13/08/2017:1006,4,2,Paul Blart,The Joker,DC Bad Guys
+17,ictp-rpi-2,13/08/2017:1014,4,2,Paul Blart,Batman,DC Good Guys
+18,ictp-rpi-2,13/08/2017:1022,4,2,Paul Blart,Spiderman,DC can't actually fly
+19,ictp-rpi-2,13/08/2017:1030,4,2,Paul Blart,Superman,DC can fly
+20,ictp-rpi-2,13/08/2017:1038,4,2,Paul Blart,Hulk,Marvel jump good
+21,ictp-rpi-2,13/08/2017:1046,4,2,Paul Blart,Ironman,Marvel Can actually Fly
+22,ictp-rpi-2,13/08/2017:1054,4,2,Paul Blart,Black widow,Marvel lady Avenger
+23,ictp-rpi-2,13/08/2017:1102,4,2,Paul Blart,The Flash,Super fast hero

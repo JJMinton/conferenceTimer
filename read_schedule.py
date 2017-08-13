@@ -1,8 +1,7 @@
 import datetime
 import csv
-import logging
 import config
-logging.basicConfig(**config.logger_config)
+from config import logging
 
 date_format = '%d/%m/%Y:%H%M'
 

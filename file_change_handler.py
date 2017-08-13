@@ -1,4 +1,3 @@
-import logging
 import path
 import asyncio
 from datetime import datetime, timedelta
@@ -8,7 +7,7 @@ from watchdog.events import PatternMatchingEventHandler
 from read_schedule import read_schedule
 
 import config
-logging.basicConfig(**config.logger_config)
+from config import logging
 
 class FileChangeHandler(PatternMatchingEventHandler):
     def __init__(self, watch_file, controller_function, args=[], loop=None):
@@ -60,7 +59,6 @@ if __name__=="__main__":
     file_change_handler.process() #start schedule running
     try:
         while True:
-            logging.debug('loop step')
             #This does nothing except step through the loops (why is this necessary?)
             file_change_handler.loop.run_until_complete(asyncio.ensure_future(asyncio.sleep(0.1, loop=file_change_handler.loop), loop=file_change_handler.loop)) #arbitrary sleep time here I think. Could it be forever?
     except KeyboardInterrupt:
