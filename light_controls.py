@@ -11,21 +11,21 @@ def switch_light(cmd_str):
         print(cmd_str)
     if config.HARDWARE_FLAG:
         if cmd_str[2] == 'g':
-            gpio.output(config.GREEN_LIGHT, 0)
-        elif cmd_str[2] == '-':
             gpio.output(config.GREEN_LIGHT, 1)
+        elif cmd_str[2] == '-':
+            gpio.output(config.GREEN_LIGHT, 0)
         else:
             raise ValueError('incorrect input for green light')
         if cmd_str[1] == 'o':
-            gpio.output(config.ORANGE_LIGHT, 0)
-        elif cmd_str[1] == '-':
             gpio.output(config.ORANGE_LIGHT, 1)
+        elif cmd_str[1] == '-':
+            gpio.output(config.ORANGE_LIGHT, 0)
         else:
             raise ValueError('incorrect input for orange light')
         if cmd_str[0] == 'r':
-            gpio.output(config.RED_LIGHT, 0)
-        elif cmd_str[0] == '-':
             gpio.output(config.RED_LIGHT, 1)
+        elif cmd_str[0] == '-':
+            gpio.output(config.RED_LIGHT, 0)
         else:
             raise ValueError('incorrect input for red light')
 

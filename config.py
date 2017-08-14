@@ -1,7 +1,7 @@
 ### Debug and Logging controls
 DEBUG_FLAG = True
-HARDWARE_FLAG = False
-LIGHT_DEBUG = False
+HARDWARE_FLAG = True
+LIGHT_DEBUG = True
 import logging
 logger_config = {#'filename': 'conference_timer.log',
                  'format': '%(asctime)s - %(message)s',
@@ -36,9 +36,9 @@ del timedelta
 if HARDWARE_FLAG:
     import RPi.GPIO as gpio
     PIN_MODE = gpio.BOARD
-    GREEN_LIGHT = 40
+    GREEN_LIGHT = 36
     ORANGE_LIGHT = 38
-    RED_LIGHT = 36
+    RED_LIGHT = 40
 
     gpio.setmode(PIN_MODE)
     gpio.setup(GREEN_LIGHT, gpio.OUT)
