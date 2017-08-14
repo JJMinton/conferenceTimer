@@ -66,6 +66,12 @@ def clear():
 
 def debug():
     import time
+    switch_light('rog')
+    while True:
+        pass
+        
+def debug_flash():
+    import time
     while True:
         switch_light('rog')
         time.sleep(0.5)
