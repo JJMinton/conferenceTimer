@@ -13,8 +13,8 @@ import config
 class Screen():
     def __init__(self):
         self.root = tk.Tk()
+        w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
         if not config.DEBUG_FLAG:
-            w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
             self.root.geometry("{:}x{:}".format(w,h));
             self.root.attributes("-fullscreen", True);
             self.root.focus_set() # <-- move focus to this widget #root.bind("<Escape>", lambda e: e.widget.quit());
@@ -38,11 +38,11 @@ class Screen():
         self.title = tk.StringVar()
         self.message = tk.StringVar()
         self.labels = []
-        self.labels.append(tk.Label(self.top_color, text='Speaker:', font=self.helv[24]))
-        self.labels.append(tk.Label(self.top_color, textvariable=self.speaker, font=self.helv[36]))#place(_in=container);
-        self.labels.append(tk.Label(self.top_color, text='Title:', font=self.helv[24]))#place(_in=container);
-        self.labels.append(tk.Label(self.top_color, textvariable=self.title, font=self.helv[24]))#place(_in=container);
-        self.labels.append(tk.Label(self.bottom_color, textvariable=self.message, font=self.helv[72]))#place(_in=container);
+        self.labels.append(tk.Label(self.top_color, text='Speaker:', font=self.helv[24], wraplength=w))
+        self.labels.append(tk.Label(self.top_color, textvariable=self.speaker, font=self.helv[36], wraplength=w))#place(_in=container);
+        self.labels.append(tk.Label(self.top_color, text='Title:', font=self.helv[24], wraplength=w))#place(_in=container);
+        self.labels.append(tk.Label(self.top_color, textvariable=self.title, font=self.helv[24], wraplength=w))#place(_in=container);
+        self.labels.append(tk.Label(self.bottom_color, textvariable=self.message, font=self.helv[72], wraplength=w))#place(_in=container);
         for i, l in enumerate(self.labels[:-1]):
             l.pack(anchor=tk.CENTER)
         self.labels[-1].place(rely=.5, relx=.5, anchor=tk.CENTER)
@@ -72,7 +72,7 @@ class Screen():
     def stop(self, name=None, title=None, endTime=None):
         async def stop(loop):
             while True:
-                self.update('', '', 'Next talk starting in: {}'.format(formatted_count_down(endTime)), 'red')
+                self.update('', '', 'Nothing for: {}'.format(formatted_count_down(endTime)), 'red')
                 await asyncio.sleep(1., loop=loop)
         return stop
 
