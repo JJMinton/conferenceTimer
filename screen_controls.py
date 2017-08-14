@@ -95,7 +95,7 @@ class Screen():
     def speaking_warning(self, name=None, title=None, endTime=None):
         async def speakingwarning(loop):
             while True:
-                self.update(name, title, 'Speaking for: {}'.format(formatted_count_down(endTime)), 'green', 'orange')
+                self.update(name, title, 'Speaking for: {}'.format(formatted_count_down(endTime)), 'orange', 'green')
                 await asyncio.sleep(0.01, loop=loop)
         return speakingwarning
 
@@ -109,7 +109,7 @@ class Screen():
     def questions_warning(self, name=None, title=None, endTime=None):
         async def questions(loop):
             while True:
-                self.update(name, title, 'Questions for: {}'.format(formatted_count_down(endTime)), 'orange', 'red')
+                self.update(name, title, 'Questions for: {}'.format(formatted_count_down(endTime)), 'red', 'orange')
                 await asyncio.sleep(0.01, loop=loop)
         return questions
     def empty_schedule(self):
