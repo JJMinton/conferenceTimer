@@ -46,6 +46,12 @@ class FileChangeHandler(PatternMatchingEventHandler):
         self.process(event.src_path)
 
 if __name__=="__main__":
+
+    if config.LIGHT_DEBUG:
+        from light_controls import debug
+        debug()
+
+
     from schedule_handler import Schedule_Runner
 
     schedule_runner = Schedule_Runner()

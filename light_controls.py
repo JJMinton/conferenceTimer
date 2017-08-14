@@ -64,6 +64,14 @@ def clear():
     switch_light('---');
 
 
+def debug():
+    import time
+    while True:
+        switch_light('rog')
+        time.sleep(0.5)
+        switch_light('---')
+        time.sleep(0.5)
+
 if __name__ == '__main__':
     from controller import Controller
 

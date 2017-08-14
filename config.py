@@ -1,6 +1,7 @@
 ### Debug and Logging controls
 DEBUG_FLAG = True
 HARDWARE_FLAG = False
+LIGHT_DEBUG = True
 import logging
 logger_config = {#'filename': 'conference_timer.log',
                  'format': '%(asctime)s - %(message)s',
