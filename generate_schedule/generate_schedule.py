@@ -2,7 +2,7 @@ import openpyxl
 import pandas as pd
 from datetime import datetime, timedelta
 
-start_date = datetime(year=2017, month=8, day=13)
+start_date = datetime(year=2017, month=8, day=29)
 room_converter = {'S1': 'ictp-rpi-1',
                   'S2': 'ictp-rpi-2',
                   'S3': 'ictp-rpi-3',
@@ -11,7 +11,7 @@ room_converter = {'S1': 'ictp-rpi-1',
                   'S6': 'ictp-rpi-6',
                   'S7': 'ictp-rpi-7',
                   'S8': 'ictp-rpi-8',
-                  'S9': 'ictp-rpi-10',
+                  'S9': 'ictp-rpi-9',
                  }
 day_converter = {'Mon': 0,
                  'Tue': 1,

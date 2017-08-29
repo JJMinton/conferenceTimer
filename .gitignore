@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 *.swp
+private.py
+creds.data
+traffic-lights-d42b9c17ee92.json
