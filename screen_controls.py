@@ -19,8 +19,10 @@ class Screen():
             self.root.attributes("-fullscreen", True);
             self.root.focus_set() # <-- move focus to this widget #root.bind("<Escape>", lambda e: e.widget.quit());
         
-        self.helv = {24: tkFont.Font(family='Helvetica', size=36, weight='bold'),
-                     36: tkFont.Font(family='Helvetica', size=24, weight='bold'),
+        self.helv = {24: tkFont.Font(family='Helvetica', size=24, weight='bold'),
+                     36: tkFont.Font(family='Helvetica', size=36, weight='bold'),
+                     48: tkFont.Font(family='Helvetica', size=48, weight='bold'),
+                     60: tkFont.Font(family='Helvetica', size=60, weight='bold'),
                      72: tkFont.Font(family='Helvetica', size=72, weight='bold'),
                     }
 
@@ -38,13 +40,15 @@ class Screen():
         self.title = tk.StringVar()
         self.message = tk.StringVar()
         self.labels = []
-        self.labels.append(tk.Label(self.top_color, text='Speaker:', font=self.helv[24], wraplength=w))
-        self.labels.append(tk.Label(self.top_color, textvariable=self.speaker, font=self.helv[36], wraplength=w))#place(_in=container);
-        self.labels.append(tk.Label(self.top_color, text='Title:', font=self.helv[24], wraplength=w))#place(_in=container);
-        self.labels.append(tk.Label(self.top_color, textvariable=self.title, font=self.helv[24], wraplength=w))#place(_in=container);
+        #self.labels.append(tk.Label(self.top_color, text='Speaker:', font=self.helv[24], wraplength=w))
+        self.labels.append(tk.Label(self.top_color, textvariable=self.speaker, font=self.helv[48], wraplength=w))#place(_in=container);
+        self.labels[-1].place(rely=.2, relx=.5, anchor=tk.CENTER)
+        #self.labels.append(tk.Label(self.top_color, text='Title:', font=self.helv[24], wraplength=w))#place(_in=container);
+        self.labels.append(tk.Label(self.top_color, textvariable=self.title, font=self.helv[36], wraplength=w))#place(_in=container);
+        self.labels[-1].place(rely=.5, relx=.5, anchor=tk.CENTER)
         self.labels.append(tk.Label(self.bottom_color, textvariable=self.message, font=self.helv[72], wraplength=w))#place(_in=container);
-        for i, l in enumerate(self.labels[:-1]):
-            l.pack(anchor=tk.CENTER)
+        #for i, l in enumerate(self.labels[:-1]):
+            #l.pack(anchor=tk.CENTER)
         self.labels[-1].place(rely=.5, relx=.5, anchor=tk.CENTER)
         self.root.update()
 
@@ -80,9 +84,7 @@ class Screen():
         async def starting(loop):
             while True:
                 self.update(name, title, 'Starting in: {}'.format(formatted_count_down(endTime)), 'orange', 'grey')
-                await asyncio.sleep(1.0, loop=loop)
-                self.update(name, title, 'Starting in: {}'.format(formatted_count_down(endTime)), 'grey', 'orange')
-                await asyncio.sleep(1.0, loop=loop)
+                await asyncio.sleep(0.01, loop=loop)
         return starting
 
     def speaking(self, name=None, title=None, endTime=None):
