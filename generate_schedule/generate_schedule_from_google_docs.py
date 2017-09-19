@@ -64,7 +64,7 @@ if __name__ == '__main__':
     #sh = gc.open_by_key('0BmgG6nO_6dprdS1MN3d3MkdPa142WFRrdnRRUWl1UFE') # Open by key which can be extracted from spreadsheet's url
     sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1b1HXr2HU5Hq-zM-b1KMY3uDq047cNIdWEODzM9P6T70/edit#gid=0')
 
-    start_date = datetime(year=2017, month=8, day=29)
+    start_date = datetime(year=2017, month=9, day=18) + timedelta(minutes=0)
     room_converter = {'LR3': 'ictp-rpi-1',
                       'LR3A': 'ictp-rpi-2',
                       'LR3B': 'ictp-rpi-3',
@@ -105,8 +105,8 @@ if __name__ == '__main__':
                         'start_time': start_time.strftime(date_format),
                         'chair': talk['Session Chair'],
                         'room_code': room_converter[talk['Room']],
-                        'talk_length': 20,
-                        'question_length': 3,
+                        'talk_length': 15,
+                        'question_length': 4,
                        }, ignore_index=True)
 
     #add plenary talks/industry workshops/poster sessions
