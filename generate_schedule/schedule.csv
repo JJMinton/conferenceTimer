@@ -1,421 +1,415 @@
 name,title,room_code,start_time,talk_length,question_length,chair
-Jennifer Tenner,Numerical and experimental investigation of dry deep drawing of aluminium alloys with conventional and coated tool surfaces,ictp-rpi-1,31/08/2017:1140,20,3,Matsumoto
-Rasim Askin Dilan,An Online Intelligent Algorithm Pipeline for the Elimination of Springback Effect During Sheet Metal Bending,ictp-rpi-7,31/08/2017:1400,20,3,Takahashi
-Yanshan Lou,J2-J3 based anisotropic yield function under spatial loading,ictp-rpi-6,31/08/2017:1640,20,3,Madej
-Aravind U,The effect of using rubber for applying counter force in fine blanking of AISI 304 Stainless Steel,ictp-rpi-7,30/08/2017:1100,20,3,Volk
-Bingtao Tang,Numerical modeling and experimental verification of ductile damage in Boron steel hot stamping process,ictp-rpi-7,29/08/2017:1600,20,3,Brosius
-Binxian Yuan,A multi-deformable bodies solution method coupling finite element with meshless method in sheet metal flexible-die forming,ictp-rpi-8,31/08/2017:1400,20,3,Qin
-Ryo Matsumoto,Characterization of Surface Profile of Shot Peened Cemented Tungsten Carbide Dies with Micro Valleys and Their Lubrication Performance in Cold Forging,ictp-rpi-3,29/08/2017:1540,20,3,Merklein
-"Yang Zhao,Liqing Chen,Xianghua Liu",Influence of boron addition on microstructure and properties of a low-carbon cold rolled enamel steel,ictp-rpi-6,29/08/2017:1640,20,3,Gronotstajski
-Huiping Li,Analysis of phase transformation and blanking accuracy of B1500HS steel during hot blanking,ictp-rpi-7,30/08/2017:1120,20,3,Volk
-Ming-Jen TAN,Improving the mechanical properties of TIG welding Ti-6Al-4V by post weld heat treatment,ictp-rpi-7,29/08/2017:1300,20,3,Bambach
-Hongwu Song,Force Analysis during cold Pilgering process for Zircaloy alloy tube by both experiments and 3D FE simulation,ictp-rpi-7,01/09/2017:1400,20,3,S Yuan
-Shigeru Nagasawa,Tensile characteristics of glass fiber based single face board,ictp-rpi-2,31/08/2017:1400,20,3,Huh
-Toshinaka Shinbutsu,Thread rolling and performance evaluations of a new anti-loosening double thread bolt combining a single thread and multiple threads,ictp-rpi-3,29/08/2017:1300,20,3,Ou
-Quang-Cherng Hsu,Optimizing Design of Two-dimensional Forging Preform by Bi-directional Evolutionary Structural Optimization Method,ictp-rpi-5,01/09/2017:1140,20,3,C-G Kang
-Lei Zhao,Mechanism-based constitutive equations for superplastic forming of TA15 with equiaxed fine grain structure,ictp-rpi-3,30/08/2017:1100,20,3,Bressan
-Lei Zhao,An optimized neck-spinning method for improving the inner surface quality of titanium domes,ictp-rpi-8,01/09/2017:1600,20,3,Nagy
-BALASIVANANDHA PRABU SHANMUGAVEL,On the role of experimental variables in the Repetitive Corrugation and Straightening of an Al-Mg alloy,ictp-rpi-1,01/09/2017:1420,20,3,Rosochowski
-Heng-Sheng Lin,Stacking with cylindrical spots in lamination of stamped electrical steel sheets,ictp-rpi-8,31/08/2017:1120,20,3,R S Lee
-Rong Shean Lee,Development of Knowledge-Expandable Ontology-Based Expert System for Process Planning in Cold Forging of Flange Nuts,ictp-rpi-5,01/09/2017:1020,20,3,C-G Kang
-Marine Guillot,Shear forming of 304L stainless steel – microstructural aspects,ictp-rpi-8,01/09/2017:1520,20,3,Nagy
-Andrij Milenin,Physical and Numerical Modelling of Laser Dieless Drawing Process of Tubes from Magnesium Alloy,ictp-rpi-7,01/09/2017:1420,20,3,S Yuan
-Georg Falkinger,Static recovery of an AlMg4.5Mn aluminium alloy during multi-pass hot-rolling,ictp-rpi-9,01/09/2017:1140,20,3,Poole
-Felix Bauer,Investigation of a process simulation method for flexible clamping of sheet metal parts,ictp-rpi-7,31/08/2017:1540,20,3,Takahashi
-Jing-Hua Zheng,Constitutive modelling of a T74 multi-step creep ageing behaviour of AA7050 and its application to stress relaxation ageing in age formed aluminium components,ictp-rpi-4,29/08/2017:1420,20,3,Lin
-Vikram Bedekar,In-situ Neutron Diffraction Analysis of Crystal Plasticity of Retained Austenite in Bearing Steel,ictp-rpi-8,01/09/2017:1040,20,3,Karodogan
-Masaaki Otsu,Improvement of Forming Limit and Accuracy in Friction Stir Incremental Forming with Multistage Forming,ictp-rpi-5,29/08/2017:1540,20,3,Manabe
-Martin Rosenschon,Process-oriented validation of hardening models in a cyclic bending test,ictp-rpi-9,29/08/2017:1300,20,3,Kuwabara
-Sebastian Müller,Plastic Deformability at Micro-Scale of Fiber-Reinforced Ceramics with Porous Matrix during Grinding,ictp-rpi-2,31/08/2017:1640,20,3,Huh
-Masato Okada,Development of optical-heating-assisted incremental forming method for CFRTP sheet - Fundamental forming characteristics in spot-forming.,ictp-rpi-5,29/08/2017:1600,20,3,Manabe
-Vinzent Monnerjahn,Simultaneous forming and joining by linear flow splitting - From basic mechanisms to the continuous manufacturing line,ictp-rpi-8,29/08/2017:1420,20,3,Kitamura
-Markus Michalski,Compression testing of martensitic stainless steel with superimposed ultrasonic vibration,ictp-rpi-8,01/09/2017:1140,20,3,Karodogan
-Xifeng Li,Effect of grain size on the superplastic deformation behavior of Ti-55 alloy,ictp-rpi-3,30/08/2017:1120,20,3,Bressan
-Sebastian Hensel,Process design for the shaping of sandwich sheets with sensor and actuator functionality,ictp-rpi-9,31/08/2017:1020,20,3,Utsunomiya
-Ehsan Ghassemali,Hall-Petch equation in a hypoeutectic Al-Si cast alloy: grain size vs. secondary dendrite arm spacing,ictp-rpi-9,01/09/2017:1100,20,3,Poole
-Olga Bylya,Modelling challenges for incremental bulk processes despite advances in simulation technology: example issues and approaches,ictp-rpi-7,01/09/2017:1440,20,3,S Yuan
-Hiroshi Utsunomiya,Formation of Roll Coating in Cold Rolling of Titanium Sheets,ictp-rpi-2,01/09/2017:0940,20,3,Montmitonnet
-Matthias Eder,Process-integrated compensation of geometrical deviations for bulk forming,ictp-rpi-5,31/08/2017:1600,20,3,J-X Xie
-Ce Liang,Optimization of the UltraSTEEL dimpling forming process for energy absorption,ictp-rpi-4,31/08/2017:1120,20,3,Altan
-"Yongquan Ning,Bingchao Xie,Zekun Yao,Hongzhen Guo,M.W. Fu",The cliff-valley approach in the P-maps of PM/W joints for manufacturing the dual-alloys turbine disc,ictp-rpi-2,29/08/2017:1520,20,3,Yanagimoto
-"Xinkai Ma,Fuguo Li",Effect of strain reversal on microstructure and mechanical properties of Ti-6Al-4V alloy under cyclic torsion deformation,ictp-rpi-1,01/09/2017:1520,20,3,Rosochowski
-Takeshi Uemori,Theoretical predictions of fracture and springback for high tensile strength steel sheets under stretch bending,ictp-rpi-7,31/08/2017:1500,20,3,Takahashi
-Weijuan Li,Internal Friction Study of Aging Hardening and Kinetics in Low Carbon Steel,ictp-rpi-7,29/08/2017:1340,20,3,Bambach
-"Anees Al-tamimi,Roohoolamin Darvizeh,Keith Davey",Scaling of metal forming processes,ictp-rpi-5,01/09/2017:1520,20,3,Loukaides
-Guangchun WANG,Numerical Simulation and Experimental Investigation on the gear rolling process,ictp-rpi-3,29/08/2017:1320,20,3,Ou
-Yasuhiro Yogo,Stress-strain curve of pure aluminum in a super large strain range with strain rate and temperature dependency,ictp-rpi-5,31/08/2017:1040,20,3,F Yoshida
-Tianjiao Liu,Experimental investigations for electric heating rotary stretch bending process of extruded Ti-6Al-4V Alloy profile with T-section,ictp-rpi-6,31/08/2017:1020,20,3,Oldenburg
-Takayuki Hama,Time-dependent springback of a commercially pure titanium sheet,ictp-rpi-4,29/08/2017:1300,20,3,Lin
-Tsuyoshi Muraoka,Proposal of a numerical model using the finite element analysis of pilger rolling for improvement of computation precision and efficiency,ictp-rpi-7,01/09/2017:1500,20,3,S Yuan
-Yukio Takashima,Flange width alteration in universal rolling for production of T-bars with diverse section sizes,ictp-rpi-2,01/09/2017:1220,20,3,Montmitonnet
-Shinya Yamaguchi,Work roll shifting method by optimum calculation of work roll profile in hot strip rolling,ictp-rpi-8,30/08/2017:1400,20,3,Pesin
-Bingchao Xie,Deformation behavior and microstructure evolution of two typical structures in Udimet 720Li ingot,ictp-rpi-2,29/08/2017:1300,20,3,Yanagimoto
-Yanxiong Liu,Investigation of a novel modified die design for fine-blanking process to reduce the die-roll size,ictp-rpi-4,30/08/2017:1520,20,3,Zhao
-Jintao Li,The evolution of microtexture of pipeline steel from strip to bare pipe to coated pipe,ictp-rpi-6,29/08/2017:1720,20,3,Gronotstajski
-Pengfei Gao,"Formation mechanism, prediction and control of the forming defects in transitional region during local loading forming of Ti-alloy rib-web component",ictp-rpi-5,31/08/2017:1620,20,3,J-X Xie
-Baodong Shi,Thermodynamically consistent directional distortional hardening of Mg alloy: experiments and constitutive modeling,ictp-rpi-6,31/08/2017:1440,20,3,Madej
-Yi MENG,Effects of backwards thixo-extrusion on the microstructure and mechanical properties of Mg–8.20Gd–4.48Y–3.34Zn–0.36Zr alloy,ictp-rpi-2,30/08/2017:1600,20,3,Fratini
-"Xuemei Yang,Hongzhen Guo,Yongquan Ning",Quantitative analysis of the effect of deformation temperature on microstructural evolution and mechanical property of isothermally forged BT25y titanium alloy,ictp-rpi-4,29/08/2017:1700,20,3,Bruschi
-Suwat Jirathearanat,Successive Forming of Multi-thickness Plates by Using Wedge-shaped Tool,ictp-rpi-3,29/08/2017:1620,20,3,Merklein
-Tomohiro Kamiura,Study on effect of strain rate on elongation in advanced high strength steel,ictp-rpi-9,30/08/2017:1520,20,3,Cazacu
-Amos Gilat,Full-Field Measurement of Strain and Temperature in Quasi-Static and Dynamic Tensile Tests on Stainless Steel 316L,ictp-rpi-9,30/08/2017:1540,20,3,Cazacu
-Shuyong Jiang,Mechanisms of nanocrystallization and amorphization of NiTiNb shape memory alloy subjected to severe plastic deformation,ictp-rpi-3,31/08/2017:1520,20,3,Lohmar
-Yanqiu Zhang,Plastic deformation mechanisms of NiTiFe shape memory alloy subjected to equal channel angular extrusion,ictp-rpi-3,31/08/2017:1540,20,3,Lohmar
-Shinobu Narita,Effect of Hardening Rule for Spring Back Behavior of Forging,ictp-rpi-5,31/08/2017:1120,20,3,F Yoshida
-Xincun Zhuang,Parameter calibration of ductile fracture criterion considering computational efficiency and accuracy,ictp-rpi-6,01/09/2017:1400,20,3,Bouchard
-Cunsheng Zhang,Experimental and numerical investigations on transverse weld of hollow aluminum profile during porthole extrusion process,ictp-rpi-2,30/08/2017:1100,20,3,Bay
-"Ali Mamedov,Hakan Ozturk",Investigation of Mechanical and Microstructural Properties of Ti-6Al-4V Alloy Depending on Hot Forging Process Parameters,ictp-rpi-4,29/08/2017:1620,20,3,Bruschi
-Xinbing Yun,Effect of Billet Preheating Temperature on Continuous Extrusion Forming of Al-Sr Alloy,ictp-rpi-6,30/08/2017:1200,20,3,Ngaile
-Takahiro Ohashi,Rib-Structures on A5083 Aluminum Alloy Sheet Generated by Friction Stir Forming,ictp-rpi-3,29/08/2017:1700,20,3,Merklein
-Huadong Fu,Enhancement of Superelasticity in Fe-Ni-Co Based Shape Memory Alloys by Microstructure and Texture Control,ictp-rpi-3,31/08/2017:1600,20,3,Lohmar
-Keith Davey,Physical modelling for metal forming processes,ictp-rpi-5,01/09/2017:1540,20,3,Loukaides
-"Hai-Tao Jiao,Yun-Bo Xu","Effect of recrystallization annealing temperature on microstructure, texture and magnetic properties of non-oriented silicon steel produced by strip casting",ictp-rpi-7,01/09/2017:1000,20,3,Balan
-Firas Jarrar,Using Coupled Eulerian Lagrangian Formulation for Accurate Modeling of the Friction Stir Welding Process,ictp-rpi-2,30/08/2017:1400,20,3,Fratini
-Jin-Hwan Kim,Characterization of dynamic hardening behavior using acceleration information,ictp-rpi-9,31/08/2017:1600,20,3,Gronostajski
-Robby Mannens,Analysis of surface defects on industrial casting tools for automotive applications after machine hammer peening,ictp-rpi-3,29/08/2017:1600,20,3,Merklein
-NULL,Analysis on heating performance and thermal forming of lightweight alloy using pulse current heating,ictp-rpi-7,29/08/2017:1320,20,3,Bambach
-Stefan Junk,Application of 3D (color) printing for the visualization and optimization of complex plastic forming proces,ictp-rpi-8,30/08/2017:1220,20,3,Ghiotti
-Yong LI,Effects of asymmetric creep-ageing behaviour on springback of AA2050-T34 after creep age forming,ictp-rpi-4,29/08/2017:1440,20,3,Lin
-Yeong-Maw Hwang,Study of Compound Hydroforming of Profiled Tubes,ictp-rpi-8,31/08/2017:1600,20,3,Qin
-Jianglin Huang,A Dynamic Model for Simulation of Hot Radial Forging Process,ictp-rpi-5,31/08/2017:1640,20,3,J-X Xie
-Zbigniew Gronostajski,Influence of the application of a PN+CrN hybrid layer on improvement of the lifetime of hot forging tools,ictp-rpi-5,01/09/2017:1120,20,3,C-G Kang
-Chris Nielsen,Overview of friction modelling in metal forming processes,ictp-rpi-1,01/09/2017:0940,20,3,Hyakawa
-Sergey Golovashchenko,Trimming and sheared edge stretchability of light weight sheet metal blanks,ictp-rpi-4,30/08/2017:1540,20,3,Zhao
-Yong Hou,Springback prediction of sheet metals using improved material models,ictp-rpi-5,31/08/2017:1140,20,3,F Yoshida
-Song Deng,Influence of hot ring rolling on uniform deformation of High-speed rail bearing ring,ictp-rpi-8,29/08/2017:1500,20,3,Hirt
-Baoyu Wang,Applying the damage constitutive model for predicting thermal deformation of AA7075 aluminum sheet,ictp-rpi-5,31/08/2017:1000,20,3,F Yoshida
-Keisuke YOKOYA,Deformation behavior of axially compressed aluminum polygonal tube,ictp-rpi-9,31/08/2017:1620,20,3,Gronostajski
-Andreas Sterzing,Hot forming of large spur gears,ictp-rpi-3,29/08/2017:1340,20,3,Ou
-Zhaobing Liu,Friction stir incremental forming of AA7075-O sheets: investigation on process feasibility,ictp-rpi-5,29/08/2017:1320,20,3,Doflou
-"Chunguo Xu,Hong Jin",Analysis and experimental study on compound mechanical bulging process for Medium-sized Vehicle Drive Axle Housing,ictp-rpi-3,01/09/2017:0940,20,3,Music
-"Zhengyang Cai,Min Wan",Evolving hardening behaviors of high strength steel sheets under altered loading paths,ictp-rpi-5,30/08/2017:1120,20,3,van den Boogaard
-Chuang Ren,Quantification analysis of the heterogeneity of microstructure of dual phase steel,ictp-rpi-7,01/09/2017:1020,20,3,Balan
-Ji-woo Park,A predictive model of flexibly-reconfigurable roll forming process using regression analysis.,ictp-rpi-4,31/08/2017:1000,20,3,Altan
-Ken-ichiro Mori,2-stage progressive-die hot stamping of ultra-high strength steel parts using resistance heating,ictp-rpi-7,29/08/2017:1620,20,3,Brosius
-Martin Krech,Controlling the sensor properties of smart structures produced by metal forming,ictp-rpi-3,01/09/2017:1520,20,3,Groche
-Guoqun Zhao,Study on the welding quality in the porthole die extrusion process of aluminum alloy profiles,ictp-rpi-7,31/08/2017:1000,20,3,Y-M Hwang
-Zhongkai Ren,Experimental study on transverse displacement of the metal during cold thin strip rolling,ictp-rpi-8,30/08/2017:1420,20,3,Pesin
-Yongqian Xu,Numerical simulation of temperature field in large integral panel during age forming process: Effect of autoclave characteristics,ictp-rpi-4,29/08/2017:1320,20,3,Lin
-Johannes Richter,Quality optimization for aluminum precision forging processes in completely enclosed dies of long forging parts by prediction and avoidance of thin flash generation,ictp-rpi-5,31/08/2017:1700,20,3,J-X Xie
-Evripides G. Loukaides,Toolpath generation for asymmetric mandrel-free spinning,ictp-rpi-6,01/09/2017:1220,20,3,Nagy
-Stefan Golling,Modelling of Plastic Deformation and Fracture in Hot Stamped Steel with Multi-Phase Microstructure,ictp-rpi-7,29/08/2017:1640,20,3,Brosius
-JOSE DIVO BRESSAN,Analysis of metal extrusion by the Finite Volume Method,ictp-rpi-7,31/08/2017:1140,20,3,Y-M Hwang
-Francisco Chinesta,Data-Driven Computational Plasticity,ictp-rpi-6,31/08/2017:1500,20,3,Madej
-Ruibin Gou,Research on grain feature parameters based on inhomogeneous plastic deformation in microstructure of ferrite/martensite dual phase steels,ictp-rpi-7,01/09/2017:1040,20,3,Balan
-Tatsuhiko Aizawa,Fine piercing of electromagnetic steel sheets by the plasma-nitrided tools,ictp-rpi-1,29/08/2017:1500,20,3,Furushima
-Markus Grüber,A strategy for the controlled setting of flatness and residual stress distribution in sheet metals via roller levelling,ictp-rpi-8,30/08/2017:1440,20,3,Pesin
-XiaoGuang Fan,Microstructure evolution in near isothermal forming of titanium alloy component,ictp-rpi-4,29/08/2017:1720,20,3,Bruschi
-Thoms Blohm,Basic study of incremental forming of serially arranged hybrid parts using cross-wedge rolling,ictp-rpi-1,31/08/2017:1600,20,3,Geijselaers
-Satoshi Sumikawa,Stress state dependency of unloading behavior in high strength steels,ictp-rpi-5,31/08/2017:1200,20,3,F Yoshida
-Zhutao Shao,The optimisation of cruciform specimen for the formability evaluation of AA6082 under hot stamping conditions,ictp-rpi-5,30/08/2017:1640,20,3,Mori
-Moonwoo La,Direct Metal to Metal Imprinting for developing 1-step Manufacturing Process of Patterned Metal Surface,ictp-rpi-1,29/08/2017:1420,20,3,Otsu
-Hideaki Furumoto,Reduction of off-centering at tail end caused by unstable work roll position with mill stabilizing device in hot rolling,ictp-rpi-2,01/09/2017:1000,20,3,Montmitonnet
-Jianlin Sun,The Distribution of Oil Film on Work Piece and Rollers in Cold Rolling Using O/W Emulsions,ictp-rpi-1,31/08/2017:1000,20,3,Matsumoto
-Lei Chen,The dependence of the tensile deformation behavior on the annealing temperature of a TRIP-aided lean duplex stainless steel,ictp-rpi-7,29/08/2017:1440,20,3,Bambach
-Lars Thyssen,Compensating geometric inaccuracies in incremental sheet forming at elevated temperatures,ictp-rpi-6,30/08/2017:1620,20,3,Homberg
-Pascal Fischer,A knowledge-based control system for the robust manufacturing of deep drawn parts,ictp-rpi-9,29/08/2017:1540,20,3,Chan
-Gang Niu,Hybrid nanostructure stainless steel with super-high strength and toughness,ictp-rpi-6,29/08/2017:1340,20,3,Pietrzyk
-Xudong Yan,Effects of lubricants on the rolling performances of cold rolled copper strips,ictp-rpi-1,31/08/2017:1020,20,3,Matsumoto
-Fei Feng,The research of electromagnetic incremental forming process of aluminum alloy sheet and the interaction between the die and the sheet,ictp-rpi-4,31/08/2017:1520,20,3,Golovashchenko
-Yasushi Maeda,Development of Flexible-Tailored Aluminum Sheet,ictp-rpi-8,30/08/2017:1500,20,3,Pesin
-Maciej Pietrzyk,Modelling and optimization of the manufacturing chain for rails,ictp-rpi-7,01/09/2017:1140,20,3,Balan
-José Azevedo,The deformation of metal powder particles: hardness and microstructure,ictp-rpi-4,01/09/2017:1140,20,3,Beygelzimer
-Esmeray Üstünyagiz,Continuous Strip Reduction Test Simulating Tribological Conditions in Ironing,ictp-rpi-1,01/09/2017:1140,20,3,Hyakawa
-Omer Music,Simulation of incremental sheet forming using partial sheet models,ictp-rpi-5,29/08/2017:1720,20,3,Manabe
-Rongchuang Chen,Austenite grain growth and grain size distribution in isothermal heat-treatment of 300M steel,ictp-rpi-7,29/08/2017:1500,20,3,Bambach
-Yo-Lun Yang,Experimental studies and constitutive modelling of anelastic creep recovery during creep age forming,ictp-rpi-4,29/08/2017:1340,20,3,Lin
-Yuguo An,A improved polycrystal plasticity model and its deployment in stretch forming for highly formable sheet steels,ictp-rpi-6,31/08/2017:1420,20,3,Madej
-Yağız Azizoğlu,Finite Element Analysis of cold pilgering using elastic roll dies,ictp-rpi-7,01/09/2017:1540,20,3,S Yuan
-Kailun Zheng,Investigation of the lubrication performance using WC: C coated tool surfaces for hot stamping AA6082,ictp-rpi-5,30/08/2017:1520,20,3,Mori
-Xiaoning Han,Optimal Design of Geometric Parameters for SPF/DB 3-layer Structures,ictp-rpi-3,30/08/2017:1140,20,3,Bressan
-Kai Han,One novel method to improve surface quality in incremental sheet forming,ictp-rpi-6,30/08/2017:1520,20,3,Homberg
-Yanli Song,Formability of aluminum alloy thin-walled cylinder parts by servo hot stamping,ictp-rpi-6,31/08/2017:1000,20,3,Oldenburg
-Tomohiko Hojo,Effects of Hydrogen on Tensile Properties at Slow Strain Rate of Ultra High-Strength TRIP-aided Bainitic Ferrite Steels,ictp-rpi-7,30/08/2017:1440,20,3,Tekkaya
-Yongfeng Li,Identification of advanced constitutive model parameters through global optimization approach for DP780 steel sheet,ictp-rpi-5,30/08/2017:1100,20,3,van den Boogaard
-Kazutake Komori,Improvement and validation of the ellipsoidal void model for predicting ductile fracture,ictp-rpi-1,30/08/2017:1220,20,3,Martins
-Ali Abd El-Aty,"Experimental investigation of tensile properties and anisotropy of 1420, 8090, and 2060 Al-Li alloys sheet undergoing different strain rates and fibre orientation: a comparative study",ictp-rpi-9,01/09/2017:1020,20,3,Poole
-Zeqi Hu,Welding Thermal Simulation and Metallurgical Characteristics Analysis in WAAM for 5CrNiMo Hot Forging Die Remanufacturing,ictp-rpi-3,30/08/2017:1600,20,3,Dean
-Xianxian Wang,A unique spinning method for grain refinement: repetitive shear spinning,ictp-rpi-8,01/09/2017:1540,20,3,Nagy
-Lei Mu,A Micromechanically-motivated Phenomenological Model for Predicting Ductile Fracture Initiation,ictp-rpi-6,01/09/2017:1500,20,3,Bouchard
-Qi Rong,Experimental studies and constitutive modelling of AA6082 in stress-relaxation age forming conditions,ictp-rpi-4,29/08/2017:1500,20,3,Lin
-Surangsee Dechjarern,Spinning Process Design Using Finite Element Analysis and Taguchi Method,ictp-rpi-6,01/09/2017:1240,20,3,Nagy
-Yong Sun,Determination of microstructure evolution in metallic components introduced by Chain-die forming,ictp-rpi-4,31/08/2017:1200,20,3,Altan
-Wenbin Zhou,A novel application of sideways extrusion to produce curved aluminium profiles: Feasibility study,ictp-rpi-8,30/08/2017:1100,20,3,Ghiotti
-jiuyang pei,FEM simulation and experimental study of four-channel continuous sheathing process for large diameter aluminum sheathed cable,ictp-rpi-7,31/08/2017:1200,20,3,Y-M Hwang
-"Chunju Wang,Bin Guo,Debin Shan",Investigations on mechanical properties of copper foil under ultrasonic vibration considering size effect,ictp-rpi-1,29/08/2017:1700,20,3,Furushima
-Kunio Hayakawa,A Joining Method of Shaft and Holed Part Using Plastic Deformation,ictp-rpi-8,29/08/2017:1320,20,3,Kitamura
-Yanle LI,Effects of ultrasonic vibration on deformation mechanism of incremental point-forming process,ictp-rpi-5,29/08/2017:1300,20,3,Doflou
-Hongliang Su,Investigation on the forming process and the shape control in electromagnetic flanging of aluminum alloy,ictp-rpi-4,31/08/2017:1540,20,3,Golovashchenko
-Chen Qiang,Isothermal Precision forging of magnesium alloy components with high performance,ictp-rpi-2,31/08/2017:1000,20,3,Misiolek
-Junghan Song,Effect of Pulsed Currents on the Springback Reduction of Ultra-High Strength Steels,ictp-rpi-2,01/09/2017:1520,20,3,Kinsey
-Liangyun Lan,Hot plastic deformation behavior and its effect on microstructure of low carbon multi-microalloyed steel,ictp-rpi-7,29/08/2017:1400,20,3,Bambach
-Dongsheng Qian,Experiment study on warm ring rolling of 52100 bearing steel coupling microstructure spheroidisation,ictp-rpi-8,29/08/2017:1520,20,3,Hirt
-Jiadong Deng,FE simulation and experiment study on flow forming of inner-splined flange,ictp-rpi-3,29/08/2017:1400,20,3,Ou
-Hongwei Li,Modeling of Forming Instability in In-plane Roll-bending Process by Considering Multi-modal Geometric Micro-defects of Strip,ictp-rpi-7,31/08/2017:1620,20,3,Takahashi
-Wujiao Xu,Surface roughness controlling of AA6061 sheet under uniaxial tension,ictp-rpi-8,30/08/2017:1520,20,3,Pesin
-Jieshi Chen,Theoretical prediction of high strength steel 22MnB5 forming limit in high temperature based on M-K model,ictp-rpi-3,31/08/2017:1100,20,3,Banabic
-Wei Feng,Effect of Relief-hole Diameter on Die Elastic Deformation during Cold Precision Forging of Helical Gears,ictp-rpi-3,29/08/2017:1420,20,3,Ou
-Fenggong Lyu,Numerical simulation for creep age forming of aluminium alloy 7050 saddle-shaped part,ictp-rpi-4,29/08/2017:1520,20,3,Lin
-Lukasz Madej,Discrete modelling techniques in application to generation of 3D synthetic microstructures of porous metallic materials,ictp-rpi-5,30/08/2017:1220,20,3,van den Boogaard
-Xianhong Han,Research on Q&P hot stamping process integrated with fractional cooling strategy,ictp-rpi-7,29/08/2017:1740,20,3,Brosius
-WOJCIECH MISIOLEK,Development of extrusion technology for magnesium alloy ZE20,ictp-rpi-6,30/08/2017:1140,20,3,Ngaile
-Zhengyi Jiang,Study of micro hydromechanical deep drawing of SUS304 circular cups by an ALE model,ictp-rpi-1,29/08/2017:1540,20,3,Furushima
-Minoru Yamashita,Hole Making Process of Metal and Composite Sheets by Impact Hydraulic Pressure,ictp-rpi-4,30/08/2017:1600,20,3,Zhao
-Xinping Chen,The Evaluation of Formability of the 3rd Generation Advanced High Strength Steels QP980 based on Digital Image Correlation Method,ictp-rpi-3,31/08/2017:1120,20,3,Banabic
-Han Wang,The effect of finish rolling temperature on the microstructure and properties of non-quenched and tempered Bainite steel,ictp-rpi-6,29/08/2017:1700,20,3,Gronotstajski
-Xin ZHANG,Experimental study and analysis on the electrically-assisted tensile behaviors of Inconel 718 alloy,ictp-rpi-2,01/09/2017:1540,20,3,Kinsey
-Akira Yanagida,Improvement of formability of AZ31magnesium alloy by repeated roll bending process,ictp-rpi-2,31/08/2017:1140,20,3,Misiolek
-Yuki Nakagawa,Reduction in length of transient region in successive forging of tailored blank for hot stamping of ultra-high strength steel parts,ictp-rpi-7,29/08/2017:1700,20,3,Brosius
-"Changhong Cai,Renbo Song,Shuai Liu,Yifan Feng,Zhongzheng Pei",Wear behavior and subsurface layer work hardening mechanism of Fe-24.1Mn-1.21C-0.48Si steel,ictp-rpi-1,01/09/2017:1220,20,3,Hyakawa
-Lili Guo,Modeling the microstructure evolution in AZ31 magnesium alloys during hot rolling,ictp-rpi-2,31/08/2017:1200,20,3,Misiolek
-Jun HU,Impact effect of superimposed ultrasonic vibration on material characteristics in compression tests,ictp-rpi-1,29/08/2017:1720,20,3,Furushima
-Haiyan Zhang,Microstructure evolution of IN718 alloy during the delta process,ictp-rpi-2,29/08/2017:1320,20,3,Yanagimoto
-ping lu,Research on Natural Element Method and the application to simulate metal forming processes,ictp-rpi-5,01/09/2017:1600,20,3,Loukaides
-Chen Yin-Li,Study on Texture Evolution and Deformation Mechanism of the Cu-Ni-Si Alloy during Cold-rolling Treatment,ictp-rpi-2,29/08/2017:1400,20,3,Yanagimoto
-Xiawei FENG,An Advanced 3D Mathematical Model for a 6-high Tandem Cold Rolling Process,ictp-rpi-2,01/09/2017:1020,20,3,Montmitonnet
-Shunpei Kamitani,Improvement of surface quality of aluminum product in cold extrusion by using reuse tool with groove array formed on tool surface,ictp-rpi-7,31/08/2017:1020,20,3,Y-M Hwang
-Saijun Zhang,Finite Element formulation of a general asymmetrical yield function for pressure sensitive metals,ictp-rpi-6,31/08/2017:1540,20,3,Madej
-Konrad Perzynski,Evaluation of pulsed laser deposited thin films properties on the basis of the nanoindentation test,ictp-rpi-3,30/08/2017:1420,20,3,Dean
-Chaoyang Sun,Size effect affected deformation characteristics in micro deep drawing of TWIP domed-bottom cups,ictp-rpi-7,01/09/2017:0940,20,3,Balan
-Fumie Abe,Solidifying Behaviour of Metallic Powder in Selective Laser Melting Process,ictp-rpi-4,01/09/2017:1100,20,3,Beygelzimer
-Rajesh Jarugula,Hot deformation behavior of n-ODS-18Cr steel,ictp-rpi-6,31/08/2017:1400,20,3,Madej
-Soeren Gies,Effect of Workpiece Deformation on Joule Heat Losses in Electromagnetic Forming Coils,ictp-rpi-4,31/08/2017:1600,20,3,Golovashchenko
-Wataru Oba,Two-step forming for improvement of forming limit in rotary nosing with relieved die for reduction of tube tip,ictp-rpi-3,01/09/2017:1000,20,3,Music
-Alexander Pesin,Physical simulation of asymmetric sheet rolling process by multicycle shear-compression testing,ictp-rpi-1,01/09/2017:1620,20,3,Rosochowski
-Bing Li,Characteristics of Microstructure Evolution of Two-phase H62 Brass Alloy During Continuous Extrusion,ictp-rpi-2,29/08/2017:1540,20,3,Yanagimoto
-Denis Pustovoytov,Finite element simulation of extremely high shear strain during a single-pass asymmetric warm rolling of Al-6.2Mg-0.7Mn alloy sheets,ictp-rpi-1,01/09/2017:1440,20,3,Rosochowski
-Peter Christiansen,Predicting the onset of cracks in bulk metal forming by ductile damage criteria,ictp-rpi-6,01/09/2017:1420,20,3,Bouchard
-Xiaohui Chen,Effect of thermo-mechanical parameters on microstructure evolution of AZ91 magnesium alloy,ictp-rpi-2,31/08/2017:1020,20,3,Misiolek
-Z.X. Li,A modified Johnson-Cook model of as-quenched AA2219 considering negative to positive strain rate sensitivities over a wide temperature range,ictp-rpi-5,31/08/2017:1020,20,3,F Yoshida
-Min-A Woo,Numerical and experimental study on electrohydraulic forming process,ictp-rpi-9,30/08/2017:1120,20,3,Kinsey
-Haitao Jiang,The influence of Ca and Gd microalloying on microstructure and mechanical property of hot rolled Mg-3Al alloy,ictp-rpi-2,31/08/2017:1220,20,3,Misiolek
-Zhengyi Jiang,Effects of oil-in-water based nanolubricant containing TiO2 nanoparticles in hot rolling of 304 stainless steel,ictp-rpi-2,01/09/2017:1040,20,3,Montmitonnet
-Dmitri Tabakajew,Increasing The Efficiency Of Hot Mandrel Bending Of Pipe Elbows,ictp-rpi-8,30/08/2017:1120,20,3,Ghiotti
-"Jeong-Min Lee,Dae-Cheol Ko",A study on the process design of prepreg compression forming using rapid heating and cooling system,ictp-rpi-2,31/08/2017:1420,20,3,Huh
-Sam Coppieters,On Complete Solutions for the Problem of Diffuse Necking in Sheet Metal,ictp-rpi-1,30/08/2017:1100,20,3,Martins
-"Jeong-Min Lee,Dea-Cheol Ko",A characterisation of tool-ply friction behaviors in thermoplastic composite,ictp-rpi-2,31/08/2017:1440,20,3,Huh
-Zhengyi Jiang,Experimental and Numerical Study on Micro Deep Drawing with Aluminium-Copper Composite Material,ictp-rpi-1,29/08/2017:1640,20,3,Furushima
-Joung Sik Suh,Microstructures and mechanical properties of direct-extruded novel Mg alloys,ictp-rpi-2,31/08/2017:1040,20,3,Misiolek
-Ryota Ogura,Development of a novel resistance heating system for microforming by modifying surface of dies,ictp-rpi-1,29/08/2017:1400,20,3,Otsu
-Wontaek Lee,Radial forging of aluminum to the steel preform for the production of light-weighted wheel bearing outer race,ictp-rpi-1,31/08/2017:1620,20,3,Geijselaers
-Luca Quagliato,Material property of metal skin – sheet molding compound laminate structures for the production of lightweight vehicles body frame,ictp-rpi-9,31/08/2017:1040,20,3,Utsunomiya
-Marvin Laugwitz,Development of levelling strategies for heavy plates via controlled FE models,ictp-rpi-8,30/08/2017:1600,20,3,Pesin
-Tim Lehnert,Resource-efficient development of thermally highly resistant engine components of hybrid metal composites – experiments and numerical analysis,ictp-rpi-9,31/08/2017:1100,20,3,Utsunomiya
-Stefan Hannich,Front Face Flow Drilling of Lightweight Cast Materials,ictp-rpi-8,29/08/2017:1400,20,3,Kitamura
-Cyrille Dunant,A stable finite element method for computing combined plastic and damage behaviour,ictp-rpi-1,30/08/2017:1120,20,3,Martins
-Van Tuan DANG,POD surrogate models using adaptive sampling space parameters for springback optimization in sheet metal forming,ictp-rpi-7,31/08/2017:1440,20,3,Takahashi
-Thomas Mennecart,Analysis of the forming behaviour of in-situ drawn sandwich sheets,ictp-rpi-9,31/08/2017:1120,20,3,Utsunomiya
-Dipti Samantaray,Plastic deformation of SS 316LN: Thermo-mechanical and microstructural aspects,ictp-rpi-6,29/08/2017:1320,20,3,Pietrzyk
-Shakir Gatea,Deformation and fracture of AMC under different heat treatment conditions and its suitability for incremental sheet forming,ictp-rpi-6,30/08/2017:1540,20,3,Homberg
-Kenji Fuchiwaki,Prediction of die-roll in fine blanking by use of profile parameters,ictp-rpi-4,30/08/2017:1620,20,3,Zhao
-Yanjin Guan,Study on ultrasonic vibration assisted upsetting of 6063 aluminum alloy,ictp-rpi-2,29/08/2017:1740,20,3,Osakada
-Benjamin Lossen,Friction-Spinning – Possibility of Grain Structure Adjustment,ictp-rpi-3,01/09/2017:1020,20,3,Music
-Rong Zeng,Influence of strain induced grain boundary migration on grain growth of 300M during static and meta-dynamic recrystallization,ictp-rpi-5,31/08/2017:1540,20,3,J-X Xie
-Wei JIANG,Development of Friction Stir Incremental Forming Process Using Penetrating Tool,ictp-rpi-5,29/08/2017:1340,20,3,Doflou
-Sergei Alexandrov,Extension of Orowan’s method to analysis of rolling of three-layer sheets,ictp-rpi-2,01/09/2017:1100,20,3,Montmitonnet
-Christoph Dahnke,Thermally activated lightweight actuator based on hot extruded shape memory metal matrix composites (SMA-MMC),ictp-rpi-3,31/08/2017:1620,20,3,Lohmar
-Marcel Moghadam,Acoustic emission monitoring of the bending under tension test,ictp-rpi-3,01/09/2017:1540,20,3,Groche
-Wenzheng DONG,Investigation on dimple defect mechanism in solid boss forming process by plate forging,ictp-rpi-3,29/08/2017:1720,20,3,Merklein
-Mohd Hafis Sulaiman,Influence of tool texture on friction and lubrication in strip reduction,ictp-rpi-1,01/09/2017:1000,20,3,Hyakawa
-Cheng Cheng,Size effect on the forming limit of sheet metal in micro-scaled plastic deformation considering free surface roughening,ictp-rpi-1,29/08/2017:1340,20,3,Otsu
-Olexandr Grydin,Impact of steel substrate pre-heating on microstructure and properties of twin-roll cast aluminium-steel clad strips,ictp-rpi-1,31/08/2017:1700,20,3,Geijselaers
-Michihiko Hoshino,Investigation of Clad Wire Production by Conclad Extrusion with Twin Wheels,ictp-rpi-6,30/08/2017:1100,20,3,Ngaile
-Kristof Denys,On the characterisation of a generic strain hardening model beyond the onset of necking.,ictp-rpi-6,31/08/2017:1600,20,3,Madej
-"SEN CONG,WEIWEI ZHANG",Analysis on Ultrasonic TOFD Imaging Testing for Ultra-thick-walled EBW Joint of Aluminum Alloy,ictp-rpi-9,29/08/2017:1320,20,3,Kuwabara
-"Wuhao Zhuang,Xinghui Han",Differences between traditional cold forging and cold orbital forging of a spur bevel gear,ictp-rpi-2,29/08/2017:1640,20,3,Osakada
-Huiping QI,Research Status and Developing Trends on the Ring Rolling Process of Profile Ring Parts,ictp-rpi-8,29/08/2017:1740,20,3,Hirt
-Yi Qin,Forming of Miniature Components from Powders by Combining Field-activated Sintering and Micro-Forming,ictp-rpi-4,01/09/2017:1200,20,3,Beygelzimer
-Luen Chow Chan,Compressive Behaviours of Raw and Cased Porous Magnesium-alloys determined by X-ray CT,ictp-rpi-6,29/08/2017:1400,20,3,Pietrzyk
-Lehua Qi,Fabrication and Characterization of Aligned Carbon Nanotubes Cluster Reinforced Magnesium Composite Based On Ultrasound/Magnetic Compound Field,ictp-rpi-2,31/08/2017:1500,20,3,Huh
-Senyong Chen,Testing an Injection Forging Process for the Production of Automotive Fasteners,ictp-rpi-5,01/09/2017:1040,20,3,C-G Kang
-Wennan Yuan,Prediction of Forming Limit Curves for 2021 Aluminum Alloy,ictp-rpi-3,31/08/2017:1020,20,3,Banabic
-Minki Kim,Effect of Pre-strain on Tensile Properties of Al5052-H32 under an Electropulsing Condition,ictp-rpi-2,01/09/2017:1600,20,3,Kinsey
-Zhaohua Li,Microstructure refinement by tool rotation-induced vibration in incremental sheet forming,ictp-rpi-5,29/08/2017:1400,20,3,Doflou
-Ali Mousavi,"Deep drawing process without lubrication – an adapted tool for a stable, economic and environmentally friendly process",ictp-rpi-9,29/08/2017:1600,20,3,Chan
-Marc Tulke,Principle and setup for characterization of material parameters for high speed forming and cutting,ictp-rpi-9,30/08/2017:1600,20,3,Cazacu
-Eugen Wiens,Internal Flow-Turning – a new approach for the manufacture of tailored tubes with a constant external diameter,ictp-rpi-3,01/09/2017:1040,20,3,Music
-Vitalii Vorkov,Accurate prediction of large radius air bending using regression,ictp-rpi-6,01/09/2017:1100,20,3,Galdos
-Masanobu Umeda,General Step Reduction Method for Knowledge-based Process Planning of Non-Axisymmetrical Forged Products,ictp-rpi-2,29/08/2017:1700,20,3,Osakada
-Federico Faini,Study of void closure in hot rolling of stainless steel slabs,ictp-rpi-2,01/09/2017:1140,20,3,Montmitonnet
-Stephan Hojda,Damage dependent material properties in a Finite Element Simulation of a hybrid forward extrusion process,ictp-rpi-7,31/08/2017:1220,20,3,Y-M Hwang
-Alexander Chugreev,Numerical and experimental investigations of the anisotropic transformation strains during martensitic transformation in a low alloy Cr-Mo steel 42CrMo4,ictp-rpi-6,29/08/2017:1520,20,3,Gronotstajski
-Weikang Liang,Investigation on temperature uniformity of blanks by conduction heating,ictp-rpi-6,31/08/2017:1040,20,3,Oldenburg
-Xiao SONG,Identification of forming limits at fracture of DP600 sheet metal under linear and unloaded non-linear strain paths,ictp-rpi-3,31/08/2017:1140,20,3,Banabic
-Gabriele Allegri,Driver roll speed influence in Ring Rolling process,ictp-rpi-8,29/08/2017:1540,20,3,Hirt
-Moritz Micke-Camuz,Development of a Combined Process of Organic Sheet Forming and GMT Compression Molding,ictp-rpi-2,31/08/2017:1520,20,3,Huh
-SHI JIE BRYAN BIN,Effect of severe plastic deformation and post-annealing on the mechanical properties and bio-corrosion rate of AZ31 magnesium alloy,ictp-rpi-1,01/09/2017:1540,20,3,Rosochowski
-Manikandan Ganapathy,Investigation of a new hot stamping process with improved formability and productivity,ictp-rpi-6,31/08/2017:1200,20,3,Oldenburg
-Benjamin Klusemann,Application of Adaptive Element-Free Galerkin Method to Simulate Friction Stir Welding of Aluminum,ictp-rpi-2,30/08/2017:1420,20,3,Fratini
-Andrzej Rosochowski,New method of producing tailored blanks with constant thickness,ictp-rpi-1,30/08/2017:1600,20,3,Ishikawa
-Chao-Cheng Chang,Fabrication of Micro Metal Parts by Forging Process Combined with Powder Pressing,ictp-rpi-4,01/09/2017:1120,20,3,Beygelzimer
-Kavesary Raghavan,Rate Effects on Transformation Kinetics in an Evolving Duplex Stainless Steel,ictp-rpi-9,30/08/2017:1620,20,3,Cazacu
-Wolfram Volk,Investigation and compensation of biaxial pre-strain during the standard Nakajima- and Marciniak-test using Generalized Forming Limit Concept,ictp-rpi-3,31/08/2017:1200,20,3,Banabic
-Markus Bambach,Towards virtual deformation dilatometry for the design of hot stamping process,ictp-rpi-6,29/08/2017:1540,20,3,Gronotstajski
-Lander Galdos,Characterization of Ti64 forging friction factor using ceramic coatings and different contact conditions,ictp-rpi-1,31/08/2017:1120,20,3,Matsumoto
-Eneko Saenz de Argandoña,Numerical simulation of U-Drawing test of Fortiform 1050 steel using different material models,ictp-rpi-5,30/08/2017:1140,20,3,van den Boogaard
-Yohei Abe,Assembly of ultra-high strength steel hollow part by hemming using pre-bent inner sheet,ictp-rpi-8,31/08/2017:1040,20,3,R S Lee
-Kenji Hirota,Mechanical joining of shaft and holed disc in rotational and axial directions,ictp-rpi-8,31/08/2017:1100,20,3,R S Lee
-NULL,Outwards and inwards crimping of tube ends by single-point incremental forming,ictp-rpi-6,30/08/2017:1600,20,3,Homberg
-Yusuke Tsunemi,Crystal plasticity analysis of anisotropic work hardening behavior in IF steel,ictp-rpi-7,01/09/2017:1120,20,3,Balan
-Lei Deng,Springback and hardness of aluminum alloy sheet part manufactured by warm forming process using non-isothermal dies,ictp-rpi-4,30/08/2017:1100,20,3,Y Lee
-Tomohiro Takaki,Evaluation of anti-galling property of sulfurized olefins with overbased calcium sulfonates on stainless steel by cup internal ironing test,ictp-rpi-1,01/09/2017:1200,20,3,Hyakawa
-Jun Chen,Numerical simulation and experiment study on the nuclear fuel spacer grid stamping of Inconel718,ictp-rpi-7,30/08/2017:1140,20,3,Volk
-Masanobu Murata,Identification of Ductile Fracture Parameter with Stress Correction Method Using Notched Round-Bar Tensile Test,ictp-rpi-6,01/09/2017:1520,20,3,Bouchard
-Ye Zhang,Experimental investigation on friction law under starved lubrication in metal forming,ictp-rpi-1,01/09/2017:1020,20,3,Hyakawa
-Ho Seon Joo,The effect of wire drawing and aging on mechanical and electrical properties of Cu-Cr-Zr alloy,ictp-rpi-2,29/08/2017:1600,20,3,Yanagimoto
-Yong Nam Kim,Effect of heat treatment and mandrel material on precision tube drawing of Ni-Ti shape memory alloy,ictp-rpi-3,31/08/2017:1640,20,3,Lohmar
-Baoyu Wang,Effect of mandrel diameter on non-circularity of hollow shafts in cross wedge rolling,ictp-rpi-7,01/09/2017:1600,20,3,S Yuan
-Mohanraj Murugesan,A Comparative Study of Ductile Damage Models Approaches for Joint Strength Prediction in Hot Shear Joining Process,ictp-rpi-1,31/08/2017:1640,20,3,Geijselaers
-Yoshihide Imamura,Investigation of forming accuracy in mandrel-free hot-spinning,ictp-rpi-6,01/09/2017:1200,20,3,Nagy
-Daisuke Nikkuni,Experimental study on material flow in cold rolling.,ictp-rpi-2,01/09/2017:1200,20,3,Montmitonnet
-Dongearn Kim,An Investigation of the trimming of boron nitride steel (22MnB5) during the die-quenching process,ictp-rpi-7,30/08/2017:1200,20,3,Volk
-Ersyzario Yunata,Plasma Polishing and Finishing of CVD-Diamond Coated WC(Co) Dies for Dry Stamping,ictp-rpi-3,30/08/2017:1440,20,3,Dean
-Haibo Wang,A novel roll-die forming technology and its FEM simulation,ictp-rpi-6,01/09/2017:0940,20,3,Groche
-Jaehong Kim,Hardness prediction of weldment in friction stir welding of AA6061 based on numerical approach,ictp-rpi-2,30/08/2017:1440,20,3,Fratini
-Sadao Miyazawa,Uniform Angle Distribution in V-Shaped Bending of Ultra-high Strength Steel Sheets Having Wall Thickness Distribution,ictp-rpi-6,01/09/2017:1120,20,3,Galdos
-Geunsu Joo,Modeling of rate-dependent hardening behaviors of the TWIP980 steel sheet in tension and compression,ictp-rpi-5,30/08/2017:1200,20,3,van den Boogaard
-Zhen Qian,Utilizing 2-D and 3-D simulations in assisting tooling design in Chain-die forming threshold product,ictp-rpi-4,31/08/2017:1020,20,3,Altan
-Shunsuke Sasaki,Influence of thermal history before hot working on hot workability of multi-phase steel,ictp-rpi-6,29/08/2017:1600,20,3,Gronotstajski
-Fumiya Nanjo,Spinning workability of Al-Mg-Si alloy extruded tube using the forming die,ictp-rpi-3,01/09/2017:1120,20,3,Music
-Lin XU,Galling mechanism in metal forming process with TRD coated die against advanced high strength steel sheet,ictp-rpi-1,31/08/2017:1100,20,3,Matsumoto
-Robert Schulte,Analysis of fundamental dependencies between manufacturing and processing Tailored Blanks in sheet-bulk metal forming processes,ictp-rpi-9,30/08/2017:1100,20,3,Kinsey
-Laura Conrads,Increasing the energy absorption capacity of structural components made of low alloy steel by combining strain hardening and local heat treatment,ictp-rpi-9,31/08/2017:1640,20,3,Gronostajski
-A. Erman Tekkaya,Material characterization for plane and curved sheets using the in-plane torsion test – an overview,ictp-rpi-9,29/08/2017:1500,20,3,Kuwabara
-Sang-Kon Lee,Study on hot multi-point forming process with cooling system for Al thick plate by using numerical analysis,ictp-rpi-3,29/08/2017:1740,20,3,Merklein
-Dongbin Wei,Simulations of hydro-mechanical deep drawing using Voronoi model and real microstructure model,ictp-rpi-1,29/08/2017:1520,20,3,Furushima
-Tim Rostek,Locally Graded Steel Materials for Self-Sharpening Cutting Blades,ictp-rpi-3,30/08/2017:1400,20,3,Dean
-Irina Sizova,Hot workability and microstructure evolution of pre-forms for forgings produced by additive manufacturing,ictp-rpi-4,01/09/2017:0940,20,3,Beygelzimer
-Margarita Doncheva Bambach,New process chains involving additive manufacturing and metal forming – a chance for saving energy?,ictp-rpi-4,01/09/2017:1000,20,3,Beygelzimer
-Peter Bella,On numerical modelling of multi-rifled tube drawing,ictp-rpi-7,01/09/2017:1620,20,3,S Yuan
-Eren Billur,A Potential Solution to Mystical Materials in Indentation Test,ictp-rpi-8,01/09/2017:1020,20,3,Karodogan
-Nooman Ben Khalifa,Investigation of New Tool Design for Incremental Profile Forming,ictp-rpi-3,01/09/2017:1140,20,3,Music
-Akihiro Nishino,Influence of Mechanical Characteristics of Epoxy on the Formability of CFRP Sheets under Different Temperatures,ictp-rpi-2,31/08/2017:1600,20,3,Huh
-Stefan Guenther,Investigation of a composite ring rolling process considering bonding behaviour in FEM and experiment,ictp-rpi-8,29/08/2017:1600,20,3,Hirt
-Simon Husmann,Investigations for an Automated Avoidance of Ring Climbing in Radial-Axial Ring Rolling,ictp-rpi-8,29/08/2017:1620,20,3,Hirt
-Sebastian Heibel,"Failure assessment in sheet metal forming using a phenomenological damage model and fracture criterion: experiments, parameter identification and validation",ictp-rpi-6,01/09/2017:1600,20,3,Bouchard
-Zongyuan Zou,Experiment Research on Tensile and Compression Cyclic Loading of Sheet Metal,ictp-rpi-9,29/08/2017:1340,20,3,Kuwabara
-Johannes Kreyca,Dissolution of hardening phases during deformation in an A6061 Aluminium alloy,ictp-rpi-9,01/09/2017:1200,20,3,Poole
-Yunwu Ma,Friction Self-Piercing Riveting (F-SPR) of Dissimilar Materials,ictp-rpi-8,29/08/2017:1340,20,3,Kitamura
-Mingwang Fu,Ductile fracture occurrence and analysis considering stress state and Zener–Hollomon parameter in hot deformation of metallic materials,ictp-rpi-6,01/09/2017:1540,20,3,Bouchard
-XU SONG,Numerical and Experimental Study of Micro Single Point Incremental Sheet Forming Process,ictp-rpi-5,29/08/2017:1700,20,3,Manabe
-Łukasz Morawiński,Determination of the formability limits for Grade 1 titanium sheet by means of ALSAD method,ictp-rpi-3,31/08/2017:1000,20,3,Banabic
-Zhusheng Shi,A new design of friction test rig and determination of friction coefficient when warm forming an aluminium alloy,ictp-rpi-1,01/09/2017:1040,20,3,Hyakawa
-Marco Haupt,Influence of Intercritical Annealing on Microstructure and Mechanical Properties of a Medium Manganese Steel,ictp-rpi-6,29/08/2017:1420,20,3,Pietrzyk
-Ken-ichi Manabe,Factors Influencing the Forming Characteristics in Micro Tube Hydroforming by Ultra High-Forming Pressure,ictp-rpi-8,31/08/2017:1620,20,3,Qin
-Shi-Hong ZHANG,Twinning and detwinning behaviors of Mg–3Al–1Zn sheets subjected to different loading paths,ictp-rpi-2,31/08/2017:1100,20,3,Misiolek
-Gabriel Centeno,On the utilization of circle grid analysis in thin-walled forming of tubes: experimental and numerical evaluation,ictp-rpi-3,01/09/2017:1200,20,3,Music
-Chris Mertin,Numerical and experimental investigations on the springback behaviour of stamping and bending parts,ictp-rpi-6,01/09/2017:1140,20,3,Galdos
-Celalettin Karadogan,A Novel and Simple Cruciform Specimen Without Slits On Legs Yet Higher Plastic Strains In Gauge,ictp-rpi-9,29/08/2017:1420,20,3,Kuwabara
-Benedikt Müller,Micro structuring of AlMg4.5Mn0.7 sheets by a warm forming process,ictp-rpi-1,29/08/2017:1620,20,3,Furushima
-Fusahito Yoshida,"Effects of temperature, forming speed and stress relaxation on springback in warm forming of high strength steel sheet",ictp-rpi-4,30/08/2017:1120,20,3,Y Lee
-Angela Quadfasel,Investigations on Springback in High Manganese TWIP-Steels using U-Profile Draw Bending,ictp-rpi-7,31/08/2017:1420,20,3,Takahashi
-Sergey Aksenov,Investigation of stress-strain behaviour of a sheet material using free bulging test,ictp-rpi-3,30/08/2017:1200,20,3,Bressan
-Chenhao Wang,FEM Investigation of Ductile Fracture Prediction in Two-Point Incremental Sheet Metal Forming process,ictp-rpi-5,29/08/2017:1740,20,3,Manabe
-Kai Wu,On Simulation Analysis of Plate Forming and Deformation Compensation Technology of the side roll for Four-roll Plate Bending Machine,ictp-rpi-7,31/08/2017:1640,20,3,Takahashi
-Ryutaro Hino,Experimental investigation of stretch flangeability of high-strength steel sheets by means of in-plane stretch bending,ictp-rpi-9,29/08/2017:1440,20,3,Kuwabara
-Koshiro Aoki,Characteristics of friction welding within a short time for aluminum alloy deformed by ECAE process,ictp-rpi-2,30/08/2017:1540,20,3,Fratini
-Yannis Korkolis,Ductile fracture of an Al-Si-Mg die-casting aluminum alloy,ictp-rpi-1,30/08/2017:1140,20,3,Martins
-Huiqin Chen,Hot deformation behavior and dynamic recrystallization of Mn18Cr18N steel with as-cast versus wrought starting structures,ictp-rpi-6,29/08/2017:1300,20,3,Pietrzyk
-Yujie Huang,Design and analysis of a pulsed electromagnetic blankholder system for electromagnetic forming,ictp-rpi-4,31/08/2017:1620,20,3,Golovashchenko
-Xiaochuan Liu,Determination of the interfacial heat transfer coefficient between AA7075 and different forming tools in hot stamping processes,ictp-rpi-5,30/08/2017:1540,20,3,Mori
-Qiaoling Wang,Anisotropy influence on flow behaviour and plastic instability of Ti6Al4V sheets deformed in a wide range of temperatures and strain rates,ictp-rpi-4,29/08/2017:1640,20,3,Bruschi
-Enrico Simonetto,Dynamic detection of tubes wrinkling in three roll push bending,ictp-rpi-8,30/08/2017:1140,20,3,Ghiotti
-Fumiaki Tamashiro,Cyclic and Biaxial Deformation Behavior for Bake-hardenable Steel Sheet,ictp-rpi-7,29/08/2017:1520,20,3,Bambach
-Jeremy Minton,Meta-Analysis of Curvature Trends in Asymmetric Rolling,ictp-rpi-8,30/08/2017:1620,20,3,Pesin
-Shohei Kajikawa,Molding of wood powder with a natural binder,ictp-rpi-2,31/08/2017:1620,20,3,Huh
-Fuxiang Zhang,Study of factors affecting simulation of static recrystallization of Ni-based superalloy using cellular automaton model,ictp-rpi-4,01/09/2017:1520,20,3,Shivpuri
-Liang Wang,An Online Dwell Time Optimization Method Based on Parts Performance for Hot Stamping,ictp-rpi-6,31/08/2017:1120,20,3,Oldenburg
-Wenchen Xu,Study on the dynamic recrystallization behavior of Ti-55 titanium alloy during hot compression based on Cellular Automaton model method,ictp-rpi-4,01/09/2017:1420,20,3,Shivpuri
-Verena Psyk,Process analysis for magnetic pulse welding of similar and dissimilar material sheet metal joints,ictp-rpi-9,30/08/2017:1140,20,3,Kinsey
-Yong Liu,Formability and lubrication of a B-pillar in hot stamping with 6061 and 7075 aluminum alloy sheets,ictp-rpi-5,30/08/2017:1600,20,3,Mori
-Zijian Wang,Hot stamped parts with desirable properties in medium Mn TRIP steels,ictp-rpi-7,29/08/2017:1720,20,3,Brosius
-Tuncay Yalcinkaya,Micromechanical Modelling of Size Effects in Microforming,ictp-rpi-1,29/08/2017:1300,20,3,Otsu
-Go Horikiri,Improvement in mechanical properties of semi-solid AA7075 aluminum alloys by Equal-Channel Angular Pressing,ictp-rpi-1,01/09/2017:1400,20,3,Rosochowski
-Zhipeng Lai,A comprehensive electromagnetic forming approach for large sheet metal forming,ictp-rpi-9,29/08/2017:1620,20,3,Chan
-"Qiang Wang,Zhimin Zhang",A novel backward extrusion process through rotating die and open punch,ictp-rpi-6,30/08/2017:1120,20,3,Ngaile
-Hiroyuki Kobayashi,In-situ observation of lubricant flow on laser textured die surface in sheet metal forming,ictp-rpi-3,30/08/2017:1620,20,3,Dean
-Carl LABERGERE,Modeling and numerical simulation of AA1050-O embossed sheet metal stamping,ictp-rpi-9,29/08/2017:1720,20,3,Chan
-Sławomir Polak,Warm forming of 7075 aluminum alloys,ictp-rpi-4,30/08/2017:1140,20,3,Y Lee
-Kevin Le Mercier,Quantitative analysis of galling in cold forging of a commercial Al-Mg-Si alloy,ictp-rpi-1,31/08/2017:1200,20,3,Matsumoto
-Motoki Terano,Influence of burnishing condition on static recrystallization of an iron sheet,ictp-rpi-6,29/08/2017:1440,20,3,Pietrzyk
-Jer-Ren Yang,Severe deformation of nanostructured bainitic steel,ictp-rpi-7,30/08/2017:1420,20,3,Tekkaya
-Claudio Giardini,The influence of process parameters on mechanical properties and corrosion behaviour of friction stir welded aluminum joints,ictp-rpi-2,30/08/2017:1500,20,3,Fratini
-Kwun Sing Tsang,Validation of a finite element model of the cold roll forming process on the basis of 3D geometric accuracy,ictp-rpi-4,31/08/2017:1040,20,3,Altan
-Alexander Sviridov,Creating load-adapted mechanical joints between tubes and sheets by controlling the material flow under plastically unstable tube upsetting,ictp-rpi-8,31/08/2017:1020,20,3,R S Lee
-Napat Vajragupta,Towards prediction of springback in deep drawing using a micromechanical modeling scheme,ictp-rpi-9,29/08/2017:1640,20,3,Chan
-Roman Kulagin,Modelling of High Pressure Torsion using FEM,ictp-rpi-1,30/08/2017:1640,20,3,Ishikawa
-Muhammad Imran,A new model for dynamic recrystallization under hot working conditions based on critical dislocation gradients,ictp-rpi-7,01/09/2017:1200,20,3,Balan
-Jinn-Jong Sheu,Die Designs of Cold Roll Forming Process for Car Bumper Using Advanced High Strength Steel,ictp-rpi-6,01/09/2017:1000,20,3,Groche
-Kazuhito Asai,Estimation of friction by using improved calibration carves of ring compression test for hot forging of steel,ictp-rpi-1,01/09/2017:1120,20,3,Hyakawa
-Tetsuo Oya,Material model based on stress-rate dependency related with non-associated flow rule for fracture prediction in metal forming,ictp-rpi-6,31/08/2017:1620,20,3,Madej
-S Ai,An analytical study of new material test method for tension under bending and compression in double side incremental forming,ictp-rpi-8,01/09/2017:1000,20,3,Karodogan
-Hendrik Wester,Numerical Investigation of the Oxide Scale Deformation Behaviour with Consideration of Carbon Content during Hot Forging,ictp-rpi-5,01/09/2017:1200,20,3,C-G Kang
-Christopher Cleaver,Incremental ring rolling to create conical profile rings,ictp-rpi-8,29/08/2017:1700,20,3,Hirt
-Chan Joo Lee,Failure mode dependent load bearing characteristics of mechanical clinching under mixed mode loading condition,ictp-rpi-8,29/08/2017:1300,20,3,Kitamura
-Xiang Ma,Co-extrusion of Dual Aluminum Alloys with Special Surface Properties,ictp-rpi-7,31/08/2017:1040,20,3,Y-M Hwang
-Ke Huang,The flow stress evolution and grain refinement mechanisms during hot deformation of Al-Mg alloy,ictp-rpi-9,01/09/2017:1120,20,3,Poole
-Mathias Liewald,New approach on controlling strain distribution manufactured in sheet metal components during deep drawing process,ictp-rpi-9,29/08/2017:1700,20,3,Chan
-GIANLUCA BUFFA,Al-SiC Metal Matrix Composite production through Friction Stir Extrusion of aluminum chips,ictp-rpi-7,31/08/2017:1100,20,3,Y-M Hwang
-Romina Conte,Incremental Sheet Forming of a composite made of thermoplastic matrix and glass-fiber reinforcement,ictp-rpi-5,29/08/2017:1620,20,3,Manabe
-Ares Gomez-Gallegos,Al-Li Alloys – The Analysis of Material Behaviour during Industrial Hot Forging,ictp-rpi-9,01/09/2017:1000,20,3,Poole
-Michael Krinninger,On the opportunities of problem- and process-adapted shear cutting simulations for effective process design,ictp-rpi-4,30/08/2017:1640,20,3,Zhao
-Olga Bylya,Applicability of JMAK-type model for predicting microstructural evolution in nickel-based superalloys,ictp-rpi-2,29/08/2017:1340,20,3,Yanagimoto
-Ludmila Kucerova,Comparison of thermo-mechanical treatment of C-Mn-Si-Nb and C-Mn-Si-Al-Nb TRIP steels,ictp-rpi-7,30/08/2017:1400,20,3,Tekkaya
-Sumit Hazra,The strain fields present during the bending of ultra-high strength steels,ictp-rpi-6,01/09/2017:1020,20,3,Groche
-Jong-Ning Aoh,Numerical Approach on the Reproduce of a Strip End Flip Phenomenon in Finishing Mill,ictp-rpi-8,30/08/2017:1640,20,3,Pesin
-Eric BECKER,THIXOFORGING OF LOW CARBON STEEL SAE1006 BACKWARD THIXOEXTRUSION,ictp-rpi-2,30/08/2017:1620,20,3,Fratini
-Saeed Tamimi,Modelling and experimentation of the evolution of texture in an Al-Mg alloy during earing cupping test,ictp-rpi-9,01/09/2017:0940,20,3,Poole
-Hiroshi Hamasaki,Stress Relaxation of AA5182-O Aluminum Alloy Sheet at Warm Temperature,ictp-rpi-4,30/08/2017:1200,20,3,Y Lee
-Van Bac Nguyen,Effects of cold roll dimpling process on mechanical properties of dimpled steel,ictp-rpi-4,31/08/2017:1140,20,3,Altan
-Daniel Staupendahl,The reciprocal effects of bending and torsion on springback during 3D bending of profiles,ictp-rpi-8,30/08/2017:1200,20,3,Ghiotti
-Muhammad Jawad Qarni,Influence of incremental ECAP on the microstructure and tensile behaviour of commercial purity titanium,ictp-rpi-1,01/09/2017:1600,20,3,Rosochowski
-Valentín Miguel,Influence of temperature on alloy Ti6Al4V formability during the warm SPIF process,ictp-rpi-6,30/08/2017:1640,20,3,Homberg
-Chiharu Nagano,Measurement and Analysis of the Elastic-Plastic Deformation Behavior of an Ultra-thin Austenitic Stainless Steel Sheet Subjected to In-plane Reverse Loading,ictp-rpi-8,01/09/2017:1120,20,3,Karodogan
-Xiaohui Cui,Reduction of springback in V-shaped parts using electromagnetic impulse calibration,ictp-rpi-5,29/08/2017:1420,20,3,Doflou
-Gracious Ngaile,Development of a Non-isothermal Forging Process for Hollow Axle Shafts,ictp-rpi-2,29/08/2017:1720,20,3,Osakada
-Brad Kinsey,Numerical and experimental investigation of formability enhancement during continuous-bending-under-tension (CBT) of AA6022-T4,ictp-rpi-8,01/09/2017:0940,20,3,Karodogan
-Tsuyoshi FURUSHIMA,Development of Compact Marchiniak Testing Apparatus for In-situ Microscopic Observation of Surface Roughening,ictp-rpi-1,29/08/2017:1740,20,3,Furushima
-Ming-Song Chen,Dynamic recrystallization behaviors of typical solution-treated and aged Ni-based superalloy under stepped strain rates,ictp-rpi-4,01/09/2017:1500,20,3,Shivpuri
-Xiao-Min Chen,Evolution of annealing twins in a hot deformed nickel-based superalloy,ictp-rpi-4,01/09/2017:1540,20,3,Shivpuri
-Y.C. Lin,Microstructure prediction of a nickel-based superalloy during multi-pass hot deformation,ictp-rpi-4,01/09/2017:1600,20,3,Shivpuri
-Ton van den Boogaard,Modelling of anelastic deformation in dual-phase steel for improved springback simulation,ictp-rpi-5,31/08/2017:1220,20,3,F Yoshida
-Yongchao Xu,Wrinkling control of aluminum alloy thinner curved sheet parts using double-layer sheets hydroforming,ictp-rpi-8,31/08/2017:1440,20,3,Qin
-Jun Jiang,An integrated method for net-shape manufacturing components combining additive manufacturing and compressive forming processes,ictp-rpi-4,01/09/2017:1020,20,3,Beygelzimer
-Christian Palm,Increasing performance of hot stamping systems,ictp-rpi-6,31/08/2017:1140,20,3,Oldenburg
-Taiki Maeda,Experimental Verification of the Tension-Compression Asymmetry of the Flow Stresses of a High Strength Steel Sheet,ictp-rpi-8,01/09/2017:1200,20,3,Karodogan
-NULL,Mirostructure and properties of laser welded joints of dual phase and press-hardened steels,ictp-rpi-2,30/08/2017:1140,20,3,Bay
-Jian Lan,The residual stress of the cold rolled bearing race,ictp-rpi-8,29/08/2017:1720,20,3,Hirt
-Gang Liu,Approach to Enhance Gas Bulging Formability of TA15 Titanium Alloy Tube Based on Dynamic Recrystallization,ictp-rpi-8,31/08/2017:1420,20,3,Qin
-Liwen Zhang,Numerical simulation of different types of voids closure in large continuous casting billet during multi-pass stretching process,ictp-rpi-5,01/09/2017:1220,20,3,C-G Kang
-Jie Zhao,Experimental and simulated analysis of texture evolution of TA15 titanium alloy sheet during hot tensile deformation at 750°C,ictp-rpi-4,29/08/2017:1740,20,3,Bruschi
-Entao Dong,Alpha-case kinetics and high temperature plasticity of Ti-6Al-4V alloy oxidized in different phase regions,ictp-rpi-4,29/08/2017:1600,20,3,Bruschi
-Hubert Geijselaers,Dry friction during sliding of AA1050 on AA2024 at elevated temperature,ictp-rpi-2,30/08/2017:1200,20,3,Bay
-Mario Thome,Calculation Tool and Closed Loop Control for the JCO® Pipe Forming Process,ictp-rpi-7,31/08/2017:1600,20,3,Takahashi
-Jan Palán,The microstructure and mechanical properties evaluation of UFG Titanium Grade 4 in relation to the technological aspects of the CONFORM SPD process,ictp-rpi-1,30/08/2017:1620,20,3,Ishikawa
-Chan Chin Wang,Determination of optimal shrink fitting ratio for 2-layer compound forging die by improving fatigue life in backward extrusion,ictp-rpi-3,30/08/2017:1640,20,3,Dean
-Wolfgang Förster,Enhancing the applicability of Al-Mg compounds by using forming and welding technologies,ictp-rpi-2,30/08/2017:1120,20,3,Bay
-Youngseon Lee,Characteristics of 8T-bolt manufactured by the Yield-Ratio-Control-Steel for Cold Former,ictp-rpi-5,01/09/2017:1000,20,3,C-G Kang
-Damien MAUDUIT,Industrial applications of the superplastic forming by using Infra-Red heater,ictp-rpi-3,30/08/2017:1220,20,3,Bressan
-Wojciech Presz,Application of semi-physical modeling of interface surface roughness in design of pre-stressed microforming dies,ictp-rpi-1,29/08/2017:1320,20,3,Otsu
-Jun Liu,Hot stamping of AA6082 tailor welded blanks for automotive applications,ictp-rpi-5,30/08/2017:1620,20,3,Mori
-Pierre-Olivier Bouchard,Analysis and modeling of the failure behavior of carbonitrided parts,ictp-rpi-1,30/08/2017:1200,20,3,Martins
-Oana Cazacu,New analytic criterion for FCC single crystals,ictp-rpi-4,01/09/2017:1400,20,3,Shivpuri
-Nitin Chandola,Prediction of anisotropy of textured sheets based on a new polycrystal model,ictp-rpi-6,31/08/2017:1700,20,3,Madej
-,,ictp-rpi-5,31/08/2017:1520,20,3,F Yoshida
-,,ictp-rpi-5,01/09/2017:0940,20,3,J-X Xie
-,,ictp-rpi-5,30/08/2017:1400,20,3,Allwood
-,,ictp-rpi-5,31/08/2017:1400,20,3,Allwood
-,,ictp-rpi-5,01/09/2017:1400,20,3,Allwood
-,,ictp-rpi-10,29/08/2017:1440,20,3,Serrenho
-,,ictp-rpi-10,30/08/2017:1500,20,3,Serrenho
-,,ictp-rpi-10,31/08/2017:1520,20,3,Serrenho
-,Poster Session,ictp-rpi-10,29/08/2017:1440,39,0,
-,Poster Session,ictp-rpi-10,30/08/2017:1500,39,0,
-,Poster Session,ictp-rpi-10,31/08/2017:1520,39,0,
-,Industry Workshop: Future car bodies,ictp-rpi-5,30/08/2017:1400,59,0,Professor Julian Allwood
-,Industry Workshop: Non-ferrous rolling,ictp-rpi-5,31/08/2017:1400,59,0,Professor Julian Allwood
-,Industry Workshop: Sustainability and metal forming,ictp-rpi-5,01/09/2017:1400,59,0,Professor Julian Allwood
-,Plenary Lecture,ictp-rpi-5,31/08/2017:0830,75,0,Professor Ken-Ichiro Mori
-,Plenary Lecture,ictp-rpi-6,31/08/2017:0830,75,0,Professor Ken-Ichiro Mori
-,Plenary Lecture,ictp-rpi-5,01/09/2017:0830,75,0,Professor Erman Tekkaya
-,Plenary Lecture,ictp-rpi-6,01/09/2017:0830,75,0,Professor Erman Tekkaya
+Jennifer Tenner,Numerical and experimental investigation of dry deep drawing of aluminium alloys with conventional and coated tool surfaces,ictp-rpi-1,20/09/2017:1140,15,4,Matsumoto
+Rasim Askin Dilan,An Online Intelligent Algorithm Pipeline for the Elimination of Springback Effect During Sheet Metal Bending,ictp-rpi-7,20/09/2017:1400,15,4,Takahashi
+Yanshan Lou,J2-J3 based anisotropic yield function under spatial loading,ictp-rpi-6,20/09/2017:1640,15,4,Madej
+Aravind U,The effect of using rubber for applying counter force in fine blanking of AISI 304 Stainless Steel,ictp-rpi-7,19/09/2017:1100,15,4,Volk
+Bingtao Tang,Numerical modeling and experimental verification of ductile damage in Boron steel hot stamping process,ictp-rpi-7,18/09/2017:1600,15,4,Brosius
+Binxian Yuan,A multi-deformable bodies solution method coupling finite element with meshless method in sheet metal flexible-die forming,ictp-rpi-8,20/09/2017:1400,15,4,Qin
+Ryo Matsumoto,Characterization of Surface Profile of Shot Peened Cemented Tungsten Carbide Dies with Micro Valleys and Their Lubrication Performance in Cold Forging,ictp-rpi-3,18/09/2017:1540,15,4,Merklein
+Yang Zhao,Influence of boron addition on microstructure and properties of a low-carbon cold rolled enamel steel,ictp-rpi-6,18/09/2017:1640,15,4,Gronotstajski
+Huiping Li,Analysis of phase transformation and blanking accuracy of B1500HS steel during hot blanking,ictp-rpi-7,19/09/2017:1120,15,4,Volk
+Ming-Jen Tan,Improving the mechanical properties of TIG welding Ti-6Al-4V by post weld heat treatment,ictp-rpi-7,18/09/2017:1300,15,4,Bambach
+Hongwu Song,Force Analysis during cold Pilgering process for Zircaloy alloy tube by both experiments and 3D FE simulation,ictp-rpi-7,21/09/2017:1400,15,4,S Yuan
+Shigeru Nagasawa,Tensile characteristics of glass fiber based single face board,ictp-rpi-2,20/09/2017:1400,15,4,Huh
+Toshinaka Shinbutsu,Thread rolling and performance evaluations of a new anti-loosening double thread bolt combining a single thread and multiple threads,ictp-rpi-3,18/09/2017:1300,15,4,Ou
+Quang-Cherng Hsu,Optimizing Design of Two-dimensional Forging Preform by Bi-directional Evolutionary Structural Optimization Method,ictp-rpi-5,21/09/2017:1140,15,4,C-G Kang
+Lei Zhao,Mechanism-based constitutive equations for superplastic forming of TA15 with equiaxed fine grain structure,ictp-rpi-3,19/09/2017:1100,15,4,Bressan
+Lei Zhao,An optimized neck-spinning method for improving the inner surface quality of titanium domes,ictp-rpi-8,21/09/2017:1600,15,4,Nagy
+Balasivanandha Prabu Shanmugavel,On the role of experimental variables in the Repetitive Corrugation and Straightening of an Al-Mg alloy,ictp-rpi-1,21/09/2017:1420,15,4,Rosochowski
+Heng-Sheng Lin,Stacking with cylindrical spots in lamination of stamped electrical steel sheets,ictp-rpi-8,20/09/2017:1120,15,4,R S Lee
+Rong Shean Lee,Development of Knowledge-Expandable Ontology-Based Expert System for Process Planning in Cold Forging of Flange Nuts,ictp-rpi-5,21/09/2017:1020,15,4,C-G Kang
+Marine Guillot,Shear forming of 304L stainless steel – microstructural aspects,ictp-rpi-8,21/09/2017:1520,15,4,Nagy
+Andrij Milenin,Physical and Numerical Modelling of Laser Dieless Drawing Process of Tubes from Magnesium Alloy,ictp-rpi-7,21/09/2017:1420,15,4,S Yuan
+Georg Falkinger,Static recovery of an AlMg4.5Mn aluminium alloy during multi-pass hot-rolling,ictp-rpi-9,21/09/2017:1140,15,4,Poole
+Felix Bauer,Investigation of a process simulation method for flexible clamping of sheet metal parts,ictp-rpi-7,20/09/2017:1540,15,4,Takahashi
+Jing-Hua Zheng,Constitutive modelling of a T74 multi-step creep ageing behaviour of AA7050 and its application to stress relaxation ageing in age formed aluminium components,ictp-rpi-4,18/09/2017:1420,15,4,Lin
+Vikram Bedekar,In-situ Neutron Diffraction Analysis of Crystal Plasticity of Retained Austenite in Bearing Steel,ictp-rpi-8,21/09/2017:1040,15,4,Karodogan
+Masaaki Otsu,Improvement of Forming Limit and Accuracy in Friction Stir Incremental Forming with Multistage Forming,ictp-rpi-5,18/09/2017:1540,15,4,Manabe
+Martin Rosenschon,Process-oriented validation of hardening models in a cyclic bending test,ictp-rpi-9,18/09/2017:1300,15,4,Kuwabara
+Sebastian Müller,Plastic Deformability at Micro-Scale of Fiber-Reinforced Ceramics with Porous Matrix during Grinding,ictp-rpi-2,20/09/2017:1640,15,4,Huh
+Masato Okada,Development of optical-heating-assisted incremental forming method for CFRTP sheet - Fundamental forming characteristics in spot-forming.,ictp-rpi-5,18/09/2017:1600,15,4,Manabe
+Vinzent Monnerjahn,Simultaneous forming and joining by linear flow splitting - From basic mechanisms to the continuous manufacturing line,ictp-rpi-8,18/09/2017:1420,15,4,Kitamura
+Markus Michalski,Compression testing of martensitic stainless steel with superimposed ultrasonic vibration,ictp-rpi-8,21/09/2017:1140,15,4,Karodogan
+Xifeng Li,Effect of grain size on the superplastic deformation behavior of Ti-55 alloy,ictp-rpi-3,19/09/2017:1120,15,4,Bressan
+Sebastian Hensel,Process design for the shaping of sandwich sheets with sensor and actuator functionality,ictp-rpi-9,20/09/2017:1020,15,4,Utsunomiya
+Ehsan Ghassemali,Hall-Petch equation in a hypoeutectic Al-Si cast alloy: grain size vs. secondary dendrite arm spacing,ictp-rpi-9,21/09/2017:1100,15,4,Poole
+Olga Bylya,Modelling challenges for incremental bulk processes despite advances in simulation technology: example issues and approaches,ictp-rpi-7,21/09/2017:1440,15,4,S Yuan
+Hiroshi Utsunomiya,Formation of Roll Coating in Cold Rolling of Titanium Sheets,ictp-rpi-2,21/09/2017:0940,15,4,Montmitonnet
+Matthias Eder,Process-integrated compensation of geometrical deviations for bulk forming,ictp-rpi-5,20/09/2017:1600,15,4,J-X Xie
+Ce Liang,Optimization of the UltraSTEEL dimpling forming process for energy absorption,ictp-rpi-4,20/09/2017:1120,15,4,Altan
+Yongquan Ning,The cliff-valley approach in the P-maps of PM/W joints for manufacturing the dual-alloys turbine disc,ictp-rpi-2,18/09/2017:1520,15,4,Yanagimoto
+Xinkai Ma,Effect of strain reversal on microstructure and mechanical properties of Ti-6Al-4V alloy under cyclic torsion deformation,ictp-rpi-1,21/09/2017:1520,15,4,Rosochowski
+Takeshi Uemori,Theoretical predictions of fracture and springback for high tensile strength steel sheets under stretch bending,ictp-rpi-7,20/09/2017:1500,15,4,Takahashi
+Weijuan Li,Internal Friction Study of Aging Hardening and Kinetics in Low Carbon Steel,ictp-rpi-7,18/09/2017:1340,15,4,Bambach
+Anees Al-tamimi,Scaling of metal forming processes,ictp-rpi-5,21/09/2017:1520,15,4,Loukaides
+Guangchun Wang,Numerical Simulation and Experimental Investigation on the gear rolling process,ictp-rpi-3,18/09/2017:1320,15,4,Ou
+Yasuhiro Yogo,Stress-strain curve of pure aluminum in a super large strain range with strain rate and temperature dependency,ictp-rpi-5,20/09/2017:1040,15,4,F Yoshida
+Tianjiao Liu,Experimental investigations for electric heating rotary stretch bending process of extruded Ti-6Al-4V Alloy profile with T-section,ictp-rpi-6,20/09/2017:1020,15,4,Oldenburg
+Takayuki Hama,Time-dependent springback of a commercially pure titanium sheet,ictp-rpi-4,18/09/2017:1300,15,4,Lin
+Tsuyoshi Muraoka,Proposal of a numerical model using the finite element analysis of pilger rolling for improvement of computation precision and efficiency,ictp-rpi-7,21/09/2017:1500,15,4,S Yuan
+Yukio Takashima,Flange width alteration in universal rolling for production of T-bars with diverse section sizes,ictp-rpi-2,21/09/2017:1220,15,4,Montmitonnet
+Shinya Yamaguchi,Work roll shifting method by optimum calculation of work roll profile in hot strip rolling,ictp-rpi-8,19/09/2017:1400,15,4,Pesin
+Bingchao Xie,Deformation behavior and microstructure evolution of two typical structures in Udimet 720Li ingot,ictp-rpi-2,18/09/2017:1300,15,4,Yanagimoto
+Yanxiong Liu,Investigation of a novel modified die design for fine-blanking process to reduce the die-roll size,ictp-rpi-4,19/09/2017:1520,15,4,Zhao
+Jintao Li,The evolution of microtexture of pipeline steel from strip to bare pipe to coated pipe,ictp-rpi-6,18/09/2017:1720,15,4,Gronotstajski
+Pengfei Gao,"Formation mechanism, prediction and control of the forming defects in transitional region during local loading forming of Ti-alloy rib-web component",ictp-rpi-5,20/09/2017:1620,15,4,J-X Xie
+Baodong Shi,Thermodynamically consistent directional distortional hardening of Mg alloy: experiments and constitutive modeling,ictp-rpi-6,20/09/2017:1440,15,4,Madej
+Yi Meng,Effects of backwards thixo-extrusion on the microstructure and mechanical properties of Mg–8.20Gd–4.48Y–3.34Zn–0.36Zr alloy,ictp-rpi-2,19/09/2017:1600,15,4,Fratini
+Xuemei Yang,Quantitative analysis of the effect of deformation temperature on microstructural evolution and mechanical property of isothermally forged BT25y titanium alloy,ictp-rpi-4,18/09/2017:1700,15,4,Bruschi
+Suwat Jirathearanat,Successive Forming of Multi-thickness Plates by Using Wedge-shaped Tool,ictp-rpi-3,18/09/2017:1620,15,4,Merklein
+Tomohiro Kamiura,Study on effect of strain rate on elongation in advanced high strength steel,ictp-rpi-9,19/09/2017:1520,15,4,Cazacu
+Amos Gilat,Full-Field Measurement of Strain and Temperature in Quasi-Static and Dynamic Tensile Tests on Stainless Steel 316L,ictp-rpi-9,19/09/2017:1540,15,4,Cazacu
+Shuyong Jiang,Mechanisms of nanocrystallization and amorphization of NiTiNb shape memory alloy subjected to severe plastic deformation,ictp-rpi-3,20/09/2017:1520,15,4,Lohmar
+Yanqiu Zhang,Plastic deformation mechanisms of NiTiFe shape memory alloy subjected to equal channel angular extrusion,ictp-rpi-3,20/09/2017:1540,15,4,Lohmar
+Shinobu Narita,Effect of Hardening Rule for Spring Back Behavior of Forging,ictp-rpi-5,20/09/2017:1120,15,4,F Yoshida
+Xincun Zhuang,Parameter calibration of ductile fracture criterion considering computational efficiency and accuracy,ictp-rpi-6,21/09/2017:1400,15,4,Bouchard
+Cunsheng Zhang,Experimental and numerical investigations on transverse weld of hollow aluminum profile during porthole extrusion process,ictp-rpi-2,19/09/2017:1100,15,4,Bay
+"Ali Mamedov,Hakan Ozturk",Investigation of Mechanical and Microstructural Properties of Ti-6Al-4V Alloy Depending on Hot Forging Process Parameters,ictp-rpi-4,18/09/2017:1620,15,4,Bruschi
+Xinbing Yun,Effect of Billet Preheating Temperature on Continuous Extrusion Forming of Al-Sr Alloy,ictp-rpi-6,19/09/2017:1200,15,4,Ngaile
+Takahiro Ohashi,Rib-Structures on A5083 Aluminum Alloy Sheet Generated by Friction Stir Forming,ictp-rpi-3,18/09/2017:1700,15,4,Merklein
+Huadong Fu,Enhancement of Superelasticity in Fe-Ni-Co Based Shape Memory Alloys by Microstructure and Texture Control,ictp-rpi-3,20/09/2017:1600,15,4,Lohmar
+Keith Davey,Physical modelling for metal forming processes,ictp-rpi-5,21/09/2017:1540,15,4,Loukaides
+"Hai-Tao Jiao,Yun-Bo Xu","Effect of recrystallization annealing temperature on microstructure, texture and magnetic properties of non-oriented silicon steel produced by strip casting",ictp-rpi-7,21/09/2017:1000,15,4,Balan
+Firas Jarrar,Using Coupled Eulerian Lagrangian Formulation for Accurate Modeling of the Friction Stir Welding Process,ictp-rpi-2,19/09/2017:1400,15,4,Fratini
+Jin-Hwan Kim,Characterization of dynamic hardening behavior using acceleration information,ictp-rpi-9,20/09/2017:1600,15,4,Gronostajski
+Robby Mannens,Analysis of surface defects on industrial casting tools for automotive applications after machine hammer peening,ictp-rpi-3,18/09/2017:1600,15,4,Merklein
+Bo Wang,Analysis on heating performance and thermal forming of lightweight alloy using pulse current heating,ictp-rpi-7,18/09/2017:1320,15,4,Bambach
+Stefan Junk,Application of 3D (color) printing for the visualization and optimization of complex plastic forming proces,ictp-rpi-8,19/09/2017:1220,15,4,Ghiotti
+Yong LI,Effects of asymmetric creep-ageing behaviour on springback of AA2050-T34 after creep age forming,ictp-rpi-4,18/09/2017:1440,15,4,Lin
+Yeong-Maw Hwang,Study of Compound Hydroforming of Profiled Tubes,ictp-rpi-8,20/09/2017:1600,15,4,Qin
+Jianglin Huang,A Dynamic Model for Simulation of Hot Radial Forging Process,ictp-rpi-5,20/09/2017:1640,15,4,J-X Xie
+Zbigniew Gronostajski,Influence of the application of a PN+CrN hybrid layer on improvement of the lifetime of hot forging tools,ictp-rpi-5,21/09/2017:1120,15,4,C-G Kang
+Chris Nielsen,Overview of friction modelling in metal forming processes,ictp-rpi-1,21/09/2017:0940,15,4,Hyakawa
+Sergey Golovashchenko,Trimming and sheared edge stretchability of light weight sheet metal blanks,ictp-rpi-4,19/09/2017:1540,15,4,Zhao
+Yong Hou,Springback prediction of sheet metals using improved material models,ictp-rpi-5,20/09/2017:1140,15,4,F Yoshida
+Song Deng,Influence of hot ring rolling on uniform deformation of High-speed rail bearing ring,ictp-rpi-8,18/09/2017:1500,15,4,Hirt
+Baoyu Wang,Applying the damage constitutive model for predicting thermal deformation of AA7075 aluminum sheet,ictp-rpi-5,20/09/2017:1000,15,4,F Yoshida
+Keisuke Yokoya,Deformation behavior of axially compressed aluminum polygonal tube,ictp-rpi-9,20/09/2017:1620,15,4,Gronostajski
+Andreas Sterzing,Hot forming of large spur gears,ictp-rpi-3,18/09/2017:1340,15,4,Ou
+Zhaobing Liu,Friction stir incremental forming of AA7075-O sheets: investigation on process feasibility,ictp-rpi-5,18/09/2017:1320,15,4,Doflou
+Chunguo Xu,Analysis and experimental study on compound mechanical bulging process for Medium-sized Vehicle Drive Axle Housing,ictp-rpi-3,21/09/2017:0940,15,4,Music
+Zhengyang Cai,Evolving hardening behaviors of high strength steel sheets under altered loading paths,ictp-rpi-5,19/09/2017:1120,15,4,van den Boogaard
+Chuang Ren,Quantification analysis of the heterogeneity of microstructure of dual phase steel,ictp-rpi-7,21/09/2017:1020,15,4,Balan
+Ji-woo Park,A predictive model of flexibly-reconfigurable roll forming process using regression analysis.,ictp-rpi-4,20/09/2017:1000,15,4,Altan
+Ken-ichiro Mori,2-stage progressive-die hot stamping of ultra-high strength steel parts using resistance heating,ictp-rpi-7,18/09/2017:1620,15,4,Brosius
+Martin Krech,Controlling the sensor properties of smart structures produced by metal forming,ictp-rpi-3,21/09/2017:1520,15,4,Groche
+Guoqun Zhao,Study on the welding quality in the porthole die extrusion process of aluminum alloy profiles,ictp-rpi-7,20/09/2017:1000,15,4,Y-M Hwang
+Zhongkai Ren,Experimental study on transverse displacement of the metal during cold thin strip rolling,ictp-rpi-8,19/09/2017:1420,15,4,Pesin
+Yongqian Xu,Numerical simulation of temperature field in large integral panel during age forming process: Effect of autoclave characteristics,ictp-rpi-4,18/09/2017:1320,15,4,Lin
+Johannes Richter,Quality optimization for aluminum precision forging processes in completely enclosed dies of long forging parts by prediction and avoidance of thin flash generation,ictp-rpi-5,20/09/2017:1700,15,4,J-X Xie
+Evripides G. Loukaides,Toolpath generation for asymmetric mandrel-free spinning,ictp-rpi-6,21/09/2017:1220,15,4,Nagy
+Stefan Golling,Modelling of Plastic Deformation and Fracture in Hot Stamped Steel with Multi-Phase Microstructure,ictp-rpi-7,18/09/2017:1640,15,4,Brosius
+Jose Divo Bressan,Analysis of metal extrusion by the Finite Volume Method,ictp-rpi-7,20/09/2017:1140,15,4,Y-M Hwang
+Francisco Chinesta,Data-Driven Computational Plasticity,ictp-rpi-6,20/09/2017:1500,15,4,Madej
+Ruibin Gou,Research on grain feature parameters based on inhomogeneous plastic deformation in microstructure of ferrite/martensite dual phase steels,ictp-rpi-7,21/09/2017:1040,15,4,Balan
+Tatsuhiko Aizawa,Fine piercing of electromagnetic steel sheets by the plasma-nitrided tools,ictp-rpi-1,18/09/2017:1500,15,4,Furushima
+Markus Grüber,A strategy for the controlled setting of flatness and residual stress distribution in sheet metals via roller levelling,ictp-rpi-8,19/09/2017:1440,15,4,Pesin
+XiaoGuang Fan,Microstructure evolution in near isothermal forming of titanium alloy component,ictp-rpi-4,18/09/2017:1720,15,4,Bruschi
+Thoms Blohm,Basic study of incremental forming of serially arranged hybrid parts using cross-wedge rolling,ictp-rpi-1,20/09/2017:1600,15,4,Geijselaers
+Satoshi Sumikawa,Stress state dependency of unloading behavior in high strength steels,ictp-rpi-5,20/09/2017:1200,15,4,F Yoshida
+Zhutao Shao,The optimisation of cruciform specimen for the formability evaluation of AA6082 under hot stamping conditions,ictp-rpi-5,19/09/2017:1640,15,4,Mori
+Moonwoo La,Direct Metal to Metal Imprinting for developing 1-step Manufacturing Process of Patterned Metal Surface,ictp-rpi-1,18/09/2017:1420,15,4,Otsu
+Hideaki Furumoto,Reduction of off-centering at tail end caused by unstable work roll position with mill stabilizing device in hot rolling,ictp-rpi-2,21/09/2017:1000,15,4,Montmitonnet
+Jianlin Sun,The Distribution of Oil Film on Work Piece and Rollers in Cold Rolling Using O/W Emulsions,ictp-rpi-1,20/09/2017:1000,15,4,Matsumoto
+Lei Chen,The dependence of the tensile deformation behavior on the annealing temperature of a TRIP-aided lean duplex stainless steel,ictp-rpi-7,18/09/2017:1440,15,4,Bambach
+Lars Thyssen,Compensating geometric inaccuracies in incremental sheet forming at elevated temperatures,ictp-rpi-6,19/09/2017:1620,15,4,Homberg
+Pascal Fischer,A knowledge-based control system for the robust manufacturing of deep drawn parts,ictp-rpi-9,18/09/2017:1540,15,4,Chan
+Gang Niu,Hybrid nanostructure stainless steel with super-high strength and toughness,ictp-rpi-6,18/09/2017:1340,15,4,Pietrzyk
+Xudong Yan,Effects of lubricants on the rolling performances of cold rolled copper strips,ictp-rpi-1,20/09/2017:1020,15,4,Matsumoto
+Fei Feng,The research of electromagnetic incremental forming process of aluminum alloy sheet and the interaction between the die and the sheet,ictp-rpi-4,20/09/2017:1520,15,4,Golovashchenko
+Yasushi Maeda,Development of Flexible-Tailored Aluminum Sheet,ictp-rpi-8,19/09/2017:1500,15,4,Pesin
+Maciej Pietrzyk,Modelling and optimization of the manufacturing chain for rails,ictp-rpi-7,21/09/2017:1140,15,4,Balan
+José Azevedo,The deformation of metal powder particles: hardness and microstructure,ictp-rpi-4,21/09/2017:1140,15,4,Beygelzimer
+Esmeray Üstünyagiz,Continuous Strip Reduction Test Simulating Tribological Conditions in Ironing,ictp-rpi-1,21/09/2017:1140,15,4,Hyakawa
+Omer Music,Simulation of incremental sheet forming using partial sheet models,ictp-rpi-5,18/09/2017:1720,15,4,Manabe
+Rongchuang Chen,Austenite grain growth and grain size distribution in isothermal heat-treatment of 300M steel,ictp-rpi-7,18/09/2017:1500,15,4,Bambach
+Yo-Lun Yang,Experimental studies and constitutive modelling of anelastic creep recovery during creep age forming,ictp-rpi-4,18/09/2017:1340,15,4,Lin
+Yuguo An,A improved polycrystal plasticity model and its deployment in stretch forming for highly formable sheet steels,ictp-rpi-6,20/09/2017:1420,15,4,Madej
+Yağız Azizoğlu,Finite Element Analysis of cold pilgering using elastic roll dies,ictp-rpi-7,21/09/2017:1540,15,4,S Yuan
+Kailun Zheng,Investigation of the lubrication performance using WC: C coated tool surfaces for hot stamping AA6082,ictp-rpi-5,19/09/2017:1520,15,4,Mori
+Xiaoning Han,Optimal Design of Geometric Parameters for SPF/DB 3-layer Structures,ictp-rpi-3,19/09/2017:1140,15,4,Bressan
+Kai Han,One novel method to improve surface quality in incremental sheet forming,ictp-rpi-6,19/09/2017:1520,15,4,Homberg
+Yanli Song,Formability of aluminum alloy thin-walled cylinder parts by servo hot stamping,ictp-rpi-6,20/09/2017:1000,15,4,Oldenburg
+Tomohiko Hojo,Effects of Hydrogen on Tensile Properties at Slow Strain Rate of Ultra High-Strength TRIP-aided Bainitic Ferrite Steels,ictp-rpi-7,19/09/2017:1440,15,4,Tekkaya
+Yongfeng Li,Identification of advanced constitutive model parameters through global optimization approach for DP780 steel sheet,ictp-rpi-5,19/09/2017:1100,15,4,van den Boogaard
+Kazutake Komori,Improvement and validation of the ellipsoidal void model for predicting ductile fracture,ictp-rpi-1,19/09/2017:1220,15,4,Martins
+Ali Abd El-Aty,"Experimental investigation of tensile properties and anisotropy of 1420, 8090, and 2060 Al-Li alloys sheet undergoing different strain rates and fibre orientation: a comparative study",ictp-rpi-9,21/09/2017:1020,15,4,Poole
+Zeqi Hu,Welding Thermal Simulation and Metallurgical Characteristics Analysis in WAAM for 5CrNiMo Hot Forging Die Remanufacturing,ictp-rpi-3,19/09/2017:1600,15,4,Dean
+Xianxian Wang,A unique spinning method for grain refinement: repetitive shear spinning,ictp-rpi-8,21/09/2017:1540,15,4,Nagy
+Lei Mu,A Micromechanically-motivated Phenomenological Model for Predicting Ductile Fracture Initiation,ictp-rpi-6,21/09/2017:1500,15,4,Bouchard
+Qi Rong,Experimental studies and constitutive modelling of AA6082 in stress-relaxation age forming conditions,ictp-rpi-4,18/09/2017:1500,15,4,Lin
+Surangsee Dechjarern,Spinning Process Design Using Finite Element Analysis and Taguchi Method,ictp-rpi-6,21/09/2017:1240,15,4,Nagy
+Yong Sun,Determination of microstructure evolution in metallic components introduced by Chain-die forming,ictp-rpi-4,20/09/2017:1200,15,4,Altan
+Wenbin Zhou,A novel application of sideways extrusion to produce curved aluminium profiles: Feasibility study,ictp-rpi-8,19/09/2017:1100,15,4,Ghiotti
+Jiuyang Pei,FEM simulation and experimental study of four-channel continuous sheathing process for large diameter aluminum sheathed cable,ictp-rpi-7,20/09/2017:1200,15,4,Y-M Hwang
+Chunju Wang,Investigations on mechanical properties of copper foil under ultrasonic vibration considering size effect,ictp-rpi-1,18/09/2017:1700,15,4,Furushima
+Kunio Hayakawa,A Joining Method of Shaft and Holed Part Using Plastic Deformation,ictp-rpi-8,18/09/2017:1320,15,4,Kitamura
+Yanle Li,Effects of ultrasonic vibration on deformation mechanism of incremental point-forming process,ictp-rpi-5,18/09/2017:1300,15,4,Doflou
+Hongliang Su,Investigation on the forming process and the shape control in electromagnetic flanging of aluminum alloy,ictp-rpi-4,20/09/2017:1540,15,4,Golovashchenko
+Chen Qiang,Isothermal Precision forging of magnesium alloy components with high performance,ictp-rpi-2,20/09/2017:1000,15,4,Misiolek
+Junghan Song,Effect of Pulsed Currents on the Springback Reduction of Ultra-High Strength Steels,ictp-rpi-2,21/09/2017:1520,15,4,Kinsey
+Liangyun Lan,Hot plastic deformation behavior and its effect on microstructure of low carbon multi-microalloyed steel,ictp-rpi-7,18/09/2017:1400,15,4,Bambach
+Dongsheng Qian,Experiment study on warm ring rolling of 52100 bearing steel coupling microstructure spheroidisation,ictp-rpi-8,18/09/2017:1520,15,4,Hirt
+Jiadong Deng,FE simulation and experiment study on flow forming of inner-splined flange,ictp-rpi-3,18/09/2017:1400,15,4,Ou
+Hongwei Li,Modeling of Forming Instability in In-plane Roll-bending Process by Considering Multi-modal Geometric Micro-defects of Strip,ictp-rpi-7,20/09/2017:1620,15,4,Takahashi
+Wujiao Xu,Surface roughness controlling of AA6061 sheet under uniaxial tension,ictp-rpi-8,19/09/2017:1520,15,4,Pesin
+Jieshi Chen,Theoretical prediction of high strength steel 22MnB5 forming limit in high temperature based on M-K model,ictp-rpi-3,20/09/2017:1100,15,4,Banabic
+Wei Feng,Effect of Relief-hole Diameter on Die Elastic Deformation during Cold Precision Forging of Helical Gears,ictp-rpi-3,18/09/2017:1420,15,4,Ou
+Fenggong Lyu,Numerical simulation for creep age forming of aluminium alloy 7050 saddle-shaped part,ictp-rpi-4,18/09/2017:1520,15,4,Lin
+Lukasz Madej,Discrete modelling techniques in application to generation of 3D synthetic microstructures of porous metallic materials,ictp-rpi-5,19/09/2017:1220,15,4,van den Boogaard
+Xianhong Han,Research on Q&P hot stamping process integrated with fractional cooling strategy,ictp-rpi-7,18/09/2017:1740,15,4,Brosius
+Wojciech Misiolek,Development of extrusion technology for magnesium alloy ZE20,ictp-rpi-6,19/09/2017:1140,15,4,Ngaile
+Zhengyi Jiang,Study of micro hydromechanical deep drawing of SUS304 circular cups by an ALE model,ictp-rpi-1,18/09/2017:1540,15,4,Furushima
+Minoru Yamashita,Hole Making Process of Metal and Composite Sheets by Impact Hydraulic Pressure,ictp-rpi-4,19/09/2017:1600,15,4,Zhao
+Xinping Chen,The Evaluation of Formability of the 3rd Generation Advanced High Strength Steels QP980 based on Digital Image Correlation Method,ictp-rpi-3,20/09/2017:1120,15,4,Banabic
+Han Wang,The effect of finish rolling temperature on the microstructure and properties of non-quenched and tempered Bainite steel,ictp-rpi-6,18/09/2017:1700,15,4,Gronotstajski
+Xin Zhang,Experimental study and analysis on the electrically-assisted tensile behaviors of Inconel 718 alloy,ictp-rpi-2,21/09/2017:1540,15,4,Kinsey
+Akira Yanagida,Improvement of formability of AZ31magnesium alloy by repeated roll bending process,ictp-rpi-2,20/09/2017:1140,15,4,Misiolek
+Yuki Nakagawa,Reduction in length of transient region in successive forging of tailored blank for hot stamping of ultra-high strength steel parts,ictp-rpi-7,18/09/2017:1700,15,4,Brosius
+Changhong Cai,Wear behavior and subsurface layer work hardening mechanism of Fe-24.1Mn-1.21C-0.48Si steel,ictp-rpi-1,20/09/2017:1220,15,4,Matsumoto
+Lili Guo,Modeling the microstructure evolution in AZ31 magnesium alloys during hot rolling,ictp-rpi-2,20/09/2017:1200,15,4,Misiolek
+Jun Hu,Impact effect of superimposed ultrasonic vibration on material characteristics in compression tests,ictp-rpi-1,18/09/2017:1720,15,4,Furushima
+Haiyan Zhang,Microstructure evolution of IN718 alloy during the delta process,ictp-rpi-2,18/09/2017:1320,15,4,Yanagimoto
+Ping Lu,Research on Natural Element Method and the application to simulate metal forming processes,ictp-rpi-5,21/09/2017:1600,15,4,Loukaides
+Chen Yin-Li,Study on Texture Evolution and Deformation Mechanism of the Cu-Ni-Si Alloy during Cold-rolling Treatment,ictp-rpi-2,18/09/2017:1400,15,4,Yanagimoto
+Xiawei Feng,An Advanced 3D Mathematical Model for a 6-high Tandem Cold Rolling Process,ictp-rpi-2,21/09/2017:1020,15,4,Montmitonnet
+Shunpei Kamitani,Improvement of surface quality of aluminum product in cold extrusion by using reuse tool with groove array formed on tool surface,ictp-rpi-7,20/09/2017:1020,15,4,Y-M Hwang
+Saijun Zhang,Finite Element formulation of a general asymmetrical yield function for pressure sensitive metals,ictp-rpi-6,20/09/2017:1540,15,4,Madej
+Konrad Perzynski,Evaluation of pulsed laser deposited thin films properties on the basis of the nanoindentation test,ictp-rpi-3,19/09/2017:1420,15,4,Dean
+Chaoyang Sun,Size effect affected deformation characteristics in micro deep drawing of TWIP domed-bottom cups,ictp-rpi-7,21/09/2017:0940,15,4,Balan
+Fumie Abe,Solidifying Behaviour of Metallic Powder in Selective Laser Melting Process,ictp-rpi-4,21/09/2017:1100,15,4,Beygelzimer
+Rajesh Jarugula,Hot deformation behavior of n-ODS-18Cr steel,ictp-rpi-6,20/09/2017:1400,15,4,Madej
+Soeren Gies,Effect of Workpiece Deformation on Joule Heat Losses in Electromagnetic Forming Coils,ictp-rpi-4,20/09/2017:1600,15,4,Golovashchenko
+Wataru Oba,Two-step forming for improvement of forming limit in rotary nosing with relieved die for reduction of tube tip,ictp-rpi-3,21/09/2017:1000,15,4,Music
+Alexander Pesin,Physical simulation of asymmetric sheet rolling process by multicycle shear-compression testing,ictp-rpi-1,21/09/2017:1620,15,4,Rosochowski
+Bing Li,Characteristics of Microstructure Evolution of Two-phase H62 Brass Alloy During Continuous Extrusion,ictp-rpi-2,18/09/2017:1540,15,4,Yanagimoto
+Denis Pustovoytov,Finite element simulation of extremely high shear strain during a single-pass asymmetric warm rolling of Al-6.2Mg-0.7Mn alloy sheets,ictp-rpi-1,21/09/2017:1440,15,4,Rosochowski
+Peter Christiansen,Predicting the onset of cracks in bulk metal forming by ductile damage criteria,ictp-rpi-6,21/09/2017:1420,15,4,Bouchard
+Xiaohui Chen,Effect of thermo-mechanical parameters on microstructure evolution of AZ91 magnesium alloy,ictp-rpi-2,20/09/2017:1020,15,4,Misiolek
+Z.X. Li,A modified Johnson-Cook model of as-quenched AA2219 considering negative to positive strain rate sensitivities over a wide temperature range,ictp-rpi-5,20/09/2017:1020,15,4,F Yoshida
+Min-A Woo,Numerical and experimental study on electrohydraulic forming process,ictp-rpi-9,19/09/2017:1120,15,4,Kinsey
+Haitao Jiang,The influence of Ca and Gd microalloying on microstructure and mechanical property of hot rolled Mg-3Al alloy,ictp-rpi-2,20/09/2017:1220,15,4,Misiolek
+Zhengyi Jiang,Effects of oil-in-water based nanolubricant containing TiO2 nanoparticles in hot rolling of 304 stainless steel,ictp-rpi-2,21/09/2017:1040,15,4,Montmitonnet
+Dmitri Tabakajew,Increasing The Efficiency Of Hot Mandrel Bending Of Pipe Elbows,ictp-rpi-8,19/09/2017:1120,15,4,Ghiotti
+Jeong-Min Lee,A study on the process design of prepreg compression forming using rapid heating and cooling system,ictp-rpi-2,20/09/2017:1420,15,4,Huh
+Sam Coppieters,On Complete Solutions for the Problem of Diffuse Necking in Sheet Metal,ictp-rpi-1,19/09/2017:1100,15,4,Martins
+Jeong-Min Lee,A characterisation of tool-ply friction behaviors in thermoplastic composite,ictp-rpi-2,20/09/2017:1440,15,4,Huh
+Zhengyi Jiang,Experimental and Numerical Study on Micro Deep Drawing with Aluminium-Copper Composite Material,ictp-rpi-1,18/09/2017:1640,15,4,Furushima
+Joung Sik Suh,Microstructures and mechanical properties of direct-extruded novel Mg alloys,ictp-rpi-2,20/09/2017:1040,15,4,Misiolek
+Ryota Ogura,Development of a novel resistance heating system for microforming by modifying surface of dies,ictp-rpi-1,18/09/2017:1400,15,4,Otsu
+Wontaek Lee,Radial forging of aluminum to the steel preform for the production of light-weighted wheel bearing outer race,ictp-rpi-1,20/09/2017:1620,15,4,Geijselaers
+Luca Quagliato,Material property of metal skin – sheet molding compound laminate structures for the production of lightweight vehicles body frame,ictp-rpi-9,20/09/2017:1040,15,4,Utsunomiya
+Marvin Laugwitz,Development of levelling strategies for heavy plates via controlled FE models,ictp-rpi-8,19/09/2017:1600,15,4,Pesin
+Verena Prysk,Resource-efficient development of thermally highly resistant engine components of hybrid metal composites – experiments and numerical analysis,ictp-rpi-9,20/09/2017:1100,15,4,Utsunomiya
+Stefan Hannich,Front Face Flow Drilling of Lightweight Cast Materials,ictp-rpi-8,18/09/2017:1400,15,4,Kitamura
+Cyrille Dunant,A stable finite element method for computing combined plastic and damage behaviour,ictp-rpi-1,19/09/2017:1120,15,4,Martins
+Van Tuan Dang,POD surrogate models using adaptive sampling space parameters for springback optimization in sheet metal forming,ictp-rpi-7,20/09/2017:1440,15,4,Takahashi
+Thomas Mennecart,Analysis of the forming behaviour of in-situ drawn sandwich sheets,ictp-rpi-9,20/09/2017:1120,15,4,Utsunomiya
+Dipti Samantaray,Plastic deformation of SS 316LN: Thermo-mechanical and microstructural aspects,ictp-rpi-6,18/09/2017:1320,15,4,Pietrzyk
+Shakir Gatea,Deformation and fracture of AMC under different heat treatment conditions and its suitability for incremental sheet forming,ictp-rpi-6,19/09/2017:1540,15,4,Homberg
+Kenji Fuchiwaki,Prediction of die-roll in fine blanking by use of profile parameters,ictp-rpi-4,19/09/2017:1620,15,4,Zhao
+Yanjin Guan,Study on ultrasonic vibration assisted upsetting of 6063 aluminum alloy,ictp-rpi-2,18/09/2017:1740,15,4,Osakada
+Benjamin Lossen,Friction-Spinning – Possibility of Grain Structure Adjustment,ictp-rpi-3,21/09/2017:1020,15,4,Music
+Rong Zeng,Influence of strain induced grain boundary migration on grain growth of 300M during static and meta-dynamic recrystallization,ictp-rpi-5,20/09/2017:1540,15,4,J-X Xie
+Wei Jiang,Development of Friction Stir Incremental Forming Process Using Penetrating Tool,ictp-rpi-5,18/09/2017:1340,15,4,Doflou
+Sergei Alexandrov,Extension of Orowan’s method to analysis of rolling of three-layer sheets,ictp-rpi-2,21/09/2017:1100,15,4,Montmitonnet
+Christoph Dahnke,Thermally activated lightweight actuator based on hot extruded shape memory metal matrix composites (SMA-MMC),ictp-rpi-3,20/09/2017:1620,15,4,Lohmar
+Marcel Moghadam,Acoustic emission monitoring of the bending under tension test,ictp-rpi-3,21/09/2017:1540,15,4,Groche
+Wenzheng Dong,Investigation on dimple defect mechanism in solid boss forming process by plate forging,ictp-rpi-3,18/09/2017:1720,15,4,Merklein
+Mohd Hafis Sulaiman,Influence of tool texture on friction and lubrication in strip reduction,ictp-rpi-1,21/09/2017:1000,15,4,Hyakawa
+Cheng Cheng,Size effect on the forming limit of sheet metal in micro-scaled plastic deformation considering free surface roughening,ictp-rpi-1,18/09/2017:1340,15,4,Otsu
+Olexandr Grydin,Impact of steel substrate pre-heating on microstructure and properties of twin-roll cast aluminium-steel clad strips,ictp-rpi-1,20/09/2017:1700,15,4,Geijselaers
+Michihiko Hoshino,Investigation of Clad Wire Production by Conclad Extrusion with Twin Wheels,ictp-rpi-6,19/09/2017:1100,15,4,Ngaile
+Kristof Denys,On the characterisation of a generic strain hardening model beyond the onset of necking.,ictp-rpi-6,20/09/2017:1600,15,4,Madej
+Sen Cong,Analysis on Ultrasonic TOFD Imaging Testing for Ultra-thick-walled EBW Joint of Aluminum Alloy,ictp-rpi-9,18/09/2017:1320,15,4,Kuwabara
+Wuhao Zhuang,Differences between traditional cold forging and cold orbital forging of a spur bevel gear,ictp-rpi-2,18/09/2017:1640,15,4,Osakada
+Huiping Qi,Research Status and Developing Trends on the Ring Rolling Process of Profile Ring Parts,ictp-rpi-8,18/09/2017:1740,15,4,Hirt
+Yi Qin,Forming of Miniature Components from Powders by Combining Field-activated Sintering and Micro-Forming,ictp-rpi-4,21/09/2017:1200,15,4,Beygelzimer
+Luen Chow Chan,Compressive Behaviours of Raw and Cased Porous Magnesium-alloys determined by X-ray CT,ictp-rpi-6,18/09/2017:1400,15,4,Pietrzyk
+Lehua Qi,Fabrication and Characterization of Aligned Carbon Nanotubes Cluster Reinforced Magnesium Composite Based On Ultrasound/Magnetic Compound Field,ictp-rpi-2,20/09/2017:1500,15,4,Huh
+Yankang Tian,Testing an Injection Forging Process for the Production of Automotive Fasteners,ictp-rpi-5,21/09/2017:1040,15,4,C-G Kang
+Wennan Yuan,Prediction of Forming Limit Curves for 2021 Aluminum Alloy,ictp-rpi-3,20/09/2017:1020,15,4,Banabic
+Minki Kim,Effect of Pre-strain on Tensile Properties of Al5052-H32 under an Electropulsing Condition,ictp-rpi-2,21/09/2017:1600,15,4,Kinsey
+Zhaohua Li,Microstructure refinement by tool rotation-induced vibration in incremental sheet forming,ictp-rpi-5,18/09/2017:1400,15,4,Doflou
+Ali Mousavi,"Deep drawing process without lubrication – an adapted tool for a stable, economic and environmentally friendly process",ictp-rpi-9,18/09/2017:1600,15,4,Chan
+Marc Tulke,Principle and setup for characterization of material parameters for high speed forming and cutting,ictp-rpi-9,19/09/2017:1600,15,4,Cazacu
+Eugen Wiens,Internal Flow-Turning – a new approach for the manufacture of tailored tubes with a constant external diameter,ictp-rpi-3,21/09/2017:1040,15,4,Music
+Vitalii Vorkov,Accurate prediction of large radius air bending using regression,ictp-rpi-6,21/09/2017:1100,15,4,Galdos
+Masanobu Umeda,General Step Reduction Method for Knowledge-based Process Planning of Non-Axisymmetrical Forged Products,ictp-rpi-2,18/09/2017:1700,15,4,Osakada
+Federico Faini,Study of void closure in hot rolling of stainless steel slabs,ictp-rpi-2,21/09/2017:1140,15,4,Montmitonnet
+Stephan Hojda,Damage dependent material properties in a Finite Element Simulation of a hybrid forward extrusion process,ictp-rpi-7,20/09/2017:1220,15,4,Y-M Hwang
+Alexander Chugreev,Numerical and experimental investigations of the anisotropic transformation strains during martensitic transformation in a low alloy Cr-Mo steel 42CrMo4,ictp-rpi-6,18/09/2017:1520,15,4,Gronotstajski
+Weikang Liang,Investigation on temperature uniformity of blanks by conduction heating,ictp-rpi-6,20/09/2017:1040,15,4,Oldenburg
+Xiao Song,Identification of forming limits at fracture of DP600 sheet metal under linear and unloaded non-linear strain paths,ictp-rpi-3,20/09/2017:1140,15,4,Banabic
+Gabriele Allegri,Driver roll speed influence in Ring Rolling process,ictp-rpi-8,18/09/2017:1540,15,4,Hirt
+Moritz Micke-Camuz,Development of a Combined Process of Organic Sheet Forming and GMT Compression Molding,ictp-rpi-2,20/09/2017:1520,15,4,Huh
+Shi Jie Bryan Bin,Effect of severe plastic deformation and post-annealing on the mechanical properties and bio-corrosion rate of AZ31 magnesium alloy,ictp-rpi-1,21/09/2017:1540,15,4,Rosochowski
+Manikandan Ganapathy,Investigation of a new hot stamping process with improved formability and productivity,ictp-rpi-6,20/09/2017:1200,15,4,Oldenburg
+Benjamin Klusemann,Application of Adaptive Element-Free Galerkin Method to Simulate Friction Stir Welding of Aluminum,ictp-rpi-2,19/09/2017:1420,15,4,Fratini
+Andrzej Rosochowski,New method of producing tailored blanks with constant thickness,ictp-rpi-1,19/09/2017:1600,15,4,Ishikawa
+Chao-Cheng Chang,Fabrication of Micro Metal Parts by Forging Process Combined with Powder Pressing,ictp-rpi-4,21/09/2017:1120,15,4,Beygelzimer
+Kavesary Raghavan,Rate Effects on Transformation Kinetics in an Evolving Duplex Stainless Steel,ictp-rpi-9,19/09/2017:1620,15,4,Cazacu
+Wolfram Volk,Investigation and compensation of biaxial pre-strain during the standard Nakajima- and Marciniak-test using Generalized Forming Limit Concept,ictp-rpi-3,20/09/2017:1200,15,4,Banabic
+Markus Bambach,Towards virtual deformation dilatometry for the design of hot stamping process,ictp-rpi-6,18/09/2017:1540,15,4,Gronotstajski
+Lander Galdos,Characterization of Ti64 forging friction factor using ceramic coatings and different contact conditions,ictp-rpi-1,20/09/2017:1120,15,4,Matsumoto
+Eneko Saenz de Argandoña,Numerical simulation of U-Drawing test of Fortiform 1050 steel using different material models,ictp-rpi-5,19/09/2017:1140,15,4,van den Boogaard
+Yohei Abe,Assembly of ultra-high strength steel hollow part by hemming using pre-bent inner sheet,ictp-rpi-8,20/09/2017:1040,15,4,R S Lee
+Kenji Hirota,Mechanical joining of shaft and holed disc in rotational and axial directions,ictp-rpi-8,20/09/2017:1100,15,4,R S Lee
+Tong Wen,Outwards and inwards crimping of tube ends by single-point incremental forming,ictp-rpi-6,19/09/2017:1600,15,4,Homberg
+Yusuke Tsunemi,Crystal plasticity analysis of anisotropic work hardening behavior in IF steel,ictp-rpi-7,21/09/2017:1120,15,4,Balan
+Lei Deng,Springback and hardness of aluminum alloy sheet part manufactured by warm forming process using non-isothermal dies,ictp-rpi-4,19/09/2017:1100,15,4,Y Lee
+Tomohiro Takaki,Evaluation of anti-galling property of sulfurized olefins with overbased calcium sulfonates on stainless steel by cup internal ironing test,ictp-rpi-1,21/09/2017:1200,15,4,Hyakawa
+Jun Chen,Numerical simulation and experiment study on the nuclear fuel spacer grid stamping of Inconel718,ictp-rpi-7,19/09/2017:1140,15,4,Volk
+Masanobu Murata,Identification of Ductile Fracture Parameter with Stress Correction Method Using Notched Round-Bar Tensile Test,ictp-rpi-6,21/09/2017:1520,15,4,Bouchard
+Ye Zhang,Experimental investigation on friction law under starved lubrication in metal forming,ictp-rpi-1,21/09/2017:1020,15,4,Hyakawa
+Ho Seon Joo,The effect of wire drawing and aging on mechanical and electrical properties of Cu-Cr-Zr alloy,ictp-rpi-2,18/09/2017:1600,15,4,Yanagimoto
+Yong Nam Kim,Effect of heat treatment and mandrel material on precision tube drawing of Ni-Ti shape memory alloy,ictp-rpi-3,20/09/2017:1640,15,4,Lohmar
+Baoyu Wang,Effect of mandrel diameter on non-circularity of hollow shafts in cross wedge rolling,ictp-rpi-7,21/09/2017:1600,15,4,S Yuan
+Mohanraj Murugesan,A Comparative Study of Ductile Damage Models Approaches for Joint Strength Prediction in Hot Shear Joining Process,ictp-rpi-1,20/09/2017:1640,15,4,Geijselaers
+Yoshihide Imamura,Investigation of forming accuracy in mandrel-free hot-spinning,ictp-rpi-6,21/09/2017:1200,15,4,Nagy
+Daisuke Nikkuni,Experimental study on material flow in cold rolling.,ictp-rpi-2,21/09/2017:1200,15,4,Montmitonnet
+Dongearn Kim,An Investigation of the trimming of boron nitride steel (22MnB5) during the die-quenching process,ictp-rpi-7,19/09/2017:1200,15,4,Volk
+Ersyzario Yunata,Plasma Polishing and Finishing of CVD-Diamond Coated WC(Co) Dies for Dry Stamping,ictp-rpi-3,19/09/2017:1440,15,4,Dean
+Haibo Wang,A novel roll-die forming technology and its FEM simulation,ictp-rpi-6,21/09/2017:0940,15,4,Groche
+Jaehong Kim,Hardness prediction of weldment in friction stir welding of AA6061 based on numerical approach,ictp-rpi-2,19/09/2017:1440,15,4,Fratini
+Sadao Miyazawa,Uniform Angle Distribution in V-Shaped Bending of Ultra-high Strength Steel Sheets Having Wall Thickness Distribution,ictp-rpi-6,21/09/2017:1120,15,4,Galdos
+Geunsu Joo,Modeling of rate-dependent hardening behaviors of the TWIP980 steel sheet in tension and compression,ictp-rpi-5,19/09/2017:1200,15,4,van den Boogaard
+Zhen Qian,Utilizing 2-D and 3-D simulations in assisting tooling design in Chain-die forming threshold product,ictp-rpi-4,20/09/2017:1020,15,4,Altan
+Shunsuke Sasaki,Influence of thermal history before hot working on hot workability of multi-phase steel,ictp-rpi-6,18/09/2017:1600,15,4,Gronotstajski
+Fumiya Nanjo,Spinning workability of Al-Mg-Si alloy extruded tube using the forming die,ictp-rpi-3,21/09/2017:1120,15,4,Music
+Lin Xu,Galling mechanism in metal forming process with TRD coated die against advanced high strength steel sheet,ictp-rpi-1,20/09/2017:1100,15,4,Matsumoto
+Robert Schulte,Analysis of fundamental dependencies between manufacturing and processing Tailored Blanks in sheet-bulk metal forming processes,ictp-rpi-9,19/09/2017:1100,15,4,Kinsey
+Laura Conrads,Increasing the energy absorption capacity of structural components made of low alloy steel by combining strain hardening and local heat treatment,ictp-rpi-9,20/09/2017:1640,15,4,Gronostajski
+A. Erman Tekkaya,Material characterization for plane and curved sheets using the in-plane torsion test – an overview,ictp-rpi-9,18/09/2017:1500,15,4,Kuwabara
+Sang-Kon Lee,Study on hot multi-point forming process with cooling system for Al thick plate by using numerical analysis,ictp-rpi-3,18/09/2017:1740,15,4,Merklein
+Dongbin Wei,Simulations of hydro-mechanical deep drawing using Voronoi model and real microstructure model,ictp-rpi-1,18/09/2017:1520,15,4,Furushima
+Tim Rostek,Locally Graded Steel Materials for Self-Sharpening Cutting Blades,ictp-rpi-3,19/09/2017:1400,15,4,Dean
+Irina Sizova,Hot workability and microstructure evolution of pre-forms for forgings produced by additive manufacturing,ictp-rpi-4,21/09/2017:0940,15,4,Beygelzimer
+Margarita Doncheva Bambach,New process chains involving additive manufacturing and metal forming – a chance for saving energy?,ictp-rpi-4,21/09/2017:1000,15,4,Beygelzimer
+Peter Bella,On numerical modelling of multi-rifled tube drawing,ictp-rpi-7,21/09/2017:1620,15,4,S Yuan
+Eren Billur,A Potential Solution to Mystical Materials in Indentation Test,ictp-rpi-8,21/09/2017:1020,15,4,Karodogan
+Nooman Ben Khalifa,Investigation of New Tool Design for Incremental Profile Forming,ictp-rpi-3,21/09/2017:1140,15,4,Music
+Akihiro Nishino,Influence of Mechanical Characteristics of Epoxy on the Formability of CFRP Sheets under Different Temperatures,ictp-rpi-2,20/09/2017:1600,15,4,Huh
+Stefan Guenther,Investigation of a composite ring rolling process considering bonding behaviour in FEM and experiment,ictp-rpi-8,18/09/2017:1600,15,4,Hirt
+Magnus Hohmann,Investigations for an Automated Avoidance of Ring Climbing in Radial-Axial Ring Rolling,ictp-rpi-8,18/09/2017:1620,15,4,Hirt
+Sebastian Heibel,"Failure assessment in sheet metal forming using a phenomenological damage model and fracture criterion: experiments, parameter identification and validation",ictp-rpi-6,21/09/2017:1600,15,4,Bouchard
+Zongyuan Zou,Experiment Research on Tensile and Compression Cyclic Loading of Sheet Metal,ictp-rpi-9,18/09/2017:1340,15,4,Kuwabara
+Johannes Kreyca,Dissolution of hardening phases during deformation in an A6061 Aluminium alloy,ictp-rpi-9,21/09/2017:1200,15,4,Poole
+Yunwu Ma,Friction Self-Piercing Riveting (F-SPR) of Dissimilar Materials,ictp-rpi-8,18/09/2017:1340,15,4,Kitamura
+Mingwang Fu,Ductile fracture occurrence and analysis considering stress state and Zener–Hollomon parameter in hot deformation of metallic materials,ictp-rpi-6,21/09/2017:1540,15,4,Bouchard
+Xu Song,Numerical and Experimental Study of Micro Single Point Incremental Sheet Forming Process,ictp-rpi-5,18/09/2017:1700,15,4,Manabe
+Łukasz Morawiński,Determination of the formability limits for Grade 1 titanium sheet by means of ALSAD method,ictp-rpi-3,20/09/2017:1000,15,4,Banabic
+Zhusheng Shi,A new design of friction test rig and determination of friction coefficient when warm forming an aluminium alloy,ictp-rpi-1,21/09/2017:1040,15,4,Hyakawa
+Marco Haupt,Influence of Intercritical Annealing on Microstructure and Mechanical Properties of a Medium Manganese Steel,ictp-rpi-6,18/09/2017:1420,15,4,Pietrzyk
+Ken-ichi Manabe,Factors Influencing the Forming Characteristics in Micro Tube Hydroforming by Ultra High-Forming Pressure,ictp-rpi-8,20/09/2017:1620,15,4,Qin
+Shi-Hong Zhang,Twinning and detwinning behaviors of Mg–3Al–1Zn sheets subjected to different loading paths,ictp-rpi-2,20/09/2017:1100,15,4,Misiolek
+Gabriel Centeno,On the utilization of circle grid analysis in thin-walled forming of tubes: experimental and numerical evaluation,ictp-rpi-3,21/09/2017:1200,15,4,Music
+Chris Mertin,Numerical and experimental investigations on the springback behaviour of stamping and bending parts,ictp-rpi-6,21/09/2017:1140,15,4,Galdos
+Celalettin Karadogan,A Novel and Simple Cruciform Specimen Without Slits On Legs Yet Higher Plastic Strains In Gauge,ictp-rpi-9,18/09/2017:1420,15,4,Kuwabara
+Benedikt Müller,Micro structuring of AlMg4.5Mn0.7 sheets by a warm forming process,ictp-rpi-1,18/09/2017:1620,15,4,Furushima
+Fusahito Yoshida,"Effects of temperature, forming speed and stress relaxation on springback in warm forming of high strength steel sheet",ictp-rpi-4,19/09/2017:1120,15,4,Y Lee
+Angela Quadfasel,Investigations on Springback in High Manganese TWIP-Steels using U-Profile Draw Bending,ictp-rpi-7,20/09/2017:1420,15,4,Takahashi
+Sergey Aksenov,Investigation of stress-strain behaviour of a sheet material using free bulging test,ictp-rpi-3,19/09/2017:1200,15,4,Bressan
+Chenhao Wang,FEM Investigation of Ductile Fracture Prediction in Two-Point Incremental Sheet Metal Forming process,ictp-rpi-5,18/09/2017:1740,15,4,Manabe
+Kai Wu,On Simulation Analysis of Plate Forming and Deformation Compensation Technology of the side roll for Four-roll Plate Bending Machine,ictp-rpi-7,20/09/2017:1640,15,4,Takahashi
+Ryutaro Hino,Experimental investigation of stretch flangeability of high-strength steel sheets by means of in-plane stretch bending,ictp-rpi-9,18/09/2017:1440,15,4,Kuwabara
+Koshiro Aoki,Characteristics of friction welding within a short time for aluminum alloy deformed by ECAE process,ictp-rpi-2,19/09/2017:1540,15,4,Fratini
+Yannis Korkolis,Ductile fracture of an Al-Si-Mg die-casting aluminum alloy,ictp-rpi-1,19/09/2017:1140,15,4,Martins
+Huiqin Chen,Hot deformation behavior and dynamic recrystallization of Mn18Cr18N steel with as-cast versus wrought starting structures,ictp-rpi-6,18/09/2017:1300,15,4,Pietrzyk
+Yujie Huang,Design and analysis of a pulsed electromagnetic blankholder system for electromagnetic forming,ictp-rpi-4,20/09/2017:1620,15,4,Golovashchenko
+Xiaochuan Liu,Determination of the interfacial heat transfer coefficient between AA7075 and different forming tools in hot stamping processes,ictp-rpi-5,19/09/2017:1540,15,4,Mori
+Qiaoling Wang,Anisotropy influence on flow behaviour and plastic instability of Ti6Al4V sheets deformed in a wide range of temperatures and strain rates,ictp-rpi-4,18/09/2017:1640,15,4,Bruschi
+Enrico Simonetto,Dynamic detection of tubes wrinkling in three roll push bending,ictp-rpi-8,19/09/2017:1140,15,4,Ghiotti
+Fumiaki Tamashiro,Cyclic and Biaxial Deformation Behavior for Bake-hardenable Steel Sheet,ictp-rpi-7,18/09/2017:1520,15,4,Bambach
+Jeremy Minton,Meta-Analysis of Curvature Trends in Asymmetric Rolling,ictp-rpi-8,19/09/2017:1620,15,4,Pesin
+Shohei Kajikawa,Molding of wood powder with a natural binder,ictp-rpi-2,20/09/2017:1620,15,4,Huh
+Fuxiang Zhang,Study of factors affecting simulation of static recrystallization of Ni-based superalloy using cellular automaton model,ictp-rpi-4,21/09/2017:1520,15,4,Shivpuri
+Liang Wang,An Online Dwell Time Optimization Method Based on Parts Performance for Hot Stamping,ictp-rpi-6,20/09/2017:1120,15,4,Oldenburg
+Wenchen Xu,Study on the dynamic recrystallization behavior of Ti-55 titanium alloy during hot compression based on Cellular Automaton model method,ictp-rpi-4,21/09/2017:1420,15,4,Shivpuri
+Verena Psyk,Process analysis for magnetic pulse welding of similar and dissimilar material sheet metal joints,ictp-rpi-9,19/09/2017:1140,15,4,Kinsey
+Yong Liu,Formability and lubrication of a B-pillar in hot stamping with 6061 and 7075 aluminum alloy sheets,ictp-rpi-5,19/09/2017:1600,15,4,Mori
+Zijian Wang,Hot stamped parts with desirable properties in medium Mn TRIP steels,ictp-rpi-7,18/09/2017:1720,15,4,Brosius
+CANCELLED - Tuncay Yalcinkaya,CANCELLED - Micromechanical Modelling of Size Effects in Microforming,ictp-rpi-1,18/09/2017:1300,15,4,Otsu
+Go Horikiri,Improvement in mechanical properties of semi-solid AA7075 aluminum alloys by Equal-Channel Angular Pressing,ictp-rpi-1,21/09/2017:1400,15,4,Rosochowski
+Zhipeng Lai,A comprehensive electromagnetic forming approach for large sheet metal forming,ictp-rpi-9,18/09/2017:1620,15,4,Chan
+"Qiang Wang,Zhimin Zhang",A novel backward extrusion process through rotating die and open punch,ictp-rpi-6,19/09/2017:1120,15,4,Ngaile
+Hiroyuki Kobayashi,In-situ observation of lubricant flow on laser textured die surface in sheet metal forming,ictp-rpi-3,19/09/2017:1620,15,4,Dean
+Carl Labergere,Modeling and numerical simulation of AA1050-O embossed sheet metal stamping,ictp-rpi-9,18/09/2017:1720,15,4,Chan
+Sławomir Polak,Warm forming of 7075 aluminum alloys,ictp-rpi-4,19/09/2017:1140,15,4,Y Lee
+Kevin Le Mercier,Quantitative analysis of galling in cold forging of a commercial Al-Mg-Si alloy,ictp-rpi-1,20/09/2017:1200,15,4,Matsumoto
+Motoki Terano,Influence of burnishing condition on static recrystallization of an iron sheet,ictp-rpi-6,18/09/2017:1440,15,4,Pietrzyk
+Jer-Ren Yang,Severe deformation of nanostructured bainitic steel,ictp-rpi-7,19/09/2017:1420,15,4,Tekkaya
+Claudio Giardini,The influence of process parameters on mechanical properties and corrosion behaviour of friction stir welded aluminum joints,ictp-rpi-2,19/09/2017:1500,15,4,Fratini
+Kwun Sing Tsang,Validation of a finite element model of the cold roll forming process on the basis of 3D geometric accuracy,ictp-rpi-4,20/09/2017:1040,15,4,Altan
+Alexander Sviridov,Creating load-adapted mechanical joints between tubes and sheets by controlling the material flow under plastically unstable tube upsetting,ictp-rpi-8,20/09/2017:1020,15,4,R S Lee
+Napat Vajragupta,Towards prediction of springback in deep drawing using a micromechanical modeling scheme,ictp-rpi-9,18/09/2017:1640,15,4,Chan
+Roman Kulagin,Modelling of High Pressure Torsion using FEM,ictp-rpi-1,19/09/2017:1640,15,4,Ishikawa
+Muhammad Imran,A new model for dynamic recrystallization under hot working conditions based on critical dislocation gradients,ictp-rpi-7,21/09/2017:1200,15,4,Balan
+Jinn-Jong Sheu,Die Designs of Cold Roll Forming Process for Car Bumper Using Advanced High Strength Steel,ictp-rpi-6,21/09/2017:1000,15,4,Groche
+Kazuhito Asai,Estimation of friction by using improved calibration carves of ring compression test for hot forging of steel,ictp-rpi-1,21/09/2017:1120,15,4,Hyakawa
+Tetsuo Oya,Material model based on stress-rate dependency related with non-associated flow rule for fracture prediction in metal forming,ictp-rpi-6,20/09/2017:1620,15,4,Madej
+S Ai,An analytical study of new material test method for tension under bending and compression in double side incremental forming,ictp-rpi-8,21/09/2017:1000,15,4,Karodogan
+Hendrik Wester,Numerical Investigation of the Oxide Scale Deformation Behaviour with Consideration of Carbon Content during Hot Forging,ictp-rpi-5,21/09/2017:1200,15,4,C-G Kang
+Christopher Cleaver,Incremental ring rolling to create conical profile rings,ictp-rpi-8,18/09/2017:1700,15,4,Hirt
+Chan Joo Lee,CANCELLED - Failure mode dependent load bearing characteristics of mechanical clinching under mixed mode loading condition,ictp-rpi-8,18/09/2017:1300,15,4,Kitamura
+Xiang Ma,Co-extrusion of Dual Aluminum Alloys with Special Surface Properties,ictp-rpi-7,20/09/2017:1040,15,4,Y-M Hwang
+Ke Huang,The flow stress evolution and grain refinement mechanisms during hot deformation of Al-Mg alloy,ictp-rpi-9,21/09/2017:1120,15,4,Poole
+Mathias Liewald,New approach on controlling strain distribution manufactured in sheet metal components during deep drawing process,ictp-rpi-9,18/09/2017:1700,15,4,Chan
+Gianluca Buffa,Al-SiC Metal Matrix Composite production through Friction Stir Extrusion of aluminum chips,ictp-rpi-2,19/09/2017:1640,15,4,Fratini
+Romina Conte,Incremental Sheet Forming of a composite made of thermoplastic matrix and glass-fiber reinforcement,ictp-rpi-5,18/09/2017:1620,15,4,Manabe
+Ares Gomez-Gallegos,Al-Li Alloys – The Analysis of Material Behaviour during Industrial Hot Forging,ictp-rpi-9,21/09/2017:1000,15,4,Poole
+Michael Krinninger,On the opportunities of problem- and process-adapted shear cutting simulations for effective process design,ictp-rpi-4,19/09/2017:1640,15,4,Zhao
+Olga Bylya,Applicability of JMAK-type model for predicting microstructural evolution in nickel-based superalloys,ictp-rpi-2,18/09/2017:1340,15,4,Yanagimoto
+Ludmila Kucerova,Comparison of thermo-mechanical treatment of C-Mn-Si-Nb and C-Mn-Si-Al-Nb TRIP steels,ictp-rpi-7,19/09/2017:1400,15,4,Tekkaya
+Sumit Hazra,The strain fields present during the bending of ultra-high strength steels,ictp-rpi-6,21/09/2017:1020,15,4,Groche
+Jong-Ning Aoh,Numerical Approach on the Reproduce of a Strip End Flip Phenomenon in Finishing Mill,ictp-rpi-8,19/09/2017:1640,15,4,Pesin
+Eric Becker,THIXOFORGING OF LOW CARBON STEEL SAE1006 BACKWARD THIXOEXTRUSION,ictp-rpi-2,19/09/2017:1620,15,4,Fratini
+Saeed Tamimi,Modelling and experimentation of the evolution of texture in an Al-Mg alloy during earing cupping test,ictp-rpi-9,21/09/2017:0940,15,4,Poole
+Hiroshi Hamasaki,Stress Relaxation of AA5182-O Aluminum Alloy Sheet at Warm Temperature,ictp-rpi-4,19/09/2017:1200,15,4,Y Lee
+Van Bac Nguyen,Effects of cold roll dimpling process on mechanical properties of dimpled steel,ictp-rpi-4,20/09/2017:1140,15,4,Altan
+Daniel Staupendahl,The reciprocal effects of bending and torsion on springback during 3D bending of profiles,ictp-rpi-8,19/09/2017:1200,15,4,Ghiotti
+Muhammad Jawad Qarni,Influence of incremental ECAP on the microstructure and tensile behaviour of commercial purity titanium,ictp-rpi-1,21/09/2017:1600,15,4,Rosochowski
+Valentín Miguel,Influence of temperature on alloy Ti6Al4V formability during the warm SPIF process,ictp-rpi-6,19/09/2017:1640,15,4,Homberg
+Chiharu Nagano,Measurement and Analysis of the Elastic-Plastic Deformation Behavior of an Ultra-thin Austenitic Stainless Steel Sheet Subjected to In-plane Reverse Loading,ictp-rpi-8,21/09/2017:1120,15,4,Karodogan
+Xiaohui Cui,Reduction of springback in V-shaped parts using electromagnetic impulse calibration,ictp-rpi-5,18/09/2017:1420,15,4,Doflou
+Gracious Ngaile,Development of a Non-isothermal Forging Process for Hollow Axle Shafts,ictp-rpi-2,18/09/2017:1720,15,4,Osakada
+Brad Kinsey,Numerical and experimental investigation of formability enhancement during continuous-bending-under-tension (CBT) of AA6022-T4,ictp-rpi-8,21/09/2017:0940,15,4,Karodogan
+Tsuyoshi Furushima,Development of Compact Marchiniak Testing Apparatus for In-situ Microscopic Observation of Surface Roughening,ictp-rpi-1,18/09/2017:1740,15,4,Furushima
+Ming-Song Chen,Dynamic recrystallization behaviors of typical solution-treated and aged Ni-based superalloy under stepped strain rates,ictp-rpi-4,21/09/2017:1500,15,4,Shivpuri
+Xiao-Min Chen,Evolution of annealing twins in a hot deformed nickel-based superalloy,ictp-rpi-4,21/09/2017:1540,15,4,Shivpuri
+Y.C. Lin,Microstructure prediction of a nickel-based superalloy during multi-pass hot deformation,ictp-rpi-4,21/09/2017:1600,15,4,Shivpuri
+Ton van den Boogaard,Modelling of anelastic deformation in dual-phase steel for improved springback simulation,ictp-rpi-5,20/09/2017:1220,15,4,F Yoshida
+Yongchao Xu,Wrinkling control of aluminum alloy thinner curved sheet parts using double-layer sheets hydroforming,ictp-rpi-8,20/09/2017:1440,15,4,Qin
+Jun Jiang,An integrated method for net-shape manufacturing components combining additive manufacturing and compressive forming processes,ictp-rpi-4,21/09/2017:1020,15,4,Beygelzimer
+Christian Palm,Increasing performance of hot stamping systems,ictp-rpi-6,20/09/2017:1140,15,4,Oldenburg
+Taiki Maeda,Experimental Verification of the Tension-Compression Asymmetry of the Flow Stresses of a High Strength Steel Sheet,ictp-rpi-8,21/09/2017:1200,15,4,Karodogan
+Hong Shuang Di,Mirostructure and properties of laser welded joints of dual phase and press-hardened steels,ictp-rpi-2,19/09/2017:1140,15,4,Bay
+Jian Lan,The residual stress of the cold rolled bearing race,ictp-rpi-8,18/09/2017:1720,15,4,Hirt
+Gang Liu,Approach to Enhance Gas Bulging Formability of TA15 Titanium Alloy Tube Based on Dynamic Recrystallization,ictp-rpi-8,20/09/2017:1420,15,4,Qin
+Liwen Zhang,Numerical simulation of different types of voids closure in large continuous casting billet during multi-pass stretching process,ictp-rpi-5,21/09/2017:1220,15,4,C-G Kang
+Jie Zhao,Experimental and simulated analysis of texture evolution of TA15 titanium alloy sheet during hot tensile deformation at 750°C,ictp-rpi-4,18/09/2017:1740,15,4,Bruschi
+Entao Dong,Alpha-case kinetics and high temperature plasticity of Ti-6Al-4V alloy oxidized in different phase regions,ictp-rpi-4,18/09/2017:1600,15,4,Bruschi
+Hubert Geijselaers,Dry friction during sliding of AA1050 on AA2024 at elevated temperature,ictp-rpi-2,19/09/2017:1200,15,4,Bay
+Mario Thome,Calculation Tool and Closed Loop Control for the JCO® Pipe Forming Process,ictp-rpi-7,20/09/2017:1600,15,4,Takahashi
+Jan Palán,The microstructure and mechanical properties evaluation of UFG Titanium Grade 4 in relation to the technological aspects of the CONFORM SPD process,ictp-rpi-1,19/09/2017:1620,15,4,Ishikawa
+Chan Chin Wang,Determination of optimal shrink fitting ratio for 2-layer compound forging die by improving fatigue life in backward extrusion,ictp-rpi-3,19/09/2017:1640,15,4,Dean
+Wolfgang Förster,Enhancing the applicability of Al-Mg compounds by using forming and welding technologies,ictp-rpi-2,19/09/2017:1120,15,4,Bay
+Youngseon Lee,Characteristics of 8T-bolt manufactured by the Yield-Ratio-Control-Steel for Cold Former,ictp-rpi-5,21/09/2017:1000,15,4,C-G Kang
+Damien Mauduit ,Industrial applications of the superplastic forming by using Infra-Red heater,ictp-rpi-3,19/09/2017:1220,15,4,Bressan
+Wojciech Presz,Application of semi-physical modeling of interface surface roughness in design of pre-stressed microforming dies,ictp-rpi-1,18/09/2017:1320,15,4,Otsu
+Jun Liu,Hot stamping of AA6082 tailor welded blanks for automotive applications,ictp-rpi-5,19/09/2017:1620,15,4,Mori
+Pierre-Olivier Bouchard,Analysis and modeling of the failure behavior of carbonitrided parts,ictp-rpi-1,19/09/2017:1200,15,4,Martins
+Oana Cazacu,New analytic criterion for FCC single crystals,ictp-rpi-4,21/09/2017:1400,15,4,Shivpuri
+Nitin Chandola,Prediction of anisotropy of textured sheets based on a new polycrystal model,ictp-rpi-6,20/09/2017:1700,15,4,Madej
+,Poster Session,ictp-rpi-10,18/09/2017:1440,39,0,
+,Poster Session,ictp-rpi-10,19/09/2017:1500,39,0,
+,Poster Session,ictp-rpi-10,20/09/2017:1520,39,0,
+,Industry Workshop: Future car bodies,ictp-rpi-5,19/09/2017:1400,59,0,Professor Julian Allwood
+,Industry Workshop: Non-ferrous rolling,ictp-rpi-5,20/09/2017:1400,59,0,Professor Julian Allwood
+,Industry Workshop: Sustainability and metal forming,ictp-rpi-5,21/09/2017:1400,59,0,Professor Julian Allwood
+,Plenary Lecture,ictp-rpi-5,20/09/2017:0830,75,0,Professor Ken-Ichiro Mori
+,Plenary Lecture,ictp-rpi-6,20/09/2017:0830,75,0,Professor Ken-Ichiro Mori
+,Plenary Lecture,ictp-rpi-5,21/09/2017:0830,75,0,Professor Erman Tekkaya
+,Plenary Lecture,ictp-rpi-6,21/09/2017:0830,75,0,Professor Erman Tekkaya
+Prof. Chung-Gil Kang,Prize lecture 1; Chung-Gil Kang,ictp-rpi-5,20/09/2017:1520,20,0,F Yoshida
+Professor Takashi Ishikawa,Prize lecture 2; Takashi Ishikawa,ictp-rpi-5,21/09/2017:0940,20,0,J-X Xie
