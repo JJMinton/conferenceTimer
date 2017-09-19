@@ -33,9 +33,9 @@ def switch_light(cmd_str):
 async def starting(loop):
     while True:
         switch_light('---');
-        await asyncio.sleep(1.0, loop=loop);
+        await asyncio.sleep(3.0, loop=loop);
         switch_light('-o-');
-        await asyncio.sleep(1.0, loop=loop);
+        await asyncio.sleep(3.0, loop=loop);
 async def speaking(loop):
     while True:
         switch_light('--g');
